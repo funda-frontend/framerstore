@@ -10,7 +10,7 @@ export function Mobile(props) {
     const {
         authentication,
         anonymous,
-        language,
+        lang,
         onTapLogo,
         onTapMenu,
         onTapProfile,
@@ -67,7 +67,7 @@ export function Mobile(props) {
                         visible={!authentication}
                     >
                         {anonymous ? (
-                            <a>Inloggen</a>
+                            <a>{lang == "nl" ? "Inloggen" : "Log in"}</a>
                         ) : (
                             <Icon
                                 name="avatar"
@@ -76,6 +76,17 @@ export function Mobile(props) {
                                 height={24}
                             />
                         )}
+                    </Frame>
+                    <Frame
+                        style={{ ...ListItemStyle, width: 24, height: 24 }}
+                        visible={authentication}
+                    >
+                        <Icon
+                            name="international"
+                            color={colors.White}
+                            width={24}
+                            height={24}
+                        />
                     </Frame>
                 </Stack>
             </Frame>
@@ -100,10 +111,10 @@ addPropertyControls(Mobile, {
             return props.authentication === true
         },
     },
-    language: {
+    lang: {
         type: ControlType.SegmentedEnum,
-        options: ["nl", "EN"],
-        optionTitles: ["NL", "EN"],
+        options: ["NL", "EN"],
+        title: "Language",
     },
     onTapLogo: { type: ControlType.EventHandler },
     onTapMenu: { type: ControlType.EventHandler },

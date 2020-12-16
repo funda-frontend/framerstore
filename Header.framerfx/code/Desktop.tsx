@@ -8,9 +8,10 @@ import { Logo } from "./Logo"
 
 export function Desktop(props) {
     const {
+        width,
         authentication,
-        anonymous,
-        language,
+        loggedIn,
+        lang,
         username,
         onTapLogo,
         onTapMenu,
@@ -24,7 +25,7 @@ export function Desktop(props) {
     return (
         <Frame
             style={{
-                width: "100%",
+                width,
                 height: 48,
                 backgroundColor: colors.Orange,
                 color: colors.White,
@@ -76,7 +77,13 @@ export function Desktop(props) {
                         visible={!authentication}
                     >
                         <Icon name="avatar" color={colors.White} />
-                        <span>{anonymous ? "Inloggen" : displayName}</span>
+                        <span>
+                            {!loggedIn
+                                ? lang == "NL"
+                                    ? "Inloggen"
+                                    : "Log in"
+                                : displayName}
+                        </span>
                     </Stack>
                     <Stack
                         style={ListItemStyle}
@@ -85,7 +92,7 @@ export function Desktop(props) {
                         alignment="start"
                     >
                         <Icon name="international" color={colors.White} />
-                        <span>{language}</span>
+                        <span>{lang}</span>
                     </Stack>
                 </Stack>
             </Stack>
@@ -95,10 +102,11 @@ export function Desktop(props) {
 
 Desktop.defaultProps = {
     fontFamily: "Proxima Nova Regular, Proxima Nova",
+    width: 760,
     height: 48,
     authentication: false,
-    anonymous: true,
-    language: "NL",
+    loggedIn: false,
+    lang: "NL",
     username: "",
     fullWidth: false,
 }
@@ -108,21 +116,22 @@ addPropertyControls(Desktop, {
     fullWidth: { type: ControlType.Boolean, defaultValue: false },
     fontFamily: { type: ControlType.String },
     authentication: { type: ControlType.Boolean, defaultValue: false },
-    anonymous: {
+    loggedIn: {
         type: ControlType.Boolean,
-        defaultValue: true,
+        defaultValue: false,
         hidden(props) {
             return props.authentication === true
         },
     },
-    language: {
+    lang: {
         type: ControlType.SegmentedEnum,
         options: ["NL", "EN"],
+        title: "Language",
     },
     username: {
         type: ControlType.String,
         hidden(props) {
-            return props.anonymous === true
+            return props.loggedIn === true
         },
     },
     onTapLogo: { type: ControlType.EventHandler },

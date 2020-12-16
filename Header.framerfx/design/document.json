@@ -20,11 +20,15 @@
                 },
                 "$control__authentication" : {
                   "type" : "boolean",
-                  "value" : false
+                  "value" : true
                 },
                 "$control__fontFamily" : {
                   "type" : "string",
                   "value" : "Proxima Nova Regular, Proxima Nova"
+                },
+                "$control__lang" : {
+                  "type" : "segmentedenum",
+                  "value" : "NL"
                 },
                 "$control__language" : {
                   "type" : "segmentedenum",
@@ -94,7 +98,7 @@
                 "__class" : "CodeComponentNode",
                 "$control__anonymous" : {
                   "type" : "boolean",
-                  "value" : true
+                  "value" : false
                 },
                 "$control__authentication" : {
                   "type" : "boolean",
@@ -108,9 +112,17 @@
                   "type" : "boolean",
                   "value" : false
                 },
+                "$control__lang" : {
+                  "type" : "segmentedenum",
+                  "value" : "NL"
+                },
                 "$control__language" : {
                   "type" : "segmentedenum",
                   "value" : "NL"
+                },
+                "$control__loggedIn" : {
+                  "type" : "boolean",
+                  "value" : true
                 },
                 "$control__onTapLang" : {
                   "type" : "eventhandler"
@@ -126,7 +138,7 @@
                 },
                 "$control__username" : {
                   "type" : "string",
-                  "value" : ""
+                  "value" : "Elliot"
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
@@ -1024,5 +1036,5 @@
     ],
     "visible" : false
   },
-  "version" : 74
+  "version" : 75
 }
