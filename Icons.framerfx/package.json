@@ -1,0 +1,22 @@
+{
+	"license": "MIT",
+	"main": "dist/index.js",
+	"devDependencies": {
+		"@types/react": "^16.14.2"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"displayName": "Icons",
+		"id": "77d3f521-446d-4374-b2e9-c1833552f08f"
+	},
+	"author": "Arjan van Rees",
+	"name": "@framer/funda.icons",
+	"version": "1.28.0",
+	"dependencies": {
+		"@framer/framer.default": "^1.91.0",
+		"@funda/icons": "^1.3.0"
+	}
+}

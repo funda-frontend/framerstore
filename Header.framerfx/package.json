@@ -1,0 +1,23 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "420a5425-6279-41d6-b4fd-8c04432753ac",
+		"displayName": "Header"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.71.0",
+		"@framer/funda.colors": "1.4.0",
+		"@framer/funda.icons": "1.28.0"
+	},
+	"name": "@framer/funda.header",
+	"version": "1.13.0"
+}

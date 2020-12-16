@@ -1,0 +1,24 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "5328af45-395d-4895-8359-9a98c2a30808",
+		"displayName": "Result List"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.71.0",
+		"@framer/funda.colors": "^1.0.0",
+		"@framer/funda.icons": "^1.16.0",
+		"react-uuid": "^1.0.2"
+	},
+	"name": "@framer/funda.result-list",
+	"version": "1.23.0"
+}

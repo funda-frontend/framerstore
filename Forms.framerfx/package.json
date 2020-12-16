@@ -1,0 +1,23 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "27d1f45e-249b-416f-9e15-ca4ef0a98050",
+		"displayName": "Forms"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.76.0",
+		"@framer/funda.icons": "1.27.0",
+		"styled-components": "^5.2.0"
+	},
+	"name": "@framer/funda.forms",
+	"version": "1.18.0"
+}

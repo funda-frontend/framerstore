@@ -1,0 +1,27 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@framer/framer.device-skin-apple-iphone-xs-gold": "^1.0.0",
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "0bb787b8-a63b-4abf-9f33-b64b5a1fdb66",
+		"displayName": "ZoekBox"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.71.0",
+		"@framer/funda.colors": "^1.0.0",
+		"@framer/funda.icons": "^1.16.0",
+		"@framer/kasimir.iphone-x-kit": "^1.21.0",
+		"jquery": "^3.4.1",
+		"styled-components": "^4.3.2"
+	},
+	"name": "@framer/funda.zoekbox",
+	"version": "1.26.0"
+}

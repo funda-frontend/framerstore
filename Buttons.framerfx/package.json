@@ -1,0 +1,22 @@
+{
+	"license": "MIT",
+	"main": "dist/index.js",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"displayName": "Buttons"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.76.0",
+		"@framer/funda.colors": "^1.4.0",
+		"@framer/funda.icons": "1.28.0"
+	},
+	"name": "@framer/funda.buttons",
+	"version": "1.9.0"
+}

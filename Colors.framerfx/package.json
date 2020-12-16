@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "540d3730-5de1-410a-aca6-bd126d658794",
+		"displayName": "Colors"
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {},
+	"name": "@framer/funda.colors",
+	"version": "1.4.0"
+}
