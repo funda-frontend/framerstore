@@ -14,9 +14,7 @@ import * as data from "./Data/dummy.json"
 export function Carousel(props) {
     const {
         component,
-        dataSource,
         filePath,
-        url,
         max,
         secretKey,
         direction,
@@ -48,12 +46,7 @@ export function Carousel(props) {
     const [count, setCount] = React.useState(0)
 
     async function fetchData(url) {
-        const res = await fetch(url, {
-            headers: {
-                "secret-key": `${secretKey}`,
-                "version-control": "true",
-            },
-        })
+        const res = await fetch(url)
         res.json()
             .then((res) => {
                 setErrors(false)
@@ -65,7 +58,7 @@ export function Carousel(props) {
 
     React.useEffect(() => {
         if (filePath !== undefined) {
-            dataSource ? fetchData(filePath) : fetchData(url)
+            fetchData(filePath)
         } else {
             setResults(data.response.docs)
         }

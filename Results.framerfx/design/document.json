@@ -1872,7 +1872,7 @@
             "guidesY" : [
 
             ],
-            "height" : 266,
+            "height" : 280,
             "heightType" : 0,
             "id" : "iqLZiGWOD",
             "intrinsicHeight" : null,
@@ -2014,6 +2014,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : 837,
             "locked" : false,
@@ -2612,6 +2613,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : 1637,
             "locked" : false,
@@ -2642,198 +2644,6 @@
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
             "children" : [
-              {
-                "__class" : "CodeComponentNode",
-                "$control__alignment" : {
-                  "type" : "segmentedenum",
-                  "value" : "center"
-                },
-                "$control__component" : {
-                  "type" : "componentinstance",
-                  "value" : [
-                    {
-                      "id" : "migrated_array_value_asEJHX8oR_component_0",
-                      "type" : "componentinstance",
-                      "value" : "iqLZiGWOD"
-                    }
-                  ]
-                },
-                "$control__dataSource" : {
-                  "type" : "boolean",
-                  "value" : true
-                },
-                "$control__direction" : {
-                  "type" : "segmentedenum",
-                  "value" : "vertical"
-                },
-                "$control__distribution" : {
-                  "type" : "enum",
-                  "value" : "start"
-                },
-                "$control__expandChildren" : {
-                  "type" : "boolean",
-                  "value" : true
-                },
-                "$control__filePath" : {
-                  "type" : "file",
-                  "value" : "data:framer\/asset-reference,L31wA8NF3CLUlcCQWDv5p692As.json?originalFilename=amsterdam-woningen.json"
-                },
-                "$control__gap" : {
-                  "type" : "number",
-                  "value" : 41
-                },
-                "$control__max" : {
-                  "type" : "number",
-                  "value" : 3
-                },
-                "$control__onTapNavigate" : {
-                  "type" : "eventhandler",
-                  "value" : [
-                    {
-                      "actionIdentifier" : "framer\/useNavigate",
-                      "controls" : {
-                        "animation" : {
-                          "type" : "transition",
-                          "value" : {
-                            "damping" : 60,
-                            "delay" : 0,
-                            "duration" : 0.29999999999999999,
-                            "ease" : [
-                              0.44,
-                              0,
-                              0.56000000000000005,
-                              1
-                            ],
-                            "mass" : 1,
-                            "stiffness" : 500,
-                            "type" : "spring"
-                          }
-                        },
-                        "appearsFrom" : {
-                          "type" : "segmentedenum",
-                          "value" : "right"
-                        },
-                        "backdropColor" : {
-                          "type" : "color",
-                          "value" : "rgba(4,4,15,.4)"
-                        },
-                        "target" : {
-                          "type" : "componentinstance",
-                          "value" : "yXcU4sy0l"
-                        },
-                        "transition" : {
-                          "type" : "enum",
-                          "value" : "push"
-                        },
-                        "type" : {
-                          "type" : "segmentedenum",
-                          "value" : "next"
-                        }
-                      },
-                      "identifier" : "b478afb7-298e-46c0-8951-7a9cbd0debe5"
-                    }
-                  ]
-                },
-                "$control__overflow" : {
-                  "type" : "segmentedenum",
-                  "value" : "visible"
-                },
-                "$control__padding" : {
-                  "isFused" : true,
-                  "type" : "fusednumber",
-                  "value" : {
-                    "fused" : [
-                      100,
-                      10,
-                      10,
-                      10
-                    ],
-                    "single" : 0
-                  }
-                },
-                "$control__paddingBottom" : {
-                  "type" : null,
-                  "value" : 10
-                },
-                "$control__paddingLeft" : {
-                  "type" : null,
-                  "value" : 10
-                },
-                "$control__paddingPerSide" : {
-                  "type" : null,
-                  "value" : true
-                },
-                "$control__paddingRight" : {
-                  "type" : null,
-                  "value" : 10
-                },
-                "$control__paddingTop" : {
-                  "type" : null,
-                  "value" : 100
-                },
-                "$control__secretKey" : {
-                  "type" : "string",
-                  "value" : ""
-                },
-                "$control__url" : {
-                  "type" : "string",
-                  "value" : ""
-                },
-                "aspectRatio" : null,
-                "bottom" : 16,
-                "centerAnchorX" : 0.5,
-                "centerAnchorY" : 0.55522276301010853,
-                "clip" : true,
-                "codeComponentIdentifier" : ".\/List.tsx_List",
-                "codeComponentPackageVersion" : null,
-                "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/Examples.tsx",
-                "codeOverrideIdentifier" : ".\/Examples.tsx_List",
-                "codeOverrideName" : "List",
-                "constraintsLocked" : false,
-                "duplicatedFrom" : null,
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "height" : 2344,
-                "heightType" : 0,
-                "id" : "asEJHX8oR",
-                "intrinsicHeight" : 128,
-                "intrinsicWidth" : 320,
-                "left" : 0,
-                "locked" : false,
-                "name" : null,
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "lDvoPjSR9",
-                "previewSettings" : {
-                  "__class" : "PreviewSettings",
-                  "responsive" : true,
-                  "touch" : false
-                },
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "replicaInfo" : null,
-                "right" : 0,
-                "rotation" : 0,
-                "top" : 311,
-                "visible" : true,
-                "width" : 343,
-                "widthType" : 0
-              },
               {
                 "__class" : "CodeComponentNode",
                 "$control__component" : {
@@ -2992,7 +2802,7 @@
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.65451895043731778,
+                "centerAnchorX" : 0.46793002915451892,
                 "centerAnchorY" : 0.054473979782852865,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Carousel.tsx_Carousel",
@@ -3019,7 +2829,7 @@
                 "id" : "X4lANkonn",
                 "intrinsicHeight" : 128,
                 "intrinsicWidth" : 240,
-                "left" : 64,
+                "left" : 0,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -3038,11 +2848,203 @@
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
                 "replicaInfo" : null,
-                "right" : -42,
+                "right" : 22,
                 "rotation" : 0,
                 "top" : 0,
                 "visible" : true,
                 "width" : 321,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "center"
+                },
+                "$control__component" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "migrated_array_value_asEJHX8oR_component_0",
+                      "type" : "componentinstance",
+                      "value" : "iqLZiGWOD"
+                    }
+                  ]
+                },
+                "$control__dataSource" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "vertical"
+                },
+                "$control__distribution" : {
+                  "type" : "enum",
+                  "value" : "start"
+                },
+                "$control__expandChildren" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__filePath" : {
+                  "type" : "file",
+                  "value" : "data:framer\/asset-reference,TUgd96gzcNQ98tOWuRQEAFeSVo.json?originalFilename=breda.json"
+                },
+                "$control__gap" : {
+                  "type" : "number",
+                  "value" : 41
+                },
+                "$control__max" : {
+                  "type" : "number",
+                  "value" : 3
+                },
+                "$control__onTapNavigate" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "duration" : 0.29999999999999999,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "yXcU4sy0l"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "push"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "b478afb7-298e-46c0-8951-7a9cbd0debe5"
+                    }
+                  ]
+                },
+                "$control__overflow" : {
+                  "type" : "segmentedenum",
+                  "value" : "visible"
+                },
+                "$control__padding" : {
+                  "isFused" : true,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      100,
+                      10,
+                      10,
+                      10
+                    ],
+                    "single" : 0
+                  }
+                },
+                "$control__paddingBottom" : {
+                  "type" : null,
+                  "value" : 10
+                },
+                "$control__paddingLeft" : {
+                  "type" : null,
+                  "value" : 10
+                },
+                "$control__paddingPerSide" : {
+                  "type" : null,
+                  "value" : true
+                },
+                "$control__paddingRight" : {
+                  "type" : null,
+                  "value" : 10
+                },
+                "$control__paddingTop" : {
+                  "type" : null,
+                  "value" : 100
+                },
+                "$control__secretKey" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "aspectRatio" : null,
+                "bottom" : 36,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.54773493073755153,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/List.tsx_List",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : true,
+                "codeOverrideFile" : ".\/Examples.tsx",
+                "codeOverrideIdentifier" : ".\/Examples.tsx_List",
+                "codeOverrideName" : "List",
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 2344,
+                "heightType" : 0,
+                "id" : "asEJHX8oR",
+                "intrinsicHeight" : 128,
+                "intrinsicWidth" : 320,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "lDvoPjSR9",
+                "previewSettings" : {
+                  "__class" : "PreviewSettings",
+                  "responsive" : true,
+                  "touch" : false
+                },
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : 291,
+                "visible" : true,
+                "width" : 343,
                 "widthType" : 0
               }
             ],
@@ -3102,7 +3104,7 @@
             "__class" : "CodeComponentNode",
             "$control__columns" : {
               "type" : "number",
-              "value" : 2
+              "value" : 1
             },
             "$control__component" : {
               "type" : "componentinstance",
@@ -3120,7 +3122,7 @@
             },
             "$control__filePath" : {
               "type" : "file",
-              "value" : ""
+              "value" : "data:framer\/asset-reference,TUgd96gzcNQ98tOWuRQEAFeSVo.json?originalFilename=breda.json"
             },
             "$control__gap" : {
               "type" : "number",
@@ -3128,7 +3130,7 @@
             },
             "$control__max" : {
               "type" : "number",
-              "value" : 25
+              "value" : 7
             },
             "$control__url" : {
               "type" : "string",
@@ -3160,12 +3162,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 3627,
+            "height" : 1703,
             "heightType" : 0,
             "id" : "p2nbwbfNP",
             "intrinsicHeight" : 128,
             "intrinsicWidth" : 320,
-            "left" : 1672,
+            "left" : 837,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -3181,9 +3183,9 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 3213,
+            "top" : 2785,
             "visible" : true,
-            "width" : 784,
+            "width" : 407,
             "widthType" : 0
           }
         ],
@@ -3216,5 +3218,5 @@
     ],
     "visible" : false
   },
-  "version" : 74
+  "version" : 75
 }
