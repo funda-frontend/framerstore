@@ -16,88 +16,6 @@
                 "__class" : "CodeComponentNode",
                 "$control__anonymous" : {
                   "type" : "boolean",
-                  "value" : true
-                },
-                "$control__authentication" : {
-                  "type" : "boolean",
-                  "value" : true
-                },
-                "$control__fontFamily" : {
-                  "type" : "string",
-                  "value" : "Proxima Nova Regular, Proxima Nova"
-                },
-                "$control__lang" : {
-                  "type" : "segmentedenum",
-                  "value" : "NL"
-                },
-                "$control__language" : {
-                  "type" : "segmentedenum",
-                  "value" : "nl"
-                },
-                "$control__onTapLang" : {
-                  "type" : "eventhandler"
-                },
-                "$control__onTapLogo" : {
-                  "type" : "eventhandler"
-                },
-                "$control__onTapMenu" : {
-                  "type" : "eventhandler"
-                },
-                "$control__onTapProfile" : {
-                  "type" : "eventhandler"
-                },
-                "aspectRatio" : null,
-                "bottom" : 220,
-                "centerAnchorX" : 0.29249999999999998,
-                "centerAnchorY" : 0.59333333333333338,
-                "clip" : true,
-                "codeComponentIdentifier" : ".\/Mobile.tsx_Mobile",
-                "codeComponentPackageVersion" : null,
-                "codeOverrideEnabled" : false,
-                "constraintsLocked" : false,
-                "duplicatedFrom" : null,
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "height" : 48,
-                "heightType" : 0,
-                "id" : "HkVqgIVQo",
-                "intrinsicHeight" : 48,
-                "intrinsicWidth" : 320,
-                "left" : 48,
-                "locked" : false,
-                "name" : null,
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "jaMOR0XUq",
-                "previewSettings" : null,
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "replicaInfo" : null,
-                "right" : null,
-                "rotation" : 0,
-                "top" : null,
-                "visible" : true,
-                "width" : 320,
-                "widthType" : 0
-              },
-              {
-                "__class" : "CodeComponentNode",
-                "$control__anonymous" : {
-                  "type" : "boolean",
                   "value" : false
                 },
                 "$control__authentication" : {
@@ -187,6 +105,89 @@
                 "top" : 196,
                 "visible" : true,
                 "width" : 704,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__anonymous" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__authentication" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__fontFamily" : {
+                  "type" : "string",
+                  "value" : "Proxima Nova Regular, Proxima Nova"
+                },
+                "$control__lang" : {
+                  "type" : "segmentedenum",
+                  "value" : "NL"
+                },
+                "$control__loggedIn" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__onTapLang" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onTapLogo" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onTapMenu" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onTapProfile" : {
+                  "type" : "eventhandler"
+                },
+                "aspectRatio" : null,
+                "bottom" : 218,
+                "centerAnchorX" : 0.26374999999999998,
+                "centerAnchorY" : 0.59666666666666668,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Mobile.tsx_Mobile",
+                "codeComponentPackageVersion" : "1.71.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "vg4zRsSms"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 48,
+                "heightType" : 0,
+                "id" : "vGbsuUP7w",
+                "intrinsicHeight" : 48,
+                "intrinsicWidth" : 320,
+                "left" : 48,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "jaMOR0XUq",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 326,
                 "widthType" : 0
               }
             ],

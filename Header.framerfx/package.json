@@ -15,9 +15,8 @@
 	"author": "Elliot Nolten",
 	"dependencies": {
 		"@framer/framer.default": "^1.71.0",
-		"@framer/funda.colors": "1.4.0",
 		"@framer/funda.icons": "1.28.0"
 	},
 	"name": "@framer/funda.header",
-	"version": "1.15.0"
+	"version": "1.17.0"
 }

@@ -3,7 +3,6 @@ import { Frame, Stack, addPropertyControls, ControlType } from "framer"
 // @ts-ignore
 import { Icon } from "@framer/funda.icons/code/Icon"
 // @ts-ignore
-import { colors } from "@framer/funda.colors/code/canvas.tsx"
 import { Logo } from "./Logo"
 
 export function Desktop(props) {
@@ -27,8 +26,8 @@ export function Desktop(props) {
             style={{
                 width,
                 height: 48,
-                backgroundColor: colors.Orange,
-                color: colors.White,
+                backgroundColor: "#F7A100",
+                color: "white",
                 fontFamily,
                 fontSize: 16,
                 lineHeight: 1.5,
@@ -66,7 +65,7 @@ export function Desktop(props) {
                         alignment="start"
                         visible={!authentication}
                     >
-                        <Icon name="menu" color={colors.White} />
+                        <Icon name="menu" color="white" />
                         <span>Menu</span>
                     </Stack>
                     <Stack
@@ -76,7 +75,7 @@ export function Desktop(props) {
                         alignment="start"
                         visible={!authentication}
                     >
-                        <Icon name="avatar" color={colors.White} />
+                        <Icon name="avatar" color="white" />
                         <span>
                             {!loggedIn
                                 ? lang == "NL"
@@ -91,7 +90,7 @@ export function Desktop(props) {
                         direction="horizontal"
                         alignment="start"
                     >
-                        <Icon name="international" color={colors.White} />
+                        <Icon name="international" color="white" />
                         <span>{lang}</span>
                     </Stack>
                 </Stack>
