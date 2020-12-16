@@ -12,8 +12,6 @@ export function Grid(props) {
         component,
         secretKey,
         filePath,
-        dataSource,
-        url,
         max,
         onReady,
         onTapNavigate,
@@ -26,12 +24,7 @@ export function Grid(props) {
     const [count, setCount] = React.useState(0)
 
     async function fetchData(url) {
-        const res = await fetch(url, {
-            headers: {
-                "secret-key": `${secretKey}`,
-                "version-control": "true",
-            },
-        })
+        const res = await fetch(url)
         res.json()
             .then((res) => {
                 console.log(res.response.docs)
@@ -42,9 +35,8 @@ export function Grid(props) {
     }
 
     React.useEffect(() => {
-        console.log(filePath)
         if (filePath !== undefined) {
-            dataSource ? fetchData(filePath) : fetchData(url)
+            fetchData(filePath)
         } else {
             setResults(data.response.docs)
             onReady(data.response.docs.slice(0, max))
@@ -97,8 +89,7 @@ Grid.defaultProps = {
     gap: 16,
     height: 128,
     width: 320,
-    dataSource: false,
-    url: "https://api.jsonbin.io/b/5e8c8ad9ff9c906bdf1d7c1e/",
+    filePath: "",
     component: {},
     max: 10,
     onReady: () => null,
@@ -133,22 +124,10 @@ addPropertyControls(Grid, {
         max: 100,
         step: 1,
     },
-    dataSource: {
-        type: ControlType.Boolean,
-        enabledTitle: "Local file",
-        disabledTitle: "URL",
-        defaultValue: false,
-    },
     filePath: {
         title: "File",
         type: ControlType.File,
         allowedFileTypes: ["json"],
         hidden: (props) => props.dataSource === false,
-    },
-    url: {
-        title: "URL",
-        type: ControlType.String,
-        defaultValue: "https://api.jsonbin.io/b/5e8def90980e481b8aa0fcbc/1",
-        hidden: (props) => props.dataSource === true,
     },
 })

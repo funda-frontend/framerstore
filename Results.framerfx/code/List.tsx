@@ -8,8 +8,6 @@ import * as data from "./Data/dummy.json"
 List.defaultProps = {
     height: 128,
     width: 320,
-    dataSource: false,
-    url: "https://api.jsonbin.io/b/5e8c8ad9ff9c906bdf1d7c1e/",
     component: {},
     max: 10,
     onReady: () => null,
@@ -52,26 +50,22 @@ export function List(props) {
     const [count, setCount] = React.useState(0)
 
     async function fetchData(url) {
-        const res = await fetch(url, {
-            headers: {
-                "secret-key": `${secretKey}`,
-                "version-control": "true",
-            },
-        })
+        const res = await fetch(url)
         res.json()
             .then((res) => {
                 setErrors(false)
                 setResults(res.response.docs)
-                onReady(res.response.numFound)
+                onReady(data.response.docs.slice(0, max))
             })
             .catch((err) => setErrors(!err))
     }
 
     React.useEffect(() => {
         if (filePath !== undefined) {
-            dataSource ? fetchData(filePath) : fetchData(url)
+            fetchData(filePath)
         } else {
             setResults(data.response.docs)
+            onReady(data.response.docs.slice(0, max))
         }
     }, [])
 
@@ -135,23 +129,11 @@ addPropertyControls(List, {
         type: ControlType.ComponentInstance,
         title: "Design Component",
     },
-    dataSource: {
-        type: ControlType.Boolean,
-        enabledTitle: "Local file",
-        disabledTitle: "URL",
-        defaultValue: false,
-    },
     filePath: {
         title: "File",
         type: ControlType.File,
         allowedFileTypes: ["json"],
         hidden: (props) => props.dataSource === false,
-    },
-    url: {
-        title: "URL",
-        type: ControlType.String,
-        defaultValue: "https://api.jsonbin.io/b/5e8def90980e481b8aa0fcbc/1",
-        hidden: (props) => props.dataSource === true,
     },
     max: {
         type: ControlType.Number,
@@ -159,10 +141,6 @@ addPropertyControls(List, {
         displayStepper: true,
         min: 1,
         max: 25,
-    },
-    secretKey: {
-        type: ControlType.String,
-        hidden: (props) => props.dataSource === true,
     },
     overflow: {
         type: ControlType.SegmentedEnum,
