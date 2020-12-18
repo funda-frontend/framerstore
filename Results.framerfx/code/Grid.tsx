@@ -76,7 +76,7 @@ export function Grid(props) {
                             },
                         })
 
-                        return <li>{ItemComponent}</li>
+                        return <div>{ItemComponent}</div>
                     })}
                 </div>
             </Frame>
