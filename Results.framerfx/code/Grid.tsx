@@ -27,7 +27,6 @@ export function Grid(props) {
         const res = await fetch(url)
         res.json()
             .then((res) => {
-                console.log(res.response.docs)
                 setErrors(false)
                 setResults(res.response.docs)
             })
@@ -55,11 +54,8 @@ export function Grid(props) {
                 backgroundColor="transparent"
                 style={{ position: "relative" }}
             >
-                <ul
+                <div
                     style={{
-                        listStyle: "none",
-                        margin: 0,
-                        padding: 0,
                         display: "grid",
                         gridTemplateColumns: `repeat(${columns},1fr)`,
                         gridGap: gap,
@@ -73,12 +69,16 @@ export function Grid(props) {
                                 onTapNavigate
                             },
                             ...normalizeFields(result, index, 16),
-                            style: { position: "relative", width: "100%" },
+                            style: {
+                                position: "relative",
+                                width: "100%",
+                                backgroundColor: "transparent",
+                            },
                         })
 
                         return <li>{ItemComponent}</li>
                     })}
-                </ul>
+                </div>
             </Frame>
         )
     }
