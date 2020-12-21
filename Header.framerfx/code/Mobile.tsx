@@ -40,9 +40,13 @@ export function Mobile(props) {
                     distribution="end"
                     alignment="end"
                     gap={16}
-                    paddingRight={16}
                     center="y"
-                    style={{ position: "relative", width: "1fr", height: 24 }}
+                    style={{
+                        position: "relative",
+                        width: "1fr",
+                        height: 24,
+                        paddingRight: 16,
+                    }}
                 >
                     <Frame
                         onClick={onTapMenu}

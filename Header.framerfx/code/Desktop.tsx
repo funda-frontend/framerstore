@@ -50,13 +50,12 @@ export function Desktop(props) {
                         position: "relative",
                         width: "auto",
                         height: "100%",
-                        backgroundColor: "red",
+                        paddingRight: 16,
                     }}
                     direction="horizontal"
                     alignment="center"
                     distribution="end"
                     gap={16}
-                    paddingRight={16}
                 >
                     <Stack
                         style={ListItemStyle}
@@ -126,16 +125,17 @@ addPropertyControls(Desktop, {
             return props.authentication === true
         },
     },
+    username: {
+        type: ControlType.String,
+        defaultValue: "Elliot",
+        hidden(props) {
+            return props.loggedIn === false
+        },
+    },
     lang: {
         type: ControlType.SegmentedEnum,
         options: ["NL", "EN"],
         title: "Language",
-    },
-    username: {
-        type: ControlType.String,
-        hidden(props) {
-            return props.loggedIn === true
-        },
     },
     onTapLogo: { type: ControlType.EventHandler },
     onTapMenu: { type: ControlType.EventHandler },
