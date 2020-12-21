@@ -104,7 +104,12 @@ Mobile.defaultProps = {
 
 // Learn more: https://framer.com/api/property-controls/
 addPropertyControls(Mobile, {
-    authentication: { type: ControlType.Boolean, defaultValue: false },
+    fontFamily: { type: ControlType.String },
+    authentication: {
+        type: ControlType.Boolean,
+        defaultValue: false,
+        title: "login.funda.nl",
+    },
     loggedIn: {
         type: ControlType.Boolean,
         defaultValue: false,
@@ -121,7 +126,6 @@ addPropertyControls(Mobile, {
     onTapMenu: { type: ControlType.EventHandler },
     onTapProfile: { type: ControlType.EventHandler },
     onTapLang: { type: ControlType.EventHandler },
-    fontFamily: { type: ControlType.String },
 })
 
 const ContentStyle: React.CSSProperties = {

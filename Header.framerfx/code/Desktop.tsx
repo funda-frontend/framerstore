@@ -114,7 +114,11 @@ Desktop.defaultProps = {
 addPropertyControls(Desktop, {
     fullWidth: { type: ControlType.Boolean, defaultValue: false },
     fontFamily: { type: ControlType.String },
-    authentication: { type: ControlType.Boolean, defaultValue: false },
+    authentication: {
+        type: ControlType.Boolean,
+        defaultValue: false,
+        title: "login.funda.nl",
+    },
     loggedIn: {
         type: ControlType.Boolean,
         defaultValue: false,
