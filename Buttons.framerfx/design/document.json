@@ -573,6 +573,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : 0,
             "locked" : false,
@@ -829,6 +830,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : 900,
             "locked" : false,
@@ -882,5 +884,5 @@
     ],
     "visible" : false
   },
-  "version" : 74
+  "version" : 75
 }

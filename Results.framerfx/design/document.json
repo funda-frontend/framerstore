@@ -1311,7 +1311,7 @@
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
                 "borderEnabled" : false,
-                "bottom" : 0,
+                "bottom" : null,
                 "boxShadows" : [
                   {
                     "__class" : "BoxShadow",
@@ -1326,415 +1326,8 @@
                   }
                 ],
                 "centerAnchorX" : 0.5,
-                "centerAnchorY" : 0.5,
+                "centerAnchorY" : 0.27500000000000002,
                 "children" : [
-                  {
-                    "__class" : "FrameNode",
-                    "aspectRatio" : null,
-                    "bottom" : 0,
-                    "centerAnchorX" : 0.5,
-                    "centerAnchorY" : 0.75,
-                    "children" : [
-                      {
-                        "__class" : "TextNode",
-                        "autoSize" : true,
-                        "bottom" : null,
-                        "centerAnchorX" : 0.22222222222222221,
-                        "centerAnchorY" : 0.14000000000000001,
-                        "clip" : true,
-                        "codeOverrideEnabled" : false,
-                        "constraintsLocked" : true,
-                        "duplicatedFrom" : null,
-                        "exportOptions" : [
-
-                        ],
-                        "height" : 24,
-                        "heightType" : 0,
-                        "id" : "iqLZiGWODOKAka5bd0aoLR9fq7v",
-                        "isTarget" : true,
-                        "left" : 16,
-                        "locked" : false,
-                        "name" : "Adres",
-                        "opacity" : 1,
-                        "originalid" : null,
-                        "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
-                        "replicaInfo" : null,
-                        "right" : null,
-                        "rotation" : 0,
-                        "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 4,
-                            "color" : "rgb(0, 0, 0)",
-                            "enabled" : true,
-                            "id" : "iqLZiGWODOKAka5bd0aoLR9fq7v-x-1001",
-                            "x" : 0,
-                            "y" : 0
-                          }
-                        ],
-                        "styledText" : {
-                          "__class" : "StyledTextDraft",
-                          "blocks" : [
-                            {
-                              "data" : {
-                                "emptyStyle" : [
-                                  "LETTERSPACING:0",
-                                  "LINEHEIGHT:1.5",
-                                  "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                                  "SIZE:16",
-                                  "FONT:GF;Open Sans-600"
-                                ]
-                              },
-                              "depth" : 0,
-                              "entityRanges" : [
-
-                              ],
-                              "inlineStyleRanges" : [
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "LETTERSPACING:0"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "LINEHEIGHT:1.5"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "SIZE:16"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "FONT:GF;Open Sans-600"
-                                }
-                              ],
-                              "key" : "4qpbp",
-                              "text" : "Piet Heinkade 167",
-                              "type" : "unstyled"
-                            }
-                          ],
-                          "cached" : {
-                            "html" : "<div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">Piet Heinkade 167<\/span><\/span><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 24,
-                              "width" : 140
-                            },
-                            "width" : 0
-                          },
-                          "entityMap" : {
-
-                          }
-                        },
-                        "textVerticalAlignment" : "top",
-                        "top" : 2,
-                        "visible" : true,
-                        "width" : 140,
-                        "widthType" : 0
-                      },
-                      {
-                        "__class" : "TextNode",
-                        "autoSize" : true,
-                        "bottom" : null,
-                        "centerAnchorX" : 0.16020671834625322,
-                        "centerAnchorY" : 0.38,
-                        "clip" : true,
-                        "codeOverrideEnabled" : false,
-                        "constraintsLocked" : true,
-                        "duplicatedFrom" : null,
-                        "exportOptions" : [
-
-                        ],
-                        "height" : 24,
-                        "heightType" : 0,
-                        "id" : "iqLZiGWODjTlebe4nU",
-                        "isTarget" : true,
-                        "left" : 16,
-                        "locked" : false,
-                        "name" : "PostcodeWoonplaats",
-                        "opacity" : 1,
-                        "originalid" : null,
-                        "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
-                        "replicaInfo" : null,
-                        "right" : null,
-                        "rotation" : 0,
-                        "shadows" : [
-                          {
-                            "__class" : "Shadow",
-                            "blur" : 4,
-                            "color" : "rgb(0, 0, 0)",
-                            "enabled" : true,
-                            "id" : "iqLZiGWODjTlebe4nU-x-1001",
-                            "x" : 0,
-                            "y" : 0
-                          }
-                        ],
-                        "styledText" : {
-                          "__class" : "StyledTextDraft",
-                          "blocks" : [
-                            {
-                              "data" : {
-                                "emptyStyle" : [
-                                  "LETTERSPACING:0",
-                                  "LINEHEIGHT:1.5",
-                                  "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                                  "SIZE:16",
-                                  "FONT:GF;Open Sans-600"
-                                ]
-                              },
-                              "depth" : 0,
-                              "entityRanges" : [
-
-                              ],
-                              "inlineStyleRanges" : [
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "LETTERSPACING:0"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "LINEHEIGHT:1.5"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "SIZE:16"
-                                },
-                                {
-                                  "length" : 17,
-                                  "offset" : 0,
-                                  "style" : "FONT:GF;Open Sans-600"
-                                }
-                              ],
-                              "key" : "4qpbp",
-                              "text" : "1019 GM Amsterdam",
-                              "type" : "unstyled"
-                            }
-                          ],
-                          "cached" : {
-                            "html" : "<div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">1019 GM Amsterdam<\/span><\/span><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 24,
-                              "width" : 163
-                            },
-                            "width" : 0
-                          },
-                          "entityMap" : {
-
-                          }
-                        },
-                        "textVerticalAlignment" : "top",
-                        "top" : 26,
-                        "visible" : true,
-                        "width" : 163,
-                        "widthType" : 0
-                      },
-                      {
-                        "__class" : "TextNode",
-                        "autoSize" : false,
-                        "bottom" : 23,
-                        "centerAnchorX" : 0.50249999999999995,
-                        "centerAnchorY" : 0.65000000000000002,
-                        "clip" : true,
-                        "codeOverrideEnabled" : false,
-                        "constraintsLocked" : false,
-                        "duplicatedFrom" : null,
-                        "exportOptions" : [
-
-                        ],
-                        "height" : 24,
-                        "heightType" : 0,
-                        "id" : "iqLZiGWODOKAka5bd0LaPRCtqA9",
-                        "isTarget" : true,
-                        "left" : 16,
-                        "locked" : false,
-                        "name" : "Prijs",
-                        "opacity" : 1,
-                        "originalid" : null,
-                        "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
-                        "replicaInfo" : null,
-                        "right" : 16,
-                        "rotation" : 0,
-                        "styledText" : {
-                          "__class" : "StyledTextDraft",
-                          "blocks" : [
-                            {
-                              "data" : {
-                                "emptyStyle" : [
-                                  "SIZE:16",
-                                  "LETTERSPACING:0",
-                                  "LINEHEIGHT:1.5",
-                                  "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                                  "ALIGN:left",
-                                  "FONT:GF;Open Sans-600"
-                                ]
-                              },
-                              "depth" : 0,
-                              "entityRanges" : [
-
-                              ],
-                              "inlineStyleRanges" : [
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "SIZE:16"
-                                },
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "LETTERSPACING:0"
-                                },
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "LINEHEIGHT:1.5"
-                                },
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
-                                },
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "ALIGN:left"
-                                },
-                                {
-                                  "length" : 14,
-                                  "offset" : 0,
-                                  "style" : "FONT:GF;Open Sans-600"
-                                }
-                              ],
-                              "key" : "4qpbp",
-                              "text" : "€ 450.000 k.k.",
-                              "type" : "unstyled"
-                            }
-                          ],
-                          "cached" : {
-                            "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">€ 450.000 k.k.<\/span><\/span><\/div><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 24,
-                              "width" : 356
-                            },
-                            "width" : 355
-                          },
-                          "entityMap" : {
-
-                          }
-                        },
-                        "textVerticalAlignment" : "top",
-                        "top" : null,
-                        "visible" : true,
-                        "width" : 168,
-                        "widthType" : 0
-                      }
-                    ],
-                    "clip" : false,
-                    "codeOverrideEnabled" : false,
-                    "constraintsLocked" : false,
-                    "duplicatedFrom" : null,
-                    "exportOptions" : [
-
-                    ],
-                    "fillColor" : "rgba(0, 153, 255, 0.5)",
-                    "fillEnabled" : true,
-                    "fillImage" : null,
-                    "fillImageOriginalName" : null,
-                    "fillImagePixelHeight" : null,
-                    "fillImagePixelWidth" : null,
-                    "fillImageResize" : "fill",
-                    "fillLinearGradient" : {
-                      "__class" : "LinearGradient",
-                      "alpha" : 1,
-                      "angle" : 180,
-                      "stops" : [
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 0,
-                          "value" : "rgba(0, 0, 0, 0)"
-                        },
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 1,
-                          "value" : "hsl(204, 100%, 7%)"
-                        }
-                      ]
-                    },
-                    "fillRadialGradient" : {
-                      "__class" : "RadialGradient",
-                      "alpha" : 1,
-                      "centerAnchorX" : 0.5,
-                      "centerAnchorY" : 0.5,
-                      "heightFactor" : 0.5,
-                      "stops" : [
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 0,
-                          "value" : "rgba(0, 0, 0, 0)"
-                        },
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 1,
-                          "value" : "hsl(204, 100%, 7%)"
-                        }
-                      ],
-                      "widthFactor" : 0.5
-                    },
-                    "fillType" : "linear-gradient",
-                    "framePreset" : null,
-                    "guidesX" : [
-
-                    ],
-                    "guidesY" : [
-
-                    ],
-                    "height" : 100,
-                    "heightType" : 0,
-                    "id" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
-                    "intrinsicHeight" : null,
-                    "intrinsicWidth" : null,
-                    "isExternalMaster" : null,
-                    "isMaster" : false,
-                    "isTarget" : false,
-                    "left" : 0,
-                    "locked" : false,
-                    "name" : "Info",
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "iqLZiGWODOKAka5bd0a_YPlI6s8",
-                    "previewSettings" : null,
-                    "radius" : 0,
-                    "radiusBottomLeft" : 16,
-                    "radiusBottomRight" : 16,
-                    "radiusIsRelative" : false,
-                    "radiusPerCorner" : true,
-                    "radiusTopLeft" : 0,
-                    "radiusTopRight" : 0,
-                    "replicaInfo" : null,
-                    "right" : 0,
-                    "rotation" : 0,
-                    "top" : null,
-                    "visible" : true,
-                    "width" : 200,
-                    "widthType" : 0
-                  },
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
@@ -1819,7 +1412,7 @@
                 "guidesY" : [
 
                 ],
-                "height" : 250,
+                "height" : 154,
                 "heightType" : 0,
                 "id" : "iqLZiGWODOKAka5bd0a_YPlI6s8",
                 "intrinsicHeight" : 480,
@@ -1846,7 +1439,414 @@
                 "rotation" : 0,
                 "top" : 0,
                 "visible" : true,
-                "width" : 387,
+                "width" : 305,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : 0,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.8214285714285714,
+                "children" : [
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : true,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.22222222222222221,
+                    "centerAnchorY" : 0.14000000000000001,
+                    "clip" : true,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : true,
+                    "duplicatedFrom" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "height" : 24,
+                    "heightType" : 0,
+                    "id" : "iqLZiGWODOKAka5bd0aoLR9fq7v",
+                    "isTarget" : true,
+                    "left" : 16,
+                    "locked" : false,
+                    "name" : "Adres",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
+                    "replicaInfo" : null,
+                    "right" : null,
+                    "rotation" : 0,
+                    "shadows" : [
+                      {
+                        "__class" : "Shadow",
+                        "blur" : 4,
+                        "color" : "rgb(0, 0, 0)",
+                        "enabled" : true,
+                        "id" : "iqLZiGWODOKAka5bd0aoLR9fq7v-x-1001",
+                        "x" : 0,
+                        "y" : 0
+                      }
+                    ],
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "LETTERSPACING:0",
+                              "LINEHEIGHT:1.5",
+                              "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+                              "SIZE:16",
+                              "FONT:GF;Open Sans-600"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1.5"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "SIZE:16"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "FONT:GF;Open Sans-600"
+                            }
+                          ],
+                          "key" : "4qpbp",
+                          "text" : "Piet Heinkade 167",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">Piet Heinkade 167<\/span><\/span><\/div>",
+                        "os" : "macos 10_15 framerx",
+                        "size" : {
+                          "height" : 24,
+                          "width" : 140
+                        },
+                        "width" : 0
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "textVerticalAlignment" : "top",
+                    "top" : 2,
+                    "visible" : true,
+                    "width" : 140,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : true,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.16020671834625322,
+                    "centerAnchorY" : 0.38,
+                    "clip" : true,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : true,
+                    "duplicatedFrom" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "height" : 24,
+                    "heightType" : 0,
+                    "id" : "iqLZiGWODjTlebe4nU",
+                    "isTarget" : true,
+                    "left" : 16,
+                    "locked" : false,
+                    "name" : "PostcodeWoonplaats",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
+                    "replicaInfo" : null,
+                    "right" : null,
+                    "rotation" : 0,
+                    "shadows" : [
+                      {
+                        "__class" : "Shadow",
+                        "blur" : 4,
+                        "color" : "rgb(0, 0, 0)",
+                        "enabled" : true,
+                        "id" : "iqLZiGWODjTlebe4nU-x-1001",
+                        "x" : 0,
+                        "y" : 0
+                      }
+                    ],
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "LETTERSPACING:0",
+                              "LINEHEIGHT:1.5",
+                              "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+                              "SIZE:16",
+                              "FONT:GF;Open Sans-600"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1.5"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "SIZE:16"
+                            },
+                            {
+                              "length" : 17,
+                              "offset" : 0,
+                              "style" : "FONT:GF;Open Sans-600"
+                            }
+                          ],
+                          "key" : "4qpbp",
+                          "text" : "1019 GM Amsterdam",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">1019 GM Amsterdam<\/span><\/span><\/div>",
+                        "os" : "macos 10_15 framerx",
+                        "size" : {
+                          "height" : 24,
+                          "width" : 163
+                        },
+                        "width" : 0
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "textVerticalAlignment" : "top",
+                    "top" : 26,
+                    "visible" : true,
+                    "width" : 163,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : false,
+                    "bottom" : 23,
+                    "centerAnchorX" : 0.50249999999999995,
+                    "centerAnchorY" : 0.65000000000000002,
+                    "clip" : true,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "height" : 24,
+                    "heightType" : 0,
+                    "id" : "iqLZiGWODOKAka5bd0LaPRCtqA9",
+                    "isTarget" : true,
+                    "left" : 16,
+                    "locked" : false,
+                    "name" : "Prijs",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
+                    "replicaInfo" : null,
+                    "right" : 16,
+                    "rotation" : 0,
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "SIZE:16",
+                              "LETTERSPACING:0",
+                              "LINEHEIGHT:1.5",
+                              "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+                              "ALIGN:left",
+                              "FONT:GF;Open Sans-600"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "SIZE:16"
+                            },
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1.5"
+                            },
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "COLOR:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                            },
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "ALIGN:left"
+                            },
+                            {
+                              "length" : 14,
+                              "offset" : 0,
+                              "style" : "FONT:GF;Open Sans-600"
+                            }
+                          ],
+                          "key" : "4qpbp",
+                          "text" : "€ 450.000 k.k.",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"4qpbp-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4qpbp-0-0\" style=\"tab-size:4;font-family:&quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {&quot;name&quot;:&quot;White&quot;,&quot;packageIdentifier&quot;:&quot;@framer\/funda.colors&quot;} *\/;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:600;font-style:normal\"><span data-text=\"true\">€ 450.000 k.k.<\/span><\/span><\/div><\/div>",
+                        "os" : "macos 10_15 framerx",
+                        "size" : {
+                          "height" : 24,
+                          "width" : 356
+                        },
+                        "width" : 355
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "textVerticalAlignment" : "top",
+                    "top" : null,
+                    "visible" : true,
+                    "width" : 168,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0, 153, 255, 0.5)",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillLinearGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 180,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0, 0, 0, 0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "hsl(204, 100%, 7%)"
+                    }
+                  ]
+                },
+                "fillRadialGradient" : {
+                  "__class" : "RadialGradient",
+                  "alpha" : 1,
+                  "centerAnchorX" : 0.5,
+                  "centerAnchorY" : 0.5,
+                  "heightFactor" : 0.5,
+                  "stops" : [
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 0,
+                      "value" : "rgba(0, 0, 0, 0)"
+                    },
+                    {
+                      "__class" : "GradientColorStop",
+                      "position" : 1,
+                      "value" : "hsl(204, 100%, 7%)"
+                    }
+                  ],
+                  "widthFactor" : 0.5
+                },
+                "fillType" : "linear-gradient",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 100,
+                "heightType" : 0,
+                "id" : "iqLZiGWODOKAka5bd0KTPLWkVmi",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 0,
+                "locked" : false,
+                "name" : "Info",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "iqLZiGWOD",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 16,
+                "radiusBottomRight" : 16,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : true,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 305,
                 "widthType" : 0
               }
             ],
@@ -1858,7 +1858,7 @@
 
             ],
             "fillColor" : "white",
-            "fillEnabled" : false,
+            "fillEnabled" : true,
             "fillImage" : null,
             "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,

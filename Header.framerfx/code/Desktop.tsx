@@ -3,14 +3,14 @@ import { Frame, Stack, addPropertyControls, ControlType } from "framer"
 // @ts-ignore
 import { Icon } from "@framer/funda.icons/code/Icon"
 // @ts-ignore
-import { colors } from "@framer/funda.colors/code/canvas.tsx"
 import { Logo } from "./Logo"
 
 export function Desktop(props) {
     const {
+        width,
         authentication,
-        anonymous,
-        language,
+        loggedIn,
+        lang,
         username,
         onTapLogo,
         onTapMenu,
@@ -24,10 +24,10 @@ export function Desktop(props) {
     return (
         <Frame
             style={{
-                width: "100%",
+                width,
                 height: 48,
-                backgroundColor: colors.Orange,
-                color: colors.White,
+                backgroundColor: "#F7A100",
+                color: "white",
                 fontFamily,
                 fontSize: 16,
                 lineHeight: 1.5,
@@ -50,13 +50,12 @@ export function Desktop(props) {
                         position: "relative",
                         width: "auto",
                         height: "100%",
-                        backgroundColor: "red",
+                        paddingRight: 16,
                     }}
                     direction="horizontal"
                     alignment="center"
                     distribution="end"
                     gap={16}
-                    paddingRight={16}
                 >
                     <Stack
                         style={ListItemStyle}
@@ -65,7 +64,7 @@ export function Desktop(props) {
                         alignment="start"
                         visible={!authentication}
                     >
-                        <Icon name="menu" color={colors.White} />
+                        <Icon name="menu" color="white" />
                         <span>Menu</span>
                     </Stack>
                     <Stack
@@ -75,8 +74,14 @@ export function Desktop(props) {
                         alignment="start"
                         visible={!authentication}
                     >
-                        <Icon name="avatar" color={colors.White} />
-                        <span>{anonymous ? "Inloggen" : displayName}</span>
+                        <Icon name="avatar" color="white" />
+                        <span>
+                            {!loggedIn
+                                ? lang == "NL"
+                                    ? "Inloggen"
+                                    : "Log in"
+                                : displayName}
+                        </span>
                     </Stack>
                     <Stack
                         style={ListItemStyle}
@@ -84,8 +89,8 @@ export function Desktop(props) {
                         direction="horizontal"
                         alignment="start"
                     >
-                        <Icon name="international" color={colors.White} />
-                        <span>{language}</span>
+                        <Icon name="international" color="white" />
+                        <span>{lang}</span>
                     </Stack>
                 </Stack>
             </Stack>
@@ -95,10 +100,11 @@ export function Desktop(props) {
 
 Desktop.defaultProps = {
     fontFamily: "Proxima Nova Regular, Proxima Nova",
+    width: 760,
     height: 48,
     authentication: false,
-    anonymous: true,
-    language: "NL",
+    loggedIn: false,
+    lang: "NL",
     username: "",
     fullWidth: false,
 }
@@ -107,23 +113,29 @@ Desktop.defaultProps = {
 addPropertyControls(Desktop, {
     fullWidth: { type: ControlType.Boolean, defaultValue: false },
     fontFamily: { type: ControlType.String },
-    authentication: { type: ControlType.Boolean, defaultValue: false },
-    anonymous: {
+    authentication: {
         type: ControlType.Boolean,
-        defaultValue: true,
+        defaultValue: false,
+        title: "login.funda.nl",
+    },
+    loggedIn: {
+        type: ControlType.Boolean,
+        defaultValue: false,
         hidden(props) {
             return props.authentication === true
         },
     },
-    language: {
-        type: ControlType.SegmentedEnum,
-        options: ["NL", "EN"],
-    },
     username: {
         type: ControlType.String,
+        defaultValue: "Elliot",
         hidden(props) {
-            return props.anonymous === true
+            return props.loggedIn === false
         },
+    },
+    lang: {
+        type: ControlType.SegmentedEnum,
+        options: ["NL", "EN"],
+        title: "Language",
     },
     onTapLogo: { type: ControlType.EventHandler },
     onTapMenu: { type: ControlType.EventHandler },

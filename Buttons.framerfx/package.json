@@ -9,7 +9,8 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "Buttons"
+		"displayName": "Buttons",
+		"id": "789b14cc-d902-48ae-aea4-6978dd8ba24d"
 	},
 	"author": "Elliot Nolten",
 	"dependencies": {

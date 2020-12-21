@@ -3,14 +3,13 @@ import { Frame, Stack, addPropertyControls, ControlType } from "framer"
 // @ts-ignore
 import { Icon } from "@framer/funda.icons/code/Icon"
 // @ts-ignore
-import { colors } from "@framer/funda.colors/code/canvas.tsx"
 import { Logo } from "./Logo"
 
 export function Mobile(props) {
     const {
         authentication,
-        anonymous,
-        language,
+        loggedIn,
+        lang,
         onTapLogo,
         onTapMenu,
         onTapProfile,
@@ -22,8 +21,8 @@ export function Mobile(props) {
             style={{
                 width: "100%",
                 height: 48,
-                backgroundColor: colors.Orange,
-                color: colors.White,
+                backgroundColor: "#F7A100",
+                color: "white",
                 fontFamily: "Proxima Nova Regular, Proxima Nova",
                 fontSize: 16,
                 lineHeight: 1.5,
@@ -39,43 +38,58 @@ export function Mobile(props) {
                 <Stack
                     direction="horizontal"
                     distribution="end"
-                    alignment="center"
+                    alignment="end"
                     gap={16}
-                    paddingRight={16}
-                    center
-                    style={{ width: "100%", height: 24 }}
+                    center="y"
+                    style={{
+                        position: "relative",
+                        width: "1fr",
+                        height: 24,
+                        paddingRight: 16,
+                    }}
                 >
                     <Frame
                         onClick={onTapMenu}
-                        style={{ ...ListItemStyle, width: 24, height: 24 }}
+                        size={24}
+                        backgroundColor="transparent"
                         visible={!authentication}
                     >
                         <Icon
                             name="menu"
-                            color={colors.White}
+                            color="white"
                             width={24}
                             height={24}
                         />
                     </Frame>
                     <Frame
                         onClick={onTapProfile}
-                        style={{
-                            ...ListItemStyle,
-                            width: anonymous ? "auto" : 24,
-                            height: 24,
-                        }}
+                        backgroundColor="transparent"
+                        width={!loggedIn ? "auto" : 24}
+                        height={24}
                         visible={!authentication}
                     >
-                        {anonymous ? (
-                            <a>Inloggen</a>
+                        {!loggedIn ? (
+                            <a>{lang == "NL" ? "Inloggen" : "Log in"}</a>
                         ) : (
                             <Icon
                                 name="avatar"
-                                color={colors.White}
+                                color="white"
                                 width={24}
                                 height={24}
                             />
                         )}
+                    </Frame>
+                    <Frame
+                        size={24}
+                        visible={authentication}
+                        backgroundColor="transparent"
+                    >
+                        <Icon
+                            name="international"
+                            color="white"
+                            width={24}
+                            height={24}
+                        />
                     </Frame>
                 </Stack>
             </Frame>
@@ -86,30 +100,36 @@ export function Mobile(props) {
 Mobile.defaultProps = {
     height: 48,
     width: 320,
-    anonymous: false,
+    loggedIn: false,
     fontFamily: "Proxima Nova Regular, Proxima Nova",
+    lang: "NL",
+    authentication: false,
 }
 
 // Learn more: https://framer.com/api/property-controls/
 addPropertyControls(Mobile, {
-    authentication: { type: ControlType.Boolean, defaultValue: false },
-    anonymous: {
+    fontFamily: { type: ControlType.String },
+    authentication: {
         type: ControlType.Boolean,
-        defaultValue: true,
+        defaultValue: false,
+        title: "login.funda.nl",
+    },
+    loggedIn: {
+        type: ControlType.Boolean,
+        defaultValue: false,
         hidden(props) {
             return props.authentication === true
         },
     },
-    language: {
+    lang: {
         type: ControlType.SegmentedEnum,
-        options: ["nl", "EN"],
-        optionTitles: ["NL", "EN"],
+        options: ["NL", "EN"],
+        title: "Language",
     },
     onTapLogo: { type: ControlType.EventHandler },
     onTapMenu: { type: ControlType.EventHandler },
     onTapProfile: { type: ControlType.EventHandler },
     onTapLang: { type: ControlType.EventHandler },
-    fontFamily: { type: ControlType.String },
 })
 
 const ContentStyle: React.CSSProperties = {
@@ -120,7 +140,7 @@ const ContentStyle: React.CSSProperties = {
     height: "100%",
     margin: "0 auto",
     display: "flex",
-    justifyContent: "flex-start",
+    justifyContent: "space-between",
 }
 
 const ListItemStyle: React.CSSProperties = {

@@ -14,11 +14,6 @@
   resolved "https://registry.framer.com/@framer/framer.default/-/@framer/framer.default-1.95.0.tgz#a331a74c27d4fc44d17790af535622d3a5956ab3"
   integrity sha512-fVZ6Wbkp2+YuVkrUETNOQB8aMMa2ao4X0IaaIYbyzxxwv9RKkKsK7mDgG9VuxrmAI3JvIyEi2QUDDob7FvVNJw==
 
-"@framer/funda.colors@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.framer.com/@framer/funda.colors/-/@framer/funda.colors-1.4.0.tgz#40610fd5d2348287a6d8de6a0a1d7e71dcb04a1c"
-  integrity sha512-q8ZdCwSnyaL8oWadDdiTlgYbf8P8xvp5IO6+tS2SihenUhTfAkWf8SoPXQlrdhKs6WLQgeiTgZ8jUQ9hzZZuyA==
-
 "@framer/funda.icons@1.28.0":
   version "1.28.0"
   resolved "https://registry.framer.com/@framer/funda.icons/-/@framer/funda.icons-1.28.0.tgz#1527dea54efe04d44015a8aa1787c11e54d9a846"
