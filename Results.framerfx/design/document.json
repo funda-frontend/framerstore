@@ -3132,6 +3132,9 @@
               "type" : "number",
               "value" : 7
             },
+            "$control__onTapNavigate" : {
+              "type" : "eventhandler"
+            },
             "$control__url" : {
               "type" : "string",
               "value" : "http:\/\/beta.fre-01-008.prod.funda.nl:8080\/searcher\/funda\/select?q=Woonplaats%3AAmsterdam%0A&fq=IndPublicatie%3Atrue&fq=ZoekType%3Akoop&fq=SoortObject%3A(woonhuis+OR+appartement)&fl=Adres%2C+Woonplaats%2C+HoofdFoto%2C+KoopPrijs%2C+Postcode%2C+Longitude%2C+Latitude%2C+KantoorNaam%2C+WoonOppervlakteVan%2C+Perceeloppervlakte%2C+AantalKamers&wt=json&indent=true"
@@ -3185,7 +3188,7 @@
             "rotation" : 0,
             "top" : 2785,
             "visible" : true,
-            "width" : 407,
+            "width" : 571,
             "widthType" : 0
           }
         ],

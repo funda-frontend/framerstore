@@ -130,4 +130,5 @@ addPropertyControls(Grid, {
         allowedFileTypes: ["json"],
         hidden: (props) => props.dataSource === false,
     },
+    onTapNavigate: { type: ControlType.EventHandler },
 })
