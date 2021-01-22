@@ -1,4 +1,4 @@
-# Funda Framer X Components
+# Funda Framer Components
 This codebase is owned by **Team UX**
 
 This is a repository of Framer Components that can be reused across our Funda UX team.
