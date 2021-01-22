@@ -68,7 +68,7 @@ export function Grid(props) {
                                 onTapItem(normalizeFields(result, index, max))
                                 onTapNavigate
                             },
-                            ...normalizeFields(result, index, 16),
+                            ...normalizeFields(result, index, max),
                             style: {
                                 position: "relative",
                                 width: "100%",
@@ -89,7 +89,6 @@ Grid.defaultProps = {
     gap: 16,
     height: 128,
     width: 320,
-    filePath: "",
     component: {},
     max: 10,
     onReady: () => null,

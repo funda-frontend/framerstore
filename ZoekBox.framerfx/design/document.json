@@ -8,8 +8,6 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
@@ -17,14 +15,159 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.26000000000000001,
                 "children" : [
                   {
                     "__class" : "CodeComponentNode",
+                    "$control__border" : {
+                      "isFused" : true,
+                      "type" : "fusednumber",
+                      "value" : {
+                        "fused" : [
+                          1,
+                          1,
+                          0,
+                          1
+                        ],
+                        "single" : 1
+                      }
+                    },
+                    "$control__borderBottom" : {
+                      "type" : null,
+                      "value" : 0
+                    },
+                    "$control__borderColor" : {
+                      "type" : "color",
+                      "value" : "var(--token-69fdf0c3-937f-4065-a671-1af27c1ec67e, rgb(204, 204, 204)) \/* {\"name\":\"GreyLight\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                    },
+                    "$control__borderColorFocus" : {
+                      "type" : "color",
+                      "value" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153))"
+                    },
+                    "$control__borderLeft" : {
+                      "type" : null,
+                      "value" : 1
+                    },
+                    "$control__borderRight" : {
+                      "type" : null,
+                      "value" : 1
+                    },
+                    "$control__borderTop" : {
+                      "type" : null,
+                      "value" : 1
+                    },
+                    "$control__bottomLeft" : {
+                      "type" : null,
+                      "value" : 0
+                    },
+                    "$control__bottomRight" : {
+                      "type" : null,
+                      "value" : 0
+                    },
+                    "$control__currentIdentifiers" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__customBackground" : {
+                      "type" : "color",
+                      "value" : "var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                    },
+                    "$control__customTextColor" : {
+                      "type" : "color",
+                      "value" : "var(--token-9b5196a3-e8ec-46c8-b65a-2a15bf1e551c, rgb(51, 51, 51))"
+                    },
+                    "$control__fontFamily" : {
+                      "type" : "string",
+                      "value" : "Proxima Nova"
+                    },
+                    "$control__hasFocus" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__maxResults" : {
+                      "type" : "number",
+                      "value" : 10
+                    },
+                    "$control__mixedBorders" : {
+                      "type" : null,
+                      "value" : true
+                    },
+                    "$control__mixedRadius" : {
+                      "type" : null,
+                      "value" : true
+                    },
+                    "$control__padding" : {
+                      "isFused" : true,
+                      "type" : "fusednumber",
+                      "value" : {
+                        "fused" : [
+                          4,
+                          16,
+                          4,
+                          48
+                        ],
+                        "single" : 4
+                      }
+                    },
+                    "$control__paddingBottom" : {
+                      "type" : null,
+                      "value" : 4
+                    },
+                    "$control__paddingLeft" : {
+                      "type" : null,
+                      "value" : 48
+                    },
+                    "$control__paddingPerSide" : {
+                      "type" : null,
+                      "value" : true
+                    },
+                    "$control__paddingRight" : {
+                      "type" : null,
+                      "value" : 16
+                    },
+                    "$control__paddingTop" : {
+                      "type" : null,
+                      "value" : 4
+                    },
+                    "$control__placeholder" : {
+                      "type" : "string",
+                      "value" : "Zoek naar een plaats, buurt, adres, etc."
+                    },
+                    "$control__radius" : {
+                      "isFused" : true,
+                      "type" : "fusednumber",
+                      "value" : {
+                        "fused" : [
+                          4,
+                          4,
+                          0,
+                          0
+                        ],
+                        "single" : 0
+                      }
+                    },
+                    "$control__reset" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__topLeft" : {
+                      "type" : null,
+                      "value" : 4
+                    },
+                    "$control__topRight" : {
+                      "type" : null,
+                      "value" : 4
+                    },
+                    "$control__value" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__zbType" : {
+                      "type" : "enum",
+                      "value" : "koop"
+                    },
                     "aspectRatio" : null,
                     "bottom" : 0,
                     "centerAnchorX" : 0.5,
@@ -32,38 +175,6 @@
                     "clip" : true,
                     "codeComponentIdentifier" : ".\/ZoekBoxInput.tsx_ZoekBoxInput",
                     "codeComponentPackageVersion" : null,
-                    "codeComponentProps" : {
-                      "border" : 1,
-                      "borderBottom" : 0,
-                      "borderColor" : "var(--token-69fdf0c3-937f-4065-a671-1af27c1ec67e, rgb(204, 204, 204)) \/* {\"name\":\"GreyLight\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                      "borderColorFocus" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153))",
-                      "borderLeft" : 1,
-                      "borderRight" : 1,
-                      "borderTop" : 1,
-                      "bottomLeft" : 0,
-                      "bottomRight" : 0,
-                      "currentIdentifiers" : "",
-                      "customBackground" : "var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                      "customTextColor" : "var(--token-9b5196a3-e8ec-46c8-b65a-2a15bf1e551c, rgb(51, 51, 51))",
-                      "fontFamily" : "Proxima Nova",
-                      "hasFocus" : true,
-                      "maxResults" : 10,
-                      "mixedBorders" : true,
-                      "mixedRadius" : true,
-                      "padding" : 4,
-                      "paddingBottom" : 4,
-                      "paddingLeft" : 48,
-                      "paddingPerSide" : true,
-                      "paddingRight" : 16,
-                      "paddingTop" : 4,
-                      "placeholder" : "Zoek naar een plaats, buurt, adres, etc.",
-                      "radius" : 0,
-                      "reset" : false,
-                      "topLeft" : 4,
-                      "topRight" : 4,
-                      "value" : "",
-                      "zbType" : "koop"
-                    },
                     "codeOverrideEnabled" : true,
                     "codeOverrideFile" : ".\/Examples.tsx",
                     "codeOverrideIdentifier" : ".\/Examples.tsx_Input",
@@ -110,6 +221,18 @@
                   },
                   {
                     "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "var(--token-8c46c95f-c1e3-43b3-9864-e3863c5f4e1b, rgb(102, 102, 102)) \/* {\"name\":\"GreyDark\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "Loupe"
+                    },
+                    "$control__originalVastgoedPro" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
                     "aspectRatio" : null,
                     "bottom" : null,
                     "centerAnchorX" : 0.074666666666666673,
@@ -117,11 +240,6 @@
                     "clip" : true,
                     "codeComponentIdentifier" : "@framer\/funda.icons\/.\/Icon.tsx_Icon",
                     "codeComponentPackageVersion" : null,
-                    "codeComponentProps" : {
-                      "color" : "var(--token-8c46c95f-c1e3-43b3-9864-e3863c5f4e1b, rgb(102, 102, 102)) \/* {\"name\":\"GreyDark\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-                      "name" : "Loupe",
-                      "originalVastgoedPro" : false
-                    },
                     "codeOverrideEnabled" : false,
                     "constraintsLocked" : false,
                     "duplicatedFrom" : null,
@@ -218,6 +336,107 @@
               },
               {
                 "__class" : "CodeComponentNode",
+                "$control__backgroundColor" : {
+                  "type" : "color",
+                  "value" : "var(--token-e3e395ee-4217-4d80-861d-60511981cec8, rgb(230, 242, 247))"
+                },
+                "$control__border" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "single" : 1
+                  }
+                },
+                "$control__borderBottom" : {
+                  "type" : null,
+                  "value" : 0
+                },
+                "$control__borderColor" : {
+                  "type" : "color",
+                  "value" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153))"
+                },
+                "$control__borderLeft" : {
+                  "type" : null,
+                  "value" : 0
+                },
+                "$control__borderRight" : {
+                  "type" : null,
+                  "value" : 0
+                },
+                "$control__borderTop" : {
+                  "type" : null,
+                  "value" : 0
+                },
+                "$control__bottomLeft" : {
+                  "type" : null,
+                  "value" : 4
+                },
+                "$control__bottomRight" : {
+                  "type" : null,
+                  "value" : 4
+                },
+                "$control__emptyDesign" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "migrated_array_value_rP9FIpql7_emptyDesign_0",
+                      "type" : "componentinstance",
+                      "value" : "mIAk96cvs"
+                    }
+                  ]
+                },
+                "$control__fontFamily" : {
+                  "type" : "string",
+                  "value" : "Proxima Nova Regular"
+                },
+                "$control__mixedBorders" : {
+                  "type" : null,
+                  "value" : false
+                },
+                "$control__mixedRadius" : {
+                  "type" : null,
+                  "value" : true
+                },
+                "$control__onTapNavigate" : {
+                  "type" : "eventhandler"
+                },
+                "$control__radius" : {
+                  "isFused" : true,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      0,
+                      0,
+                      4,
+                      4
+                    ],
+                    "single" : 4
+                  }
+                },
+                "$control__suggestionDesign" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "migrated_array_value_rP9FIpql7_suggestionDesign_0",
+                      "type" : "componentinstance",
+                      "value" : "hWS_UsnfQ"
+                    }
+                  ]
+                },
+                "$control__topLeft" : {
+                  "type" : null,
+                  "value" : 0
+                },
+                "$control__topRight" : {
+                  "type" : null,
+                  "value" : 0
+                },
                 "aspectRatio" : null,
                 "bottom" : 128,
                 "centerAnchorX" : 0.5,
@@ -225,37 +444,6 @@
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/ZoekBoxOutput.tsx_ZoekBoxOutput",
                 "codeComponentPackageVersion" : null,
-                "codeComponentProps" : {
-                  "backgroundColor" : "var(--token-e3e395ee-4217-4d80-861d-60511981cec8, rgb(230, 242, 247))",
-                  "border" : 1,
-                  "borderBottom" : 0,
-                  "borderColor" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153))",
-                  "borderLeft" : 0,
-                  "borderRight" : 0,
-                  "borderTop" : 0,
-                  "bottomLeft" : 4,
-                  "bottomRight" : 4,
-                  "emptyDesign" : [
-                    {
-                      "enabled" : true,
-                      "type" : "componentinstance",
-                      "value" : "mIAk96cvs"
-                    }
-                  ],
-                  "fontFamily" : "Proxima Nova Regular",
-                  "mixedBorders" : false,
-                  "mixedRadius" : true,
-                  "radius" : 4,
-                  "suggestionDesign" : [
-                    {
-                      "enabled" : true,
-                      "type" : "componentinstance",
-                      "value" : "hWS_UsnfQ"
-                    }
-                  ],
-                  "topLeft" : 0,
-                  "topRight" : 0
-                },
                 "codeOverrideEnabled" : true,
                 "codeOverrideFile" : ".\/Examples.tsx",
                 "codeOverrideIdentifier" : ".\/Examples.tsx_Output",
@@ -348,13 +536,9 @@
             "parentid" : "jPdPO3Snv-page",
             "previewSettings" : {
               "__class" : "PreviewSettings",
-              "bezel" : false,
-              "deviceType" : null,
               "responsive" : true,
-              "rotate" : false,
               "skin" : "",
-              "touch" : false,
-              "zoom" : -1
+              "touch" : false
             },
             "radius" : 0,
             "radiusBottomLeft" : 0,
@@ -374,8 +558,6 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
@@ -383,8 +565,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.48999999999999999,
@@ -392,8 +572,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.22222222222222221,
@@ -401,14 +579,9 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
-                        "blur" : 12,
-                        "blurEnabled" : 0,
-                        "blurType" : "layer",
                         "borderBottom" : 1,
                         "borderColor" : "#222",
-                        "borderEnabled" : 0,
+                        "borderEnabled" : false,
                         "borderLeft" : 1,
                         "borderPerSide" : false,
                         "borderRight" : 1,
@@ -416,11 +589,6 @@
                         "borderTop" : 1,
                         "borderWidth" : 1,
                         "bottom" : null,
-                        "boxShadows" : [
-
-                        ],
-                        "brightness" : 100,
-                        "brightnessEnabled" : 0,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.5,
                         "children" : [
@@ -429,8 +597,6 @@
                         "clip" : true,
                         "codeOverrideEnabled" : false,
                         "constraintsLocked" : false,
-                        "contrast" : 100,
-                        "contrastEnabled" : 0,
                         "duplicatedFrom" : null,
                         "exportOptions" : [
                           {
@@ -489,8 +655,6 @@
                         },
                         "fillType" : "color",
                         "framePreset" : null,
-                        "grayscale" : 0,
-                        "grayScaleEnabled" : 0,
                         "guidesX" : [
 
                         ],
@@ -499,13 +663,9 @@
                         ],
                         "height" : 6,
                         "heightType" : 0,
-                        "hueRotate" : 0,
-                        "hueRotateEnabled" : 0,
                         "id" : "eWlRolyUo",
                         "intrinsicHeight" : null,
                         "intrinsicWidth" : null,
-                        "invert" : 0,
-                        "invertEnabled" : 0,
                         "isExternalMaster" : null,
                         "isMaster" : false,
                         "isTarget" : false,
@@ -526,10 +686,6 @@
                         "replicaInfo" : null,
                         "right" : null,
                         "rotation" : 0,
-                        "saturate" : 100,
-                        "saturateEnabled" : 0,
-                        "sepia" : 0,
-                        "sepiaEnabled" : 0,
                         "top" : null,
                         "visible" : true,
                         "width" : 6,
@@ -538,8 +694,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : 0,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.5,
@@ -691,7 +845,7 @@
                                       }
                                     ],
                                     "rotation" : 0,
-                                    "strokeEnabled" : 0,
+                                    "strokeEnabled" : false,
                                     "visible" : true,
                                     "width" : 7.4999999999998135,
                                     "x" : 2.7755575615628914e-17,
@@ -778,7 +932,7 @@
                                       }
                                     ],
                                     "rotation" : 0,
-                                    "strokeEnabled" : 0,
+                                    "strokeEnabled" : false,
                                     "visible" : true,
                                     "width" : 4.5420218741367222,
                                     "x" : 0.68753789016771172,
@@ -806,7 +960,7 @@
                                 "parentid" : "aT8fY3E2r",
                                 "pathBoolean" : 4,
                                 "rotation" : 0,
-                                "strokeEnabled" : 0,
+                                "strokeEnabled" : false,
                                 "visible" : true,
                                 "width" : 7.4999999999998135,
                                 "x" : 0.24999999999995504,
@@ -996,8 +1150,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : 7,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.61111111111111116,
@@ -1096,8 +1248,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : 0,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.87037037037037035,
@@ -1347,11 +1497,9 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "borderBottom" : 1,
             "borderColor" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153)) \/* {\"name\":\"Grey\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
-            "borderEnabled" : 1,
+            "borderEnabled" : true,
             "borderLeft" : 1,
             "borderPerSide" : false,
             "borderRight" : 1,
@@ -1449,14 +1597,24 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : 1,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.074666666666666673,
                 "centerAnchorY" : 0.5,
                 "children" : [
                   {
                     "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "#0071B3"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "NotFoundObject"
+                    },
+                    "$control__originalVastgoedPro" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
                     "aspectRatio" : 1,
                     "bottom" : null,
                     "centerAnchorX" : 0.5,
@@ -1464,11 +1622,6 @@
                     "clip" : true,
                     "codeComponentIdentifier" : "@framer\/funda.icons\/.\/Icon.tsx_Icon",
                     "codeComponentPackageVersion" : null,
-                    "codeComponentProps" : {
-                      "color" : "#0071B3",
-                      "name" : "NotFoundObject",
-                      "originalVastgoedPro" : false
-                    },
                     "codeOverrideEnabled" : false,
                     "constraintsLocked" : false,
                     "duplicatedFrom" : null,
@@ -1656,14 +1809,9 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "blur" : 12,
-            "blurEnabled" : 0,
-            "blurType" : "layer",
             "borderBottom" : 1,
             "borderColor" : "#efefef",
-            "borderEnabled" : 1,
+            "borderEnabled" : true,
             "borderLeft" : 1,
             "borderPerSide" : true,
             "borderRight" : 1,
@@ -1671,11 +1819,6 @@
             "borderTop" : 0,
             "borderWidth" : 1,
             "bottom" : null,
-            "boxShadows" : [
-
-            ],
-            "brightness" : 100,
-            "brightnessEnabled" : 0,
             "centerAnchorX" : 0.40749999999999997,
             "centerAnchorY" : 1.0066666666666666,
             "children" : [
@@ -1759,15 +1902,6 @@
                       "type" : "unstyled"
                     }
                   ],
-                  "cached" : {
-                    "html" : "<div class='DraftEditor-alignRight'><div data-offset-key=\"8q7q2-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"8q7q2-0-0\" style=\"tab-size:4;font-family:&quot;ProximaNova-Regular&quot;, &quot;Proxima Nova&quot;, serif;-webkit-text-fill-color:#666;font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:400\"><span data-text=\"true\">3000<\/span><\/span><\/div><\/div>",
-                    "os" : "macos 10_15 framerx",
-                    "size" : {
-                      "height" : 24,
-                      "width" : 72
-                    },
-                    "width" : 71
-                  },
                   "entityMap" : {
 
                   }
@@ -1781,32 +1915,19 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : false,
-                "blur" : 12,
-                "blurEnabled" : 0,
-                "blurType" : "layer",
                 "bottom" : null,
-                "brightness" : 100,
-                "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.49333333333333335,
                 "centerAnchorY" : 0.7142857142857143,
                 "clip" : true,
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : true,
-                "contrast" : 100,
-                "contrastEnabled" : 0,
                 "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
-                "grayscale" : 0,
-                "grayScaleEnabled" : 0,
                 "height" : 20,
                 "heightType" : 0,
-                "hueRotate" : 0,
-                "hueRotateEnabled" : 0,
                 "id" : "PZPFyII5Q",
-                "invert" : 0,
-                "invertEnabled" : 0,
                 "isTarget" : true,
                 "left" : 56,
                 "locked" : false,
@@ -1816,13 +1937,6 @@
                 "parentid" : "hWS_UsnfQ",
                 "right" : 61,
                 "rotation" : 0,
-                "saturate" : 100,
-                "saturateEnabled" : 0,
-                "sepia" : 0,
-                "sepiaEnabled" : 0,
-                "shadows" : [
-
-                ],
                 "styledText" : {
                   "__class" : "StyledTextDraft",
                   "blocks" : [
@@ -1872,15 +1986,6 @@
                       "type" : "unstyled"
                     }
                   ],
-                  "cached" : {
-                    "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"72esk-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"72esk-0-0\" style=\"tab-size:4;font-family:&quot;ProximaNova-Regular&quot;, &quot;Proxima Nova&quot;, serif;-webkit-text-fill-color:#666;font-size:14px;letter-spacing:0px;line-height:1.4;font-weight:400\"><span data-text=\"true\">Gemeente<\/span><\/span><\/div><\/div>",
-                    "os" : "macos 10_15 framerx",
-                    "size" : {
-                      "height" : 19,
-                      "width" : 259
-                    },
-                    "width" : 258
-                  },
                   "entityMap" : {
 
                   }
@@ -1894,32 +1999,19 @@
               {
                 "__class" : "TextNode",
                 "autoSize" : false,
-                "blur" : 12,
-                "blurEnabled" : 0,
-                "blurType" : "layer",
                 "bottom" : null,
-                "brightness" : 100,
-                "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.49333333333333335,
                 "centerAnchorY" : 0.32142857142857145,
                 "clip" : true,
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : true,
-                "contrast" : 100,
-                "contrastEnabled" : 0,
                 "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
-                "grayscale" : 0,
-                "grayScaleEnabled" : 0,
                 "height" : 24,
                 "heightType" : 0,
-                "hueRotate" : 0,
-                "hueRotateEnabled" : 0,
                 "id" : "tfv7gToPy",
-                "invert" : 0,
-                "invertEnabled" : 0,
                 "isTarget" : true,
                 "left" : 56,
                 "locked" : false,
@@ -1929,13 +2021,6 @@
                 "parentid" : "hWS_UsnfQ",
                 "right" : 61,
                 "rotation" : 0,
-                "saturate" : 100,
-                "saturateEnabled" : 0,
-                "sepia" : 0,
-                "sepiaEnabled" : 0,
-                "shadows" : [
-
-                ],
                 "styledText" : {
                   "__class" : "StyledTextDraft",
                   "blocks" : [
@@ -1985,15 +2070,6 @@
                       "type" : "unstyled"
                     }
                   ],
-                  "cached" : {
-                    "html" : "<div class='DraftEditor-alignLeft'><div data-offset-key=\"2ejo1-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2ejo1-0-0\" style=\"tab-size:4;font-family:&quot;ProximaNova-Regular&quot;, &quot;Proxima Nova&quot;, serif;-webkit-text-fill-color:rgb(51, 51, 51);font-size:16px;letter-spacing:0px;line-height:1.5;font-weight:400\"><span data-text=\"true\">Amsterdam<\/span><\/span><\/div><\/div>",
-                    "os" : "macos 10_15 framerx",
-                    "size" : {
-                      "height" : 24,
-                      "width" : 259
-                    },
-                    "width" : 258
-                  },
                   "entityMap" : {
 
                   }
@@ -2007,14 +2083,24 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : 1,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.074666666666666673,
                 "centerAnchorY" : 0.5,
                 "children" : [
                   {
                     "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "#0071B3"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "Pin"
+                    },
+                    "$control__originalVastgoedPro" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
                     "aspectRatio" : 1,
                     "bottom" : null,
                     "centerAnchorX" : 0.5,
@@ -2022,11 +2108,6 @@
                     "clip" : true,
                     "codeComponentIdentifier" : "@framer\/funda.icons\/.\/Icon.tsx_Icon",
                     "codeComponentPackageVersion" : null,
-                    "codeComponentProps" : {
-                      "color" : "#0071B3",
-                      "name" : "Pin",
-                      "originalVastgoedPro" : false
-                    },
                     "codeOverrideEnabled" : false,
                     "constraintsLocked" : false,
                     "duplicatedFrom" : null,
@@ -2128,8 +2209,6 @@
             "codeOverrideIdentifier" : ".\/App.tsx_logTap",
             "codeOverrideName" : "logTap",
             "constraintsLocked" : false,
-            "contrast" : 100,
-            "contrastEnabled" : 0,
             "duplicatedFrom" : null,
             "exportOptions" : [
               {
@@ -2188,8 +2267,6 @@
             },
             "fillType" : "color",
             "framePreset" : null,
-            "grayscale" : 0,
-            "grayScaleEnabled" : 0,
             "guidesX" : [
 
             ],
@@ -2198,13 +2275,9 @@
             ],
             "height" : 56,
             "heightType" : 0,
-            "hueRotate" : 0,
-            "hueRotateEnabled" : 0,
             "id" : "hWS_UsnfQ",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "invert" : 0,
-            "invertEnabled" : 0,
             "isExternalMaster" : null,
             "isMaster" : true,
             "isTarget" : false,
@@ -2225,10 +2298,6 @@
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "saturate" : 100,
-            "saturateEnabled" : 0,
-            "sepia" : 0,
-            "sepiaEnabled" : 0,
             "top" : 772,
             "visible" : true,
             "width" : 375,
@@ -2252,8 +2321,6 @@
       {
         "__class" : "FrameNode",
         "aspectRatio" : 1,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
         "bottom" : null,
         "centerAnchorX" : 0,
         "centerAnchorY" : 0,
@@ -2405,7 +2472,7 @@
                       }
                     ],
                     "rotation" : 0,
-                    "strokeEnabled" : 0,
+                    "strokeEnabled" : false,
                     "visible" : true,
                     "width" : 33.388206213836682,
                     "x" : 7.7715611723760958e-16,
@@ -2492,7 +2559,7 @@
                       }
                     ],
                     "rotation" : 0,
-                    "strokeEnabled" : 0,
+                    "strokeEnabled" : false,
                     "visible" : true,
                     "width" : 20.219995061524209,
                     "x" : 3.0607542475659031,
@@ -2520,7 +2587,7 @@
                 "parentid" : "@framer\/funda.icons-knJpRYUL3-XPDJLPCVU",
                 "pathBoolean" : 4,
                 "rotation" : 0,
-                "strokeEnabled" : 0,
+                "strokeEnabled" : false,
                 "visible" : true,
                 "width" : 33.388206213836675,
                 "x" : 7,
@@ -2669,5 +2736,5 @@
     ],
     "visible" : false
   },
-  "version" : 69
+  "version" : 75
 }
