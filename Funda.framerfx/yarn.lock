@@ -2,14 +2,19 @@
 # yarn lockfile v1
 
 
+"@funda/icons@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/@funda/icons/-/icons-1.5.0.tgz"
+  integrity sha512-v0wDq6IxeiwFlcdJ+UAB3g5we47UZx8cGSOpMhi3KivI0D6cJiChqUG0F1jwSLS/Sa5hWwmscownKtzdh78B2w==
+
 "@types/prop-types@*":
   version "15.7.0"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz"
   integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
 
 "@types/react@^16.8":
   version "16.8.4"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.4.tgz#134307f5266e866d5e7c25e47f31f9abd5b2ea34"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.4.tgz"
   integrity sha512-Mpz1NNMJvrjf0GcDqiK8+YeOydXfD8Mgag3UtqQ5lXYTsMnOiHcKmO48LiSWMb1rSHB9MV/jlgyNzeAVxWMZRQ==
   dependencies:
     "@types/prop-types" "*"
@@ -17,5 +22,5 @@
 
 csstype@^2.2.0:
   version "2.6.1"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.1.tgz#4cfbf637a577497036ebcd7e32647ef19a0b8076"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.1.tgz"
   integrity sha512-wv7IRqCGsL7WGKB8gPvrl+++HlFM9kxAM6jL1EXNPNTshEJYilMkbfS2SnuHha77uosp/YVK0wAp2jmlBzn1tg==

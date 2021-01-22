@@ -11,5 +11,8 @@
 	"framer": {
 		"id": "3159c324-7552-4c01-850d-1a5d856c5420"
 	},
-	"author": "Elliot Nolten"
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@funda/icons": "^1.5.0"
+	}
 }

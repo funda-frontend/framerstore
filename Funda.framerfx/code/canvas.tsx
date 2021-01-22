@@ -49,20 +49,12 @@ export const colors = Object.freeze({
     "Links / AltHover": "var(--token-921153af-598a-44cd-a4a7-ea53802141fa, rgb(247, 247, 247))",
     /** #7F0051 */
     "Links / Visited": "var(--token-3fb7f8e0-aa4a-4359-a130-23945fc011f6, rgb(127, 0, 81))",
-    /** #FCF7EC */
-    "Agents / VGMLight": "var(--token-21dc8b61-273e-4e0c-a075-3cf25122e950, rgb(252, 247, 236))",
     /** #FDFAE5 */
     "Forms / YellowLight": "var(--token-addd0bdc-6128-45a4-8156-9e2e5ab9315e, rgb(253, 250, 229))",
-    /** #EEB045 */
-    "Agents / VGM": "var(--token-ea920a51-bd4f-4efe-b36e-ab3926647c47, rgb(238, 176, 69))",
     /** #FBEBEA */
     "Forms / RedLight": "var(--token-bd9e9d5e-e89a-4a72-99ab-48472146f407, rgb(251, 235, 234))",
-    /** #FBF3EA */
-    "Agents / VastgoedProLight": "var(--token-e0ca768b-8fcc-464f-b3a5-585efa38dbd4, rgb(251, 243, 234))",
     /** #EAF7EB */
     "Forms / GreenLight": "var(--token-16a126fa-e260-4389-9726-62ab2378abd3, rgb(234, 247, 235))",
-    /** #E69130 */
-    "Agents / VastgoedPro": "var(--token-efd328cc-5b6f-4c56-b57b-8b3cb789301f, rgb(230, 145, 48))",
     /** #F8CE00 */
     "Forms / Yellow": "var(--token-0ce50464-e181-4db8-8f05-219c45c0dcfd, rgb(248, 206, 0))",
     /** #F03C30 */
