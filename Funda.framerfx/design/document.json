@@ -6132,7 +6132,172 @@
       {
         "__class" : "PageNode",
         "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "$control__authentication" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__fontFamily" : {
+              "type" : "string",
+              "value" : "Proxima Nova Regular, Proxima Nova"
+            },
+            "$control__fullWidth" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__lang" : {
+              "type" : "segmentedenum",
+              "value" : "NL"
+            },
+            "$control__loggedIn" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__onTapLang" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapLogo" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapMenu" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapProfile" : {
+              "type" : "eventhandler"
+            },
+            "$control__username" : {
+              "type" : "string",
+              "value" : ""
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Header\/Desktop.tsx_Desktop",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "G8uncOW0P"
+            ],
+            "exportOptions" : [
 
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 48,
+            "heightType" : 0,
+            "id" : "Zu3FinWS5",
+            "intrinsicHeight" : 48,
+            "intrinsicWidth" : 760,
+            "left" : 448,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "pU6I3pl23",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -68,
+            "visible" : true,
+            "width" : 813,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__authentication" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__fontFamily" : {
+              "type" : "string",
+              "value" : "Proxima Nova Regular, Proxima Nova"
+            },
+            "$control__lang" : {
+              "type" : "segmentedenum",
+              "value" : "NL"
+            },
+            "$control__loggedIn" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__onTapLang" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapLogo" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapMenu" : {
+              "type" : "eventhandler"
+            },
+            "$control__onTapProfile" : {
+              "type" : "eventhandler"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Header\/Mobile.tsx_Mobile",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "R0sNNIZbB"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 48,
+            "heightType" : 0,
+            "id" : "a1cd1f4bc",
+            "intrinsicHeight" : 48,
+            "intrinsicWidth" : 320,
+            "left" : 448,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "pU6I3pl23",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 43,
+            "visible" : true,
+            "width" : 320,
+            "widthType" : 0
+          }
         ],
         "duplicatedFrom" : null,
         "guidesX" : [
