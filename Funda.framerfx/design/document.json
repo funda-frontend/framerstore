@@ -6316,7 +6316,1433 @@
       {
         "__class" : "PageNode",
         "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "borderBottom" : 1,
+            "borderColor" : "var(--token-30a4e35d-10cd-4799-a653-2e797055e25c, rgb(153, 153, 153)) \/* {\"name\":\"Grey\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+            "borderEnabled" : true,
+            "borderLeft" : 1,
+            "borderPerSide" : false,
+            "borderRight" : 1,
+            "borderStyle" : "solid",
+            "borderTop" : 0,
+            "borderWidth" : 1,
+            "bottom" : null,
+            "centerAnchorX" : 0.14749999999999999,
+            "centerAnchorY" : 0.96166666666666667,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "autoSize" : false,
+                "bottom" : null,
+                "centerAnchorX" : 0.54800000000000004,
+                "centerAnchorY" : 0.5089285714285714,
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
 
+                ],
+                "height" : 19,
+                "heightType" : 0,
+                "id" : "QWzibOYBJ",
+                "isTarget" : false,
+                "left" : 48,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "mIAk96cvs",
+                "right" : 12,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2",
+                          "FONT:ProximaNova-Regular",
+                          "COLOR:#333"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 21,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 0,
+                          "style" : "FONT:ProximaNova-Regular"
+                        },
+                        {
+                          "length" : 21,
+                          "offset" : 0,
+                          "style" : "COLOR:#333"
+                        }
+                      ],
+                      "key" : "38ntk",
+                      "text" : "Geen locatie gevonden",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : null,
+                "visible" : true,
+                "width" : 315,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : 1,
+                "bottom" : null,
+                "centerAnchorX" : 0.074666666666666673,
+                "centerAnchorY" : 0.5,
+                "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "#0071B3"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "notFoundHouse"
+                    },
+                    "aspectRatio" : 1,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      ".\/Icon.tsx_Icon"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 18,
+                    "heightType" : 0,
+                    "id" : "wfmImtcmp",
+                    "intrinsicHeight" : 24,
+                    "intrinsicWidth" : 24,
+                    "left" : 3,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "alRd86upi",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 3,
+                    "rotation" : 0,
+                    "top" : 3,
+                    "visible" : true,
+                    "width" : 18,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "var(--token-e3e395ee-4217-4d80-861d-60511981cec8, rgb(230, 242, 247)) \/* {\"name\":\"NaturalBlue\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 24,
+                "heightType" : 0,
+                "id" : "alRd86upi",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 16,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "mIAk96cvs",
+                "previewSettings" : null,
+                "radius" : 50,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : true,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 24,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "var(--token-0145e38c-44f5-406a-90d9-e978a6823f6e, rgb(255, 255, 255)) \/* {\"name\":\"White\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillRadialGradient" : {
+              "__class" : "RadialGradient",
+              "alpha" : 1,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.5,
+              "heightFactor" : 0.5,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
+              "widthFactor" : 0.5
+            },
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 56,
+            "heightType" : 0,
+            "id" : "mIAk96cvs",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : true,
+            "isTarget" : false,
+            "left" : 757,
+            "locked" : false,
+            "name" : "ZoekBox \/ None",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "qOatVV_p4",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 4,
+            "radiusBottomRight" : 4,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : true,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 113,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "borderBottom" : 1,
+            "borderColor" : "#efefef",
+            "borderEnabled" : true,
+            "borderLeft" : 1,
+            "borderPerSide" : true,
+            "borderRight" : 1,
+            "borderStyle" : "solid",
+            "borderTop" : 0,
+            "borderWidth" : 1,
+            "bottom" : null,
+            "centerAnchorX" : 0.40749999999999997,
+            "centerAnchorY" : 1.0066666666666666,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "autoSize" : false,
+                "bottom" : null,
+                "centerAnchorX" : 0.87333333333333329,
+                "centerAnchorY" : 0.5,
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "height" : 24,
+                "heightType" : 0,
+                "id" : "ZoAV3i55b",
+                "isTarget" : true,
+                "left" : null,
+                "locked" : false,
+                "name" : "Count",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "hWS_UsnfQ",
+                "right" : 12,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "ALIGN:right",
+                          "FONT:ProximaNova-Regular",
+                          "LINEHEIGHT:1.5",
+                          "COLOR:#666"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "ALIGN:right"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "FONT:ProximaNova-Regular"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.5"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "COLOR:#666"
+                        }
+                      ],
+                      "key" : "8q7q2",
+                      "text" : "3000",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : null,
+                "visible" : true,
+                "width" : 71,
+                "widthType" : 0
+              },
+              {
+                "__class" : "TextNode",
+                "autoSize" : false,
+                "bottom" : null,
+                "centerAnchorX" : 0.49333333333333335,
+                "centerAnchorY" : 0.7142857142857143,
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : true,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "height" : 20,
+                "heightType" : 0,
+                "id" : "PZPFyII5Q",
+                "isTarget" : true,
+                "left" : 56,
+                "locked" : false,
+                "name" : "SubText",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "hWS_UsnfQ",
+                "right" : 61,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "FONT:ProximaNova-Regular",
+                          "SIZE:14",
+                          "LINEHEIGHT:1.4",
+                          "ALIGN:left",
+                          "COLOR:#666"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "FONT:ProximaNova-Regular"
+                        },
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "SIZE:14"
+                        },
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.4"
+                        },
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
+                        },
+                        {
+                          "length" : 8,
+                          "offset" : 0,
+                          "style" : "COLOR:#666"
+                        }
+                      ],
+                      "key" : "72esk",
+                      "text" : "Gemeente",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : 30,
+                "visible" : true,
+                "width" : 258,
+                "widthType" : 0
+              },
+              {
+                "__class" : "TextNode",
+                "autoSize" : false,
+                "bottom" : null,
+                "centerAnchorX" : 0.49333333333333335,
+                "centerAnchorY" : 0.32142857142857145,
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : true,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "height" : 24,
+                "heightType" : 0,
+                "id" : "tfv7gToPy",
+                "isTarget" : true,
+                "left" : 56,
+                "locked" : false,
+                "name" : "Name",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "hWS_UsnfQ",
+                "right" : 61,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "COLOR:rgb(51, 51, 51)",
+                          "SIZE:16",
+                          "LINEHEIGHT:1.5",
+                          "ALIGN:left",
+                          "FONT:ProximaNova-Regular"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(51, 51, 51)"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.5"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "ALIGN:left"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "FONT:ProximaNova-Regular"
+                        }
+                      ],
+                      "key" : "2ejo1",
+                      "text" : "Amsterdam",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : 6,
+                "visible" : true,
+                "width" : 258,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : 1,
+                "bottom" : null,
+                "centerAnchorX" : 0.074666666666666673,
+                "centerAnchorY" : 0.5,
+                "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "#0071B3"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "pin"
+                    },
+                    "aspectRatio" : 1,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      ".\/Icon.tsx_Icon"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 18,
+                    "heightType" : 0,
+                    "id" : "zEv1lfFPT",
+                    "intrinsicHeight" : 24,
+                    "intrinsicWidth" : 24,
+                    "left" : 3,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "CbxpMe9V7",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 3,
+                    "rotation" : 0,
+                    "top" : 3,
+                    "visible" : true,
+                    "width" : 18,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "var(--token-e3e395ee-4217-4d80-861d-60511981cec8, rgb(230, 242, 247)) \/* {\"name\":\"NaturalBlue\",\"packageIdentifier\":\"@framer\/funda.colors\"} *\/",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 24,
+                "heightType" : 0,
+                "id" : "CbxpMe9V7",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 16,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "hWS_UsnfQ",
+                "previewSettings" : null,
+                "radius" : 50,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : true,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 24,
+                "widthType" : 0
+              }
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.tsx",
+            "codeOverrideIdentifier" : ".\/App.tsx_logTap",
+            "codeOverrideName" : "logTap",
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "id" : "hDBuRTL70",
+                "nameExtension" : "",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 1,
+                "type" : "png"
+              }
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
+            "fillRadialGradient" : {
+              "__class" : "RadialGradient",
+              "alpha" : 1,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.5,
+              "heightFactor" : 0.5,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ],
+              "widthFactor" : 0.5
+            },
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 56,
+            "heightType" : 0,
+            "id" : "hWS_UsnfQ",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : true,
+            "isTarget" : false,
+            "left" : 757,
+            "locked" : false,
+            "name" : "ZoekBox \/ Suggestion",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "qOatVV_p4",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 288,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__border" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "single" : 1
+                  }
+                },
+                "$control__borderColor" : {
+                  "type" : "color",
+                  "value" : "var(--token-7a2033f8-9378-4015-984c-c5737c5d03ed, rgb(204, 204, 204))"
+                },
+                "$control__borderColorFocus" : {
+                  "type" : "color",
+                  "value" : "var(--token-693317cc-2f5d-4a6d-915a-445737e2f2e3, rgb(153, 153, 153))"
+                },
+                "$control__currentIdentifiers" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "$control__customBackground" : {
+                  "type" : "color",
+                  "value" : "var(--token-ec687c19-cc14-4617-9baf-4f5c4dcd1003, rgb(237, 237, 237))"
+                },
+                "$control__customTextColor" : {
+                  "type" : "color",
+                  "value" : "var(--token-72265f94-0254-4407-a857-2bd50206eb42, rgb(51, 51, 51))"
+                },
+                "$control__fontFamily" : {
+                  "type" : "string",
+                  "value" : "Proxima Nova, Proxima Nova Regular"
+                },
+                "$control__hasFocus" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__maxResults" : {
+                  "type" : "number",
+                  "value" : 5
+                },
+                "$control__onBlur" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onChange" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onFocus" : {
+                  "type" : "eventhandler",
+                  "value" : [
+
+                  ]
+                },
+                "$control__padding" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      4,
+                      4,
+                      4,
+                      4
+                    ],
+                    "single" : 4
+                  }
+                },
+                "$control__placeholder" : {
+                  "type" : "string",
+                  "value" : "Zoek naar een plaats, buurt, adres, etc."
+                },
+                "$control__radius" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "single" : 4
+                  }
+                },
+                "$control__reset" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__value" : {
+                  "type" : "string",
+                  "value" : "Amsterdam"
+                },
+                "$control__zbType" : {
+                  "type" : "enum",
+                  "value" : "koop"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.46184738955823318,
+                "centerAnchorY" : 0.21521335807050115,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/ZoekBox\/ZoekBoxInput.tsx_ZoekBoxInput",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : true,
+                "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Input",
+                "codeOverrideName" : "Input",
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "a73GedELD"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 44,
+                "heightType" : 0,
+                "id" : "M45EOpcoX",
+                "intrinsicHeight" : 44,
+                "intrinsicWidth" : 320,
+                "left" : 70,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "VcoHYzvM7",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 94,
+                "visible" : true,
+                "width" : 320,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__backgroundColor" : {
+                  "type" : "color",
+                  "value" : "rgb(255, 255, 255)"
+                },
+                "$control__border" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "single" : 1
+                  }
+                },
+                "$control__borderColor" : {
+                  "type" : "color",
+                  "value" : "var(--token-693317cc-2f5d-4a6d-915a-445737e2f2e3, rgb(153, 153, 153))"
+                },
+                "$control__emptyDesign" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "obKlgGcXL",
+                      "type" : "componentinstance",
+                      "value" : "mIAk96cvs"
+                    }
+                  ]
+                },
+                "$control__fontFamily" : {
+                  "type" : "string",
+                  "value" : "Proxima Nova, Proxima Nova Regular"
+                },
+                "$control__onTapNavigate" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "SASxxF1u0"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "instant"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "032a0a42-f8b8-48f7-9fed-1322fcc99ccb"
+                    }
+                  ]
+                },
+                "$control__radius" : {
+                  "isFused" : false,
+                  "type" : "fusednumber",
+                  "value" : {
+                    "fused" : [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "single" : 4
+                  }
+                },
+                "$control__suggestionDesign" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "RbEEPQSck",
+                      "type" : "componentinstance",
+                      "value" : "hWS_UsnfQ"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.46184738955823318,
+                "centerAnchorY" : 0.44155844155844176,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/ZoekBox\/ZoekBoxOutput.tsx_ZoekBoxOutput",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : true,
+                "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Output",
+                "codeOverrideName" : "Output",
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "Hl9ItWkc6"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 201,
+                "heightType" : 0,
+                "id" : "U668X4Zbv",
+                "intrinsicHeight" : 320,
+                "intrinsicWidth" : 320,
+                "left" : 70,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "VcoHYzvM7",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 138,
+                "visible" : true,
+                "width" : 320,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 539,
+            "heightType" : 0,
+            "id" : "VcoHYzvM7",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1208,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "qOatVV_p4",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -145,
+            "visible" : true,
+            "width" : 498,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "autoSize" : true,
+                "bottom" : null,
+                "centerAnchorX" : 0.37230769230769251,
+                "centerAnchorY" : 0.35195530726257007,
+                "clip" : true,
+                "codeOverrideEnabled" : true,
+                "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_LocationTitle",
+                "codeOverrideName" : "LocationTitle",
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "height" : 19,
+                "heightType" : 0,
+                "id" : "W3g9SUH3q",
+                "isTarget" : false,
+                "left" : 121,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "SASxxF1u0",
+                "right" : null,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "direction" : "ltr",
+                        "emptyStyle" : [
+                          "FONT:Inter",
+                          "COLOR:rgb(0, 0, 0)",
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "FONT:Inter"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
+                        }
+                      ],
+                      "key" : "ZYGAN",
+                      "text" : "Amsterdam",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : 189,
+                "visible" : true,
+                "width" : 88,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.41538461538461563,
+                "centerAnchorY" : 0.18621973929236521,
+                "children" : [
+
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#9ef",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 108,
+                "heightType" : 0,
+                "id" : "LVMmxR7vw",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 61,
+                "locked" : false,
+                "name" : null,
+                "onTap" : [
+                  {
+                    "actionIdentifier" : "framer\/useNavigate",
+                    "controls" : {
+                      "animation" : {
+                        "type" : "transition",
+                        "value" : {
+                          "damping" : 60,
+                          "delay" : 0,
+                          "ease" : [
+                            0.44,
+                            0,
+                            0.56000000000000005,
+                            1
+                          ],
+                          "mass" : 1,
+                          "stiffness" : 500,
+                          "type" : "spring"
+                        }
+                      },
+                      "appearsFrom" : {
+                        "type" : "segmentedenum",
+                        "value" : "right"
+                      },
+                      "backdropColor" : {
+                        "type" : "color",
+                        "value" : "rgba(4,4,15,.4)"
+                      },
+                      "target" : {
+                        "type" : "componentinstance"
+                      },
+                      "transition" : {
+                        "type" : "enum",
+                        "value" : "instant"
+                      },
+                      "type" : {
+                        "type" : "segmentedenum",
+                        "value" : "previous"
+                      }
+                    },
+                    "identifier" : "2e176f2d-e7e4-4c85-b48f-da4013c41de6"
+                  }
+                ],
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "SASxxF1u0",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 46,
+                "visible" : true,
+                "width" : 148,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 537,
+            "heightType" : 0,
+            "id" : "SASxxF1u0",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1804,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "qOatVV_p4",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -143,
+            "visible" : true,
+            "width" : 325,
+            "widthType" : 0
+          }
         ],
         "duplicatedFrom" : null,
         "guidesX" : [
@@ -6325,7 +7751,7 @@
         "guidesY" : [
 
         ],
-        "homeNodeId" : null,
+        "homeNodeId" : "hWS_UsnfQ",
         "id" : "qOatVV_p4",
         "name" : "ZoekBox",
         "originalid" : null,
