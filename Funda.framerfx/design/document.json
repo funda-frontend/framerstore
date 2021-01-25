@@ -1250,7 +1250,7 @@
             "isExternalMaster" : null,
             "isMaster" : false,
             "isTarget" : false,
-            "left" : 844,
+            "left" : 864,
             "locked" : false,
             "name" : "Artboard",
             "opacity" : 1,
@@ -2253,7 +2253,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-bd114d8f-2f03-477c-b2f3-befc4d027746, rgb(71, 139, 179))",
+                    "fillColor" : "var(--token-bd114d8f-2f03-477c-b2f3-befc4d027746, rgb(71, 139, 179)) \/* {\"name\":\"FiB \/ BlueLighter\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2314,7 +2314,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-fcf027c5-2034-4c39-9fcb-faf1e3c7d996, rgb(71, 139, 179))",
+                    "fillColor" : "var(--token-fcf027c5-2034-4c39-9fcb-faf1e3c7d996, rgb(71, 139, 179)) \/* {\"name\":\"FiB \/ BlueLight\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2436,7 +2436,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-059cd8d8-a2d1-48b6-926f-01a72d7e3b75, rgb(0, 97, 153))",
+                    "fillColor" : "var(--token-059cd8d8-a2d1-48b6-926f-01a72d7e3b75, rgb(0, 97, 153)) \/* {\"name\":\"FiB \/ BlueDark\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2657,7 +2657,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-3c421b68-87fd-4969-8498-da60b2b276eb, rgb(247, 247, 247)) \/* {\"name\":\"Grey \/ GreyLightest\"} *\/",
+                    "fillColor" : "var(--token-3c421b68-87fd-4969-8498-da60b2b276eb, rgb(247, 247, 247)) \/* {\"name\":\"Greys \/ GreyLightest\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2718,7 +2718,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-ec687c19-cc14-4617-9baf-4f5c4dcd1003, rgb(237, 237, 237)) \/* {\"name\":\"Grey \/ GreyLighter\"} *\/",
+                    "fillColor" : "var(--token-ec687c19-cc14-4617-9baf-4f5c4dcd1003, rgb(237, 237, 237)) \/* {\"name\":\"GreyLighter\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2779,7 +2779,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-7a2033f8-9378-4015-984c-c5737c5d03ed, rgb(204, 204, 204)) \/* {\"name\":\"Grey \/ GreyLight\"} *\/",
+                    "fillColor" : "var(--token-7a2033f8-9378-4015-984c-c5737c5d03ed, rgb(204, 204, 204)) \/* {\"name\":\"Greys \/ GreyLight\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2840,7 +2840,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-693317cc-2f5d-4a6d-915a-445737e2f2e3, rgb(153, 153, 153)) \/* {\"name\":\"Grey \/ Grey\"} *\/",
+                    "fillColor" : "var(--token-693317cc-2f5d-4a6d-915a-445737e2f2e3, rgb(153, 153, 153)) \/* {\"name\":\"Greys \/ Grey\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2901,7 +2901,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-3d028121-dbd7-4134-8887-7e7f562c543a, rgb(102, 102, 102)) \/* {\"name\":\"Grey \/ GreyDark\"} *\/",
+                    "fillColor" : "var(--token-3d028121-dbd7-4134-8887-7e7f562c543a, rgb(102, 102, 102)) \/* {\"name\":\"Greys \/ GreyDark\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -2962,7 +2962,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-72265f94-0254-4407-a857-2bd50206eb42, rgb(51, 51, 51)) \/* {\"name\":\"Grey \/ GreyDarker\"} *\/",
+                    "fillColor" : "var(--token-72265f94-0254-4407-a857-2bd50206eb42, rgb(51, 51, 51)) \/* {\"name\":\"Greys \/ GreyDarker\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3184,7 +3184,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-f38ff18e-5493-441e-b7b5-c7bbd2765613, rgb(247, 247, 247)) \/* {\"name\":\"Natural \/ NaturalGrey\"} *\/",
+                    "fillColor" : "var(--token-f38ff18e-5493-441e-b7b5-c7bbd2765613, rgb(247, 247, 247)) \/* {\"name\":\"Naturals \/ NaturalGrey\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3245,7 +3245,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-a15bf07b-2a76-45c3-a45e-7e5b79f7c722, rgb(230, 242, 247)) \/* {\"name\":\"Natural \/ NaturalBlue\"} *\/",
+                    "fillColor" : "var(--token-a15bf07b-2a76-45c3-a45e-7e5b79f7c722, rgb(230, 242, 247)) \/* {\"name\":\"Naturals \/ NaturalBlue\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3468,7 +3468,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-921153af-598a-44cd-a4a7-ea53802141fa, rgb(247, 247, 247))",
+                    "fillColor" : "var(--token-921153af-598a-44cd-a4a7-ea53802141fa, rgb(247, 247, 247)) \/* {\"name\":\"Links \/ AltHover\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3529,7 +3529,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-dd7ea5d9-5d7f-4dbd-bc6c-7753d2670413, rgb(255, 255, 255))",
+                    "fillColor" : "var(--token-dd7ea5d9-5d7f-4dbd-bc6c-7753d2670413, rgb(255, 255, 255)) \/* {\"name\":\"Links \/ Alt\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3590,7 +3590,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-3fb7f8e0-aa4a-4359-a130-23945fc011f6, rgb(127, 0, 81))",
+                    "fillColor" : "var(--token-3fb7f8e0-aa4a-4359-a130-23945fc011f6, rgb(127, 0, 81)) \/* {\"name\":\"Links \/ Visited\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3651,7 +3651,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-a86e02f3-a9af-4923-8753-ff57a43add65, rgb(0, 81, 127))",
+                    "fillColor" : "var(--token-a86e02f3-a9af-4923-8753-ff57a43add65, rgb(0, 81, 127)) \/* {\"name\":\"Link \/ Hover\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -3712,7 +3712,7 @@
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "var(--token-5cddad5b-e90b-4c5a-825b-15652edb77e9, rgb(0, 113, 179))",
+                    "fillColor" : "var(--token-5cddad5b-e90b-4c5a-825b-15652edb77e9, rgb(0, 113, 179)) \/* {\"name\":\"Link \/ Normal\"} *\/",
                     "fillEnabled" : true,
                     "fillImage" : null,
                     "fillImageOriginalName" : null,
@@ -6216,37 +6216,37 @@
       "0ce50464-e181-4db8-8f05-219c45c0dcfd" : {
         "__class" : "ColorTokenNode",
         "id" : "0ce50464-e181-4db8-8f05-219c45c0dcfd",
-        "name" : "Forms \/ Yellow",
+        "name" : "Yellow",
         "value" : "rgb(248, 206, 0)"
       },
       "3c421b68-87fd-4969-8498-da60b2b276eb" : {
         "__class" : "ColorTokenNode",
         "id" : "3c421b68-87fd-4969-8498-da60b2b276eb",
-        "name" : "Greys \/ GreyLightest",
+        "name" : "GreyLightest",
         "value" : "rgb(247, 247, 247)"
       },
       "3d028121-dbd7-4134-8887-7e7f562c543a" : {
         "__class" : "ColorTokenNode",
         "id" : "3d028121-dbd7-4134-8887-7e7f562c543a",
-        "name" : "Greys \/ GreyDark",
+        "name" : "GreyDark",
         "value" : "rgb(102, 102, 102)"
       },
       "3fb7f8e0-aa4a-4359-a130-23945fc011f6" : {
         "__class" : "ColorTokenNode",
         "id" : "3fb7f8e0-aa4a-4359-a130-23945fc011f6",
-        "name" : "Links \/ Visited",
+        "name" : "LinksVisited",
         "value" : "rgb(127, 0, 81)"
       },
       "4acd17a2-8950-41e3-9ec8-441bc2147cb0" : {
         "__class" : "ColorTokenNode",
         "id" : "4acd17a2-8950-41e3-9ec8-441bc2147cb0",
-        "name" : "Forms \/ Green",
+        "name" : "Green",
         "value" : "rgb(34, 171, 52)"
       },
       "5cddad5b-e90b-4c5a-825b-15652edb77e9" : {
         "__class" : "ColorTokenNode",
         "id" : "5cddad5b-e90b-4c5a-825b-15652edb77e9",
-        "name" : "Link \/ Normal",
+        "name" : "LinkNormal",
         "value" : "rgb(0, 113, 179)"
       },
       "6c2eb1af-26ac-4890-9314-206801c8a377" : {
@@ -6258,13 +6258,13 @@
       "7a2033f8-9378-4015-984c-c5737c5d03ed" : {
         "__class" : "ColorTokenNode",
         "id" : "7a2033f8-9378-4015-984c-c5737c5d03ed",
-        "name" : "Greys \/ GreyLight",
+        "name" : "GreyLight",
         "value" : "rgb(204, 204, 204)"
       },
       "16a126fa-e260-4389-9726-62ab2378abd3" : {
         "__class" : "ColorTokenNode",
         "id" : "16a126fa-e260-4389-9726-62ab2378abd3",
-        "name" : "Forms \/ GreenLight",
+        "name" : "GreenLight",
         "value" : "rgb(234, 247, 235)"
       },
       "42b0c522-1bd1-4d67-805b-8b1dedc22c8d" : {
@@ -6276,19 +6276,19 @@
       "059cd8d8-a2d1-48b6-926f-01a72d7e3b75" : {
         "__class" : "ColorTokenNode",
         "id" : "059cd8d8-a2d1-48b6-926f-01a72d7e3b75",
-        "name" : "FiB \/ BlueDark",
+        "name" : "BlueDark",
         "value" : "rgb(0, 97, 153)"
       },
       "92d4e102-478f-4507-b1e6-b724b7c40a2d" : {
         "__class" : "ColorTokenNode",
         "id" : "92d4e102-478f-4507-b1e6-b724b7c40a2d",
-        "name" : "Forms \/ Red",
+        "name" : "Red",
         "value" : "rgb(240, 60, 48)"
       },
       "72265f94-0254-4407-a857-2bd50206eb42" : {
         "__class" : "ColorTokenNode",
         "id" : "72265f94-0254-4407-a857-2bd50206eb42",
-        "name" : "Greys \/ GreyDarker",
+        "name" : "GreyDarker",
         "value" : "rgb(51, 51, 51)"
       },
       "311577c0-a547-4c02-9233-57187178446e" : {
@@ -6300,13 +6300,13 @@
       "693317cc-2f5d-4a6d-915a-445737e2f2e3" : {
         "__class" : "ColorTokenNode",
         "id" : "693317cc-2f5d-4a6d-915a-445737e2f2e3",
-        "name" : "Greys \/ Grey",
+        "name" : "Grey",
         "value" : "rgb(153, 153, 153)"
       },
       "921153af-598a-44cd-a4a7-ea53802141fa" : {
         "__class" : "ColorTokenNode",
         "id" : "921153af-598a-44cd-a4a7-ea53802141fa",
-        "name" : "Links \/ AltHover",
+        "name" : "LinkAltHover",
         "value" : "rgb(247, 247, 247)"
       },
       "6374493c-1255-42d5-b06e-0cbefa871a5f" : {
@@ -6318,7 +6318,7 @@
       "a15bf07b-2a76-45c3-a45e-7e5b79f7c722" : {
         "__class" : "ColorTokenNode",
         "id" : "a15bf07b-2a76-45c3-a45e-7e5b79f7c722",
-        "name" : "Naturals \/ NaturalBlue",
+        "name" : "NaturalBlue",
         "value" : "rgb(230, 242, 247)"
       },
       "a79d2c28-2a81-4b52-bbfc-aebdf4521c6d" : {
@@ -6330,25 +6330,25 @@
       "a86e02f3-a9af-4923-8753-ff57a43add65" : {
         "__class" : "ColorTokenNode",
         "id" : "a86e02f3-a9af-4923-8753-ff57a43add65",
-        "name" : "Link \/ Hover",
+        "name" : "LinkHover",
         "value" : "rgb(0, 81, 127)"
       },
       "addd0bdc-6128-45a4-8156-9e2e5ab9315e" : {
         "__class" : "ColorTokenNode",
         "id" : "addd0bdc-6128-45a4-8156-9e2e5ab9315e",
-        "name" : "Forms \/ YellowLight",
+        "name" : "YellowLight",
         "value" : "rgb(253, 250, 229)"
       },
       "bd9e9d5e-e89a-4a72-99ab-48472146f407" : {
         "__class" : "ColorTokenNode",
         "id" : "bd9e9d5e-e89a-4a72-99ab-48472146f407",
-        "name" : "Forms \/ RedLight",
+        "name" : "RedLight",
         "value" : "rgb(251, 235, 234)"
       },
       "bd114d8f-2f03-477c-b2f3-befc4d027746" : {
         "__class" : "ColorTokenNode",
         "id" : "bd114d8f-2f03-477c-b2f3-befc4d027746",
-        "name" : "FiB \/ BlueLighter",
+        "name" : "BlueLighter",
         "value" : "rgb(71, 139, 179)"
       },
       "bde3a70d-cfce-4b9b-90e9-b471ab919410" : {
@@ -6360,13 +6360,13 @@
       "dd7ea5d9-5d7f-4dbd-bc6c-7753d2670413" : {
         "__class" : "ColorTokenNode",
         "id" : "dd7ea5d9-5d7f-4dbd-bc6c-7753d2670413",
-        "name" : "Links \/ Alt",
+        "name" : "LinkAlt",
         "value" : "rgb(255, 255, 255)"
       },
       "ec687c19-cc14-4617-9baf-4f5c4dcd1003" : {
         "__class" : "ColorTokenNode",
         "id" : "ec687c19-cc14-4617-9baf-4f5c4dcd1003",
-        "name" : "Greys \/ GreyLighter",
+        "name" : "GreyLighter",
         "value" : "rgb(237, 237, 237)"
       },
       "efde484b-df4e-4ea8-a10c-a0c90803419d" : {
@@ -6378,13 +6378,13 @@
       "f38ff18e-5493-441e-b7b5-c7bbd2765613" : {
         "__class" : "ColorTokenNode",
         "id" : "f38ff18e-5493-441e-b7b5-c7bbd2765613",
-        "name" : "Naturals \/ NaturalGrey",
+        "name" : "NaturalGrey",
         "value" : "rgb(247, 247, 247)"
       },
       "fcf027c5-2034-4c39-9fcb-faf1e3c7d996" : {
         "__class" : "ColorTokenNode",
         "id" : "fcf027c5-2034-4c39-9fcb-faf1e3c7d996",
-        "name" : "FiB \/ BlueLight",
+        "name" : "BlueLight",
         "value" : "rgb(71, 139, 179)"
       }
     },
