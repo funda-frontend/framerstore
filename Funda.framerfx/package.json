@@ -13,6 +13,7 @@
 	},
 	"author": "Elliot Nolten",
 	"dependencies": {
+		"@framer/framer.default": "^1.101.0",
 		"@funda/icons": "^1.5.0",
 		"jquery": "^3.5.1",
 		"styled-components": "^5.2.1"

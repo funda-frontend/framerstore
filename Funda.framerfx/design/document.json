@@ -8589,7 +8589,411 @@
       {
         "__class" : "PageNode",
         "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : 0,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.50000000000000022,
+                "children" : [
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.50000000000000022,
+                    "centerAnchorY" : 0.28358208955223901,
+                    "children" : [
 
+                    ],
+                    "clip" : false,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "#9ef",
+                    "fillEnabled" : true,
+                    "fillImage" : "OrHIs2mMAWR662LpdNdK9M0G2G0.png",
+                    "fillImageOriginalName" : "MicrosoftTeams-image (1).png",
+                    "fillImagePixelHeight" : 1280,
+                    "fillImagePixelWidth" : 591,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
+                    "framePreset" : null,
+                    "guidesX" : [
+
+                    ],
+                    "guidesY" : [
+
+                    ],
+                    "height" : 76,
+                    "heightType" : 0,
+                    "id" : "mbMf2bL50",
+                    "intrinsicHeight" : 640,
+                    "intrinsicWidth" : 295.5,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : true,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : "HoofdFoto",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "Zd08ap0CX",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "replicaInfo" : null,
+                    "right" : 0,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 304,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : true,
+                    "bottom" : 25,
+                    "centerAnchorX" : 0.49671052631578971,
+                    "centerAnchorY" : 0.73880597014925398,
+                    "clip" : true,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "height" : 19,
+                    "heightType" : 0,
+                    "id" : "XpMlFhmgG",
+                    "isTarget" : true,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : "PostcodeWoonplaats",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "Zd08ap0CX",
+                    "right" : null,
+                    "rotation" : 0,
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "direction" : "ltr",
+                            "emptyStyle" : [
+                              "FONT:Inter",
+                              "COLOR:rgb(0, 0, 0)",
+                              "SIZE:16",
+                              "LETTERSPACING:0",
+                              "LINEHEIGHT:1.2"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 18,
+                              "offset" : 0,
+                              "style" : "FONT:Inter"
+                            },
+                            {
+                              "length" : 18,
+                              "offset" : 0,
+                              "style" : "COLOR:rgb(0, 0, 0)"
+                            },
+                            {
+                              "length" : 18,
+                              "offset" : 0,
+                              "style" : "SIZE:16"
+                            },
+                            {
+                              "length" : 18,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 18,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1.2"
+                            }
+                          ],
+                          "key" : "znaqR",
+                          "text" : "PostcodeWoonplaats",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "entityMap" : {
+
+                      }
+                    },
+                    "textVerticalAlignment" : "top",
+                    "top" : null,
+                    "visible" : true,
+                    "width" : 161,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#4cf",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 134,
+                "heightType" : 0,
+                "id" : "Zd08ap0CX",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 0,
+                "locked" : false,
+                "name" : "Background",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "p17IKHuPr",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : 0,
+                "visible" : true,
+                "width" : 304,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsl(0, 100%, 50%)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 134,
+            "heightType" : 0,
+            "id" : "p17IKHuPr",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : true,
+            "isTarget" : false,
+            "left" : 1588,
+            "locked" : false,
+            "name" : "Listing",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "hKipMGzvF",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -1067,
+            "visible" : true,
+            "width" : 304,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__columns" : {
+                  "type" : "number",
+                  "value" : 2
+                },
+                "$control__component" : {
+                  "type" : "componentinstance",
+                  "value" : [
+                    {
+                      "id" : "nmWB_wvhD",
+                      "type" : "componentinstance",
+                      "value" : "p17IKHuPr"
+                    }
+                  ]
+                },
+                "$control__filePath" : {
+                  "type" : "file"
+                },
+                "$control__gap" : {
+                  "type" : "number",
+                  "value" : 16
+                },
+                "$control__max" : {
+                  "type" : "number",
+                  "value" : 10
+                },
+                "$control__onTapNavigate" : {
+                  "type" : "eventhandler"
+                },
+                "aspectRatio" : null,
+                "bottom" : 98,
+                "centerAnchorX" : 0.4984848484848487,
+                "centerAnchorY" : 0.49906716417910468,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Results\/List.tsx_List",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "d9polc8Xs"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 877,
+                "heightType" : 0,
+                "id" : "AkT2jPv43",
+                "intrinsicHeight" : 128,
+                "intrinsicWidth" : 320,
+                "left" : 106,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "DMZfqCMF0",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 107,
+                "rotation" : 0,
+                "top" : 97,
+                "visible" : true,
+                "width" : 447,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 1072,
+            "heightType" : 0,
+            "id" : "DMZfqCMF0",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 600,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "hKipMGzvF",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -1110,
+            "visible" : true,
+            "width" : 660,
+            "widthType" : 0
+          }
         ],
         "duplicatedFrom" : null,
         "guidesX" : [
@@ -8598,7 +9002,7 @@
         "guidesY" : [
 
         ],
-        "homeNodeId" : null,
+        "homeNodeId" : "p17IKHuPr",
         "id" : "hKipMGzvF",
         "name" : "Results",
         "originalid" : null,
