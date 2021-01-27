@@ -1,6 +1,6 @@
 ---
 on: push
-name: Build and publish
+name: Build and publish funda design system
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -10,11 +10,11 @@ jobs:
       - name: Build
         uses: framer/bridge@master
         with:
-          args: build <your-project-path.framerx>
+          args: build <Funda.framerfx>
 
       - name: Publish
         uses: framer/bridge@master
         env:
-          FRAMER_TOKEN: ${{ e8731f32-00a1-4f5d-be19-94bd2f2ea87b }}
+          FRAMER_TOKEN: ${{ secrets.e8731f32-00a1-4f5d-be19-94bd2f2ea87b }}
         with:
           args: publish <Funda.framerfx> --yes
