@@ -1,0 +1,24 @@
+{
+	"license": "MIT",
+	"main": "dist/index.js",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"displayName": ""
+	},
+	"author": "Elliot Nolten",
+	"dependencies": {
+		"@framer/framer.default": "^1.101.0",
+		"@framer/unsplash.unsplash": "^1.0.0",
+		"@funda/icons": "^1.5.0",
+		"jquery": "^3.5.1",
+		"styled-components": "^5.2.1"
+	},
+	"name": "",
+	"version": "1.0.0"
+}

@@ -8,8 +8,6 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
@@ -17,8 +15,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : 160,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5,
@@ -26,8 +22,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.36071428571428571,
@@ -35,8 +29,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.15416666666666667,
                         "centerAnchorY" : 0.5,
@@ -98,8 +90,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.69166666666666665,
                         "centerAnchorY" : 0.5,
@@ -161,8 +151,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.78749999999999998,
                         "centerAnchorY" : 0.5,
@@ -224,8 +212,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.84583333333333333,
                         "centerAnchorY" : 0.5,
@@ -287,8 +273,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.23645833333333333,
                         "centerAnchorY" : 0.56785714285714284,
@@ -414,8 +398,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : 61,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.6428571428571429,
@@ -423,8 +405,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.12708333333333333,
                         "centerAnchorY" : 0.50505050505050508,
@@ -486,8 +466,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.31458333333333333,
                         "centerAnchorY" : 0.50505050505050508,
@@ -549,8 +527,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.50505050505050508,
@@ -612,8 +588,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.68541666666666667,
                         "centerAnchorY" : 0.50505050505050508,
@@ -675,8 +649,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.87291666666666667,
                         "centerAnchorY" : 0.50505050505050508,
@@ -802,8 +774,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : -18,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.92321428571428577,
@@ -811,8 +781,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.5,
@@ -874,8 +842,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.69166666666666665,
                         "centerAnchorY" : 0.5,
@@ -937,8 +903,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.78749999999999998,
                         "centerAnchorY" : 0.5,
@@ -1000,8 +964,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.8354166666666667,
                         "centerAnchorY" : 0.5,
@@ -1063,8 +1025,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.5,
                         "centerAnchorY" : 0.5,
@@ -1315,8 +1275,6 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
@@ -1324,8 +1282,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.48361730013106158,
                 "centerAnchorY" : 0.13102820746132848,
@@ -1333,8 +1289,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.13312693498452013,
                     "centerAnchorY" : 0.5,
@@ -1396,8 +1350,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.3173374613003096,
                     "centerAnchorY" : 0.5,
@@ -1459,8 +1411,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.5,
@@ -1522,8 +1472,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.6826625386996904,
                     "centerAnchorY" : 0.5,
@@ -1585,8 +1533,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.86687306501547989,
                     "centerAnchorY" : 0.5,
@@ -1712,8 +1658,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.48361730013106158,
                 "centerAnchorY" : 0.34030937215650592,
@@ -1721,8 +1665,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.049535603715170282,
                     "centerAnchorY" : 0.5,
@@ -1784,8 +1726,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.18575851393188855,
                     "centerAnchorY" : 0.5,
@@ -1847,8 +1787,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.32198142414860681,
                     "centerAnchorY" : 0.5,
@@ -1910,8 +1848,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.45820433436532509,
                     "centerAnchorY" : 0.5,
@@ -2037,8 +1973,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.48361730013106158,
                 "centerAnchorY" : 0.52502274795268422,
@@ -2046,8 +1980,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.049535603715170282,
                     "centerAnchorY" : 0.5,
@@ -2109,8 +2041,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.18575851393188855,
                     "centerAnchorY" : 0.5,
@@ -2172,8 +2102,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.32198142414860681,
                     "centerAnchorY" : 0.5,
@@ -2235,8 +2163,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.45820433436532509,
                     "centerAnchorY" : 0.5,
@@ -2362,8 +2288,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.48361730013106158,
                 "centerAnchorY" : 0.70973612374886264,
@@ -2371,8 +2295,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.049535603715170282,
                     "centerAnchorY" : 0.5,
@@ -2434,8 +2356,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.18575851393188855,
                     "centerAnchorY" : 0.5,
@@ -2497,8 +2417,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.32198142414860681,
                     "centerAnchorY" : 0.5,
@@ -2560,8 +2478,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.45820433436532509,
                     "centerAnchorY" : 0.5,
@@ -2623,8 +2539,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.59442724458204332,
                     "centerAnchorY" : 0.5,
@@ -2686,8 +2600,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.73065015479876161,
                     "centerAnchorY" : 0.5,
@@ -2813,8 +2725,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.50065530799475755,
                 "centerAnchorY" : 0.69153776160145586,
@@ -2822,8 +2732,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.049535603715170282,
                     "centerAnchorY" : 0.5,
@@ -2885,8 +2793,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.18575851393188855,
                     "centerAnchorY" : 0.5,
@@ -3012,8 +2918,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.42332896461336827,
                 "centerAnchorY" : 0.8007279344858963,
@@ -3021,8 +2925,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.049535603715170282,
                     "centerAnchorY" : 0.5,
@@ -3084,8 +2986,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.18575851393188855,
                     "centerAnchorY" : 0.5,
@@ -3147,8 +3047,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.32198142414860681,
                     "centerAnchorY" : 0.5,
@@ -3210,8 +3108,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.45820433436532509,
                     "centerAnchorY" : 0.5,
@@ -3273,8 +3169,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.59442724458204332,
                     "centerAnchorY" : 0.5,
@@ -3400,8 +3294,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : 350,
                 "centerAnchorX" : 0.50065530799475755,
                 "centerAnchorY" : 0.70748299319727892,
@@ -3409,8 +3301,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.041884816753926704,
                     "centerAnchorY" : 0.5,
@@ -3472,8 +3362,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.15706806282722513,
                     "centerAnchorY" : 0.5,
@@ -3535,11 +3423,9 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "borderBottom" : 1,
                     "borderColor" : "#222",
-                    "borderEnabled" : 1,
+                    "borderEnabled" : true,
                     "borderLeft" : 1,
                     "borderPerSide" : false,
                     "borderRight" : 1,
@@ -3607,8 +3493,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.38743455497382201,
                     "centerAnchorY" : 0.5,
@@ -3670,8 +3554,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.50261780104712039,
                     "centerAnchorY" : 0.5,
@@ -3733,8 +3615,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.61780104712041883,
                     "centerAnchorY" : 0.5,
@@ -3796,8 +3676,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.73298429319371727,
                     "centerAnchorY" : 0.5,
@@ -3859,8 +3737,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.84816753926701571,
                     "centerAnchorY" : 0.5,
@@ -3986,8 +3862,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : 190,
                 "centerAnchorX" : 0.50065530799475755,
                 "centerAnchorY" : 0.81632653061224492,
@@ -3995,8 +3869,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.041884816753926704,
                     "centerAnchorY" : 0.5,
@@ -4058,8 +3930,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.15706806282722513,
                     "centerAnchorY" : 0.5,
@@ -4121,8 +3991,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.27225130890052357,
                     "centerAnchorY" : 0.5,
@@ -4248,8 +4116,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : null,
                 "centerAnchorX" : 0.50065530799475755,
                 "centerAnchorY" : 1.0045495905368518,
@@ -4257,8 +4123,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.041884816753926704,
                     "centerAnchorY" : 0.5,
@@ -4320,8 +4184,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.15706806282722513,
                     "centerAnchorY" : 0.5,
@@ -4383,8 +4245,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.27225130890052357,
                     "centerAnchorY" : 0.5,
@@ -4446,8 +4306,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.59442724458204332,
                     "centerAnchorY" : 0.5,
@@ -4509,8 +4367,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.73065015479876161,
                     "centerAnchorY" : 0.5,
@@ -4572,8 +4428,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.86687306501547989,
                     "centerAnchorY" : 0.5,
@@ -4763,8 +4617,6 @@
           {
             "__class" : "FrameNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0,
             "centerAnchorY" : 0,
@@ -4772,8 +4624,6 @@
               {
                 "__class" : "FrameNode",
                 "aspectRatio" : 1,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
                 "bottom" : 5,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5,
@@ -4781,8 +4631,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : null,
                     "centerAnchorX" : 0.28749999999999998,
                     "centerAnchorY" : 0.25,
@@ -4790,8 +4638,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.27500000000000002,
                         "centerAnchorY" : 0.5,
@@ -4853,8 +4699,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.72499999999999998,
                         "centerAnchorY" : 0.5,
@@ -4980,8 +4824,6 @@
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
                     "bottom" : 0,
                     "centerAnchorX" : 0.28749999999999998,
                     "centerAnchorY" : 0.75,
@@ -4989,8 +4831,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.51249999999999996,
                         "centerAnchorY" : 0.52500000000000002,
@@ -5052,8 +4892,6 @@
                       {
                         "__class" : "FrameNode",
                         "aspectRatio" : 1,
-                        "blendingEnabled" : 0,
-                        "blendingMode" : "normal",
                         "bottom" : null,
                         "centerAnchorX" : 0.3125,
                         "centerAnchorY" : 0.47499999999999998,
@@ -5588,5 +5426,5 @@
     ],
     "visible" : false
   },
-  "version" : 69
+  "version" : 75
 }

@@ -3371,6 +3371,85 @@
             "visible" : true,
             "width" : 367,
             "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__columns" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__component" : {
+              "type" : "componentinstance",
+              "value" : [
+                {
+                  "id" : "JYoIph2k9",
+                  "type" : "componentinstance",
+                  "value" : "vIp2ndfaN"
+                }
+              ]
+            },
+            "$control__filePath" : {
+              "type" : "file"
+            },
+            "$control__gap" : {
+              "type" : "number",
+              "value" : 16
+            },
+            "$control__max" : {
+              "type" : "number",
+              "value" : 2
+            },
+            "$control__onTapNavigate" : {
+              "type" : "eventhandler"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Grid.tsx_Grid",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "gEo2VIDgN"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 373,
+            "heightType" : 0,
+            "id" : "JeGyCjdSt",
+            "intrinsicHeight" : 128,
+            "intrinsicWidth" : 320,
+            "left" : 2208,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "POjZuQrvY-page",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 441,
+            "visible" : true,
+            "width" : 570,
+            "widthType" : 0
           }
         ],
         "duplicatedFrom" : null,
