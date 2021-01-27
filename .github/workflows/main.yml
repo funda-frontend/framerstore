@@ -1,0 +1,20 @@
+---
+on: push
+name: Build and publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Build
+        uses: framer/bridge@master
+        with:
+          args: build <your-project-path.framerx>
+
+      - name: Publish
+        uses: framer/bridge@master
+        env:
+          FRAMER_TOKEN: ${{ e8731f32-00a1-4f5d-be19-94bd2f2ea87b }}
+        with:
+          args: publish <Funda.framerfx> --yes
