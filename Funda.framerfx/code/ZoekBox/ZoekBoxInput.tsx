@@ -256,7 +256,7 @@ export function ZoekBoxInput(props) {
             height={height}
             backgroundColor="transparent"
             overflow="hidden"
-            radius={focused && query.length > 1 ? borderRadius : topLeft}
+            radius={borderRadius}
             style={{
                 borderColor: focused ? borderColorFocus : borderColor,
                 borderStyle: "solid",

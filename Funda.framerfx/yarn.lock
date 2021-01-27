@@ -134,6 +134,11 @@
   resolved "https://registry.framer.com/@framer/framer.default/-/@framer/framer.default-1.101.0.tgz#8703ae89d46eb5a1740537054346fea08036fdcc"
   integrity sha512-TWVat2l3IdKDiqVSn5+KI+FOm/cF3d++GykPGJPAsQHrKcpy6RohCFpFSW/mzfmhRiclMKWOBek65rDotsTgfQ==
 
+"@framer/unsplash.unsplash@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/unsplash.unsplash/-/@framer/unsplash.unsplash-1.0.0.tgz#ba5a419cd405a6d2bf7ee81bd760cdbe935de630"
+  integrity sha1-ulpBnNQFptK/fugb12DNvpNd5jA=
+
 "@funda/icons@^1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@funda/icons/-/icons-1.5.0.tgz"

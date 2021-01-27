@@ -7423,7 +7423,7 @@
             "guidesY" : [
 
             ],
-            "height" : 56,
+            "height" : 44,
             "heightType" : 0,
             "id" : "mIAk96cvs",
             "intrinsicHeight" : null,
@@ -7431,24 +7431,24 @@
             "isExternalMaster" : null,
             "isMaster" : true,
             "isTarget" : false,
-            "left" : 757,
+            "left" : 924,
             "locked" : false,
             "name" : "ZoekBox \/ None",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "qOatVV_p4",
             "previewSettings" : null,
-            "radius" : 0,
+            "radius" : 4,
             "radiusBottomLeft" : 4,
             "radiusBottomRight" : 4,
             "radiusIsRelative" : false,
-            "radiusPerCorner" : true,
+            "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "top" : 113,
+            "top" : -78,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -7925,7 +7925,7 @@
             "isExternalMaster" : null,
             "isMaster" : true,
             "isTarget" : false,
-            "left" : 757,
+            "left" : 924,
             "locked" : false,
             "name" : "ZoekBox \/ Suggestion",
             "opacity" : 1,
@@ -7942,7 +7942,7 @@
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "top" : 288,
+            "top" : 97,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -7971,7 +7971,7 @@
                 },
                 "$control__borderColor" : {
                   "type" : "color",
-                  "value" : "var(--token-7a2033f8-9378-4015-984c-c5737c5d03ed, rgb(204, 204, 204))"
+                  "value" : "var(--token-693317cc-2f5d-4a6d-915a-445737e2f2e3, rgb(153, 153, 153)) \/* {\"name\":\"Grey\"} *\/"
                 },
                 "$control__borderColorFocus" : {
                   "type" : "color",
@@ -7983,7 +7983,7 @@
                 },
                 "$control__customBackground" : {
                   "type" : "color",
-                  "value" : "var(--token-ec687c19-cc14-4617-9baf-4f5c4dcd1003, rgb(237, 237, 237))"
+                  "value" : "hsl(0, 0%, 100%)"
                 },
                 "$control__customTextColor" : {
                   "type" : "color",
@@ -8057,8 +8057,8 @@
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.46184738955823318,
-                "centerAnchorY" : 0.21521335807050115,
+                "centerAnchorX" : 0.71875000000000022,
+                "centerAnchorY" : 0.17916666666666689,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/ZoekBox\/ZoekBoxInput.tsx_ZoekBoxInput",
                 "codeComponentPackageVersion" : null,
@@ -8066,7 +8066,7 @@
                 "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
                 "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Input",
                 "codeOverrideName" : "Input",
-                "constraintsLocked" : false,
+                "constraintsLocked" : true,
                 "duplicatedFrom" : [
                   "a73GedELD"
                 ],
@@ -8086,7 +8086,7 @@
                 "id" : "M45EOpcoX",
                 "intrinsicHeight" : 44,
                 "intrinsicWidth" : 320,
-                "left" : 70,
+                "left" : 24,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -8100,9 +8100,9 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : null,
+                "right" : 24,
                 "rotation" : 0,
-                "top" : 94,
+                "top" : 64,
                 "visible" : true,
                 "width" : 320,
                 "widthType" : 0
@@ -8180,7 +8180,7 @@
                         },
                         "transition" : {
                           "type" : "enum",
-                          "value" : "instant"
+                          "value" : "push"
                         },
                         "type" : {
                           "type" : "segmentedenum",
@@ -8216,8 +8216,8 @@
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.46184738955823318,
-                "centerAnchorY" : 0.44155844155844176,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.45416666666666689,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/ZoekBox\/ZoekBoxOutput.tsx_ZoekBoxOutput",
                 "codeComponentPackageVersion" : null,
@@ -8225,7 +8225,7 @@
                 "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
                 "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Output",
                 "codeOverrideName" : "Output",
-                "constraintsLocked" : false,
+                "constraintsLocked" : true,
                 "duplicatedFrom" : [
                   "Hl9ItWkc6"
                 ],
@@ -8245,7 +8245,7 @@
                 "id" : "U668X4Zbv",
                 "intrinsicHeight" : 320,
                 "intrinsicWidth" : 320,
-                "left" : 70,
+                "left" : 24,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -8259,11 +8259,11 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : null,
+                "right" : 24,
                 "rotation" : 0,
-                "top" : 138,
+                "top" : 118,
                 "visible" : true,
-                "width" : 320,
+                "width" : 272,
                 "widthType" : 0
               }
             ],
@@ -8289,7 +8289,7 @@
             "guidesY" : [
 
             ],
-            "height" : 539,
+            "height" : 480,
             "heightType" : 0,
             "id" : "VcoHYzvM7",
             "intrinsicHeight" : null,
@@ -8297,7 +8297,7 @@
             "isExternalMaster" : null,
             "isMaster" : false,
             "isTarget" : false,
-            "left" : 1208,
+            "left" : 1369,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -8314,9 +8314,9 @@
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "top" : -145,
+            "top" : -143,
             "visible" : true,
-            "width" : 498,
+            "width" : 320,
             "widthType" : 0
           },
           {
@@ -8330,8 +8330,8 @@
                 "__class" : "TextNode",
                 "autoSize" : true,
                 "bottom" : null,
-                "centerAnchorX" : 0.37230769230769251,
-                "centerAnchorY" : 0.35195530726257007,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.18958333333333355,
                 "clip" : true,
                 "codeOverrideEnabled" : true,
                 "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
@@ -8342,11 +8342,11 @@
                 "exportOptions" : [
 
                 ],
-                "height" : 19,
+                "height" : 25,
                 "heightType" : 0,
                 "id" : "W3g9SUH3q",
                 "isTarget" : false,
-                "left" : 121,
+                "left" : null,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -8361,11 +8361,11 @@
                       "data" : {
                         "direction" : "ltr",
                         "emptyStyle" : [
-                          "FONT:Inter",
                           "COLOR:rgb(0, 0, 0)",
-                          "SIZE:16",
                           "LETTERSPACING:0",
-                          "LINEHEIGHT:1.2"
+                          "LINEHEIGHT:1.2",
+                          "SIZE:21",
+                          "FONT:ProximaNova-Semibold"
                         ]
                       },
                       "depth" : 0,
@@ -8376,17 +8376,7 @@
                         {
                           "length" : 9,
                           "offset" : 0,
-                          "style" : "FONT:Inter"
-                        },
-                        {
-                          "length" : 9,
-                          "offset" : 0,
                           "style" : "COLOR:rgb(0, 0, 0)"
-                        },
-                        {
-                          "length" : 9,
-                          "offset" : 0,
-                          "style" : "SIZE:16"
                         },
                         {
                           "length" : 9,
@@ -8397,6 +8387,16 @@
                           "length" : 9,
                           "offset" : 0,
                           "style" : "LINEHEIGHT:1.2"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "SIZE:21"
+                        },
+                        {
+                          "length" : 9,
+                          "offset" : 0,
+                          "style" : "FONT:ProximaNova-Semibold"
                         }
                       ],
                       "key" : "ZYGAN",
@@ -8409,19 +8409,77 @@
                   }
                 },
                 "textVerticalAlignment" : "top",
-                "top" : 189,
+                "top" : 79,
                 "visible" : true,
-                "width" : 88,
+                "width" : 110,
                 "widthType" : 0
               },
               {
                 "__class" : "FrameNode",
-                "aspectRatio" : null,
+                "aspectRatio" : 1,
                 "bottom" : null,
-                "centerAnchorX" : 0.41538461538461563,
-                "centerAnchorY" : 0.18621973929236521,
+                "centerAnchorX" : 0.067692307692307913,
+                "centerAnchorY" : 0.040968342644320518,
                 "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__color" : {
+                      "type" : "color",
+                      "value" : "#0071B3"
+                    },
+                    "$control__name" : {
+                      "type" : "enum",
+                      "value" : "arrowBackwards"
+                    },
+                    "aspectRatio" : 1,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.50000000000000022,
+                    "centerAnchorY" : 0.50000000000000022,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "PkZ97GSbT"
+                    ],
+                    "exportOptions" : [
 
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 24,
+                    "heightType" : 0,
+                    "id" : "sMf7U07tZ",
+                    "intrinsicHeight" : 24,
+                    "intrinsicWidth" : 24,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "K7X0y9gIa",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : null,
+                    "visible" : true,
+                    "width" : 24,
+                    "widthType" : 0
+                  }
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : false,
@@ -8430,8 +8488,8 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "#9ef",
-                "fillEnabled" : true,
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
                 "fillImage" : null,
                 "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
@@ -8445,15 +8503,15 @@
                 "guidesY" : [
 
                 ],
-                "height" : 108,
+                "height" : 44,
                 "heightType" : 0,
-                "id" : "LVMmxR7vw",
+                "id" : "K7X0y9gIa",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
                 "isExternalMaster" : null,
                 "isMaster" : false,
                 "isTarget" : false,
-                "left" : 61,
+                "left" : 0,
                 "locked" : false,
                 "name" : null,
                 "onTap" : [
@@ -8496,7 +8554,7 @@
                         "value" : "previous"
                       }
                     },
-                    "identifier" : "2e176f2d-e7e4-4c85-b48f-da4013c41de6"
+                    "identifier" : "0f798e3a-d736-46a0-ac2b-9137bf34b921"
                   }
                 ],
                 "opacity" : 1,
@@ -8513,9 +8571,131 @@
                 "replicaInfo" : null,
                 "right" : null,
                 "rotation" : 0,
-                "top" : 46,
+                "top" : 0,
                 "visible" : true,
-                "width" : 148,
+                "width" : 44,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : 1,
+                "bottom" : null,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.50000000000000022,
+                "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__search" : {
+                      "type" : "string",
+                      "value" : "haarlem"
+                    },
+                    "$control__size" : {
+                      "type" : "enum",
+                      "value" : "S"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : 0,
+                    "centerAnchorX" : 0.50000000000000022,
+                    "centerAnchorY" : 0.50000000000000022,
+                    "clip" : true,
+                    "codeComponentIdentifier" : "@framer\/unsplash.unsplash\/.\/Unsplash.tsx_Unsplash",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                    "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_LocationPhoto",
+                    "codeOverrideName" : "LocationPhoto",
+                    "constraintsLocked" : true,
+                    "duplicatedFrom" : [
+                      "k6BPgh33f"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 200,
+                    "heightType" : 0,
+                    "id" : "eb68lmdqh",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : "Image",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "WPKgaOW1e",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 0,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 200,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : true,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "WPKgaOW1e",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 60,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "SASxxF1u0",
+                "previewSettings" : null,
+                "radius" : 16,
+                "radiusBottomLeft" : 16,
+                "radiusBottomRight" : 16,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 16,
+                "radiusTopRight" : 16,
+                "replicaInfo" : null,
+                "right" : 60,
+                "rotation" : 0,
+                "top" : 140,
+                "visible" : true,
+                "width" : 200,
                 "widthType" : 0
               }
             ],
@@ -8541,7 +8721,7 @@
             "guidesY" : [
 
             ],
-            "height" : 537,
+            "height" : 480,
             "heightType" : 0,
             "id" : "SASxxF1u0",
             "intrinsicHeight" : null,
@@ -8568,7 +8748,7 @@
             "rotation" : 0,
             "top" : -143,
             "visible" : true,
-            "width" : 325,
+            "width" : 320,
             "widthType" : 0
           }
         ],

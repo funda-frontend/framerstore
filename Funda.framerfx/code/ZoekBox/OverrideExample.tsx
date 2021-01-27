@@ -4,6 +4,7 @@ const appState = Data({
     selection: "",
     results: [],
     query: "",
+    city: "",
 })
 
 export const Input: Override = (props) => {
@@ -18,10 +19,10 @@ export const Input: Override = (props) => {
             appState.query = query
         },
         onFocus() {
-            console.log("focus")
+            // console.log("focus")
         },
         onBlur() {
-            console.log("blur")
+            // console.log("blur")
         },
     }
 }
@@ -40,6 +41,8 @@ export const Output: Override = () => {
             resultCount
         ) {
             appState.selection = resultNiceName
+            appState.city =
+                resultParentLabel == null ? resultName : resultParentLabel
         },
     }
 }
@@ -50,8 +53,8 @@ export function LocationTitle(): Override {
     }
 }
 
-export function SearchHistory(): Override {
+export function LocationPhoto(): Override {
     return {
-        onSelect: (search) => console.log(search),
+        search: appState.selection === "" ? "Heel Nederland" : appState.city,
     }
 }
