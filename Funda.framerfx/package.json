@@ -9,8 +9,7 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "Funda",
-		"id": "bdbced0f-0259-4f4b-8f3d-522c379c4aab"
+		"displayName": "Funda"
 	},
 	"author": "Elliot Nolten",
 	"dependencies": {
@@ -21,5 +20,5 @@
 		"styled-components": "^5.2.1"
 	},
 	"name": "@framer/funda.funda",
-	"version": "1.0.0"
+	"version": "1.2.0"
 }

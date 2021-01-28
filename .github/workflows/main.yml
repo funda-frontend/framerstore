@@ -10,11 +10,11 @@ jobs:
       - name: Build
         uses: framer/bridge@master
         with:
-          args: build <Funda.framerfx>
+          args: build Funda.framerfx
 
       - name: Publish
         uses: framer/bridge@master
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: publish <Funda.framerfx> --yes
+          args: publish Funda.framerfx --yes
