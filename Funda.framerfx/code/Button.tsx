@@ -10,7 +10,7 @@ Button.defaultProps = {
     showIcon: true,
     nameIcon: "heart",
     onlyIcon: false,
-    primary: false,
+    variation: "primary",
     alt: false,
     disabled: false,
     onTap: () => null,
@@ -36,11 +36,12 @@ addPropertyControls(Button, {
             return props.onlyIcon === true
         },
     },
-    primary: {
-        type: ControlType.Boolean,
+    variation: {
+        type: ControlType.Enum,
         title: "Variation",
-        enabledTitle: "Primary",
-        disabledTitle: "Secondary",
+        defaultValue: "Primary",
+        options: ["primary", "secondary", "tertiary"],
+        optionTitles: ["Primary", "Secondary", "Tertiary"],
     },
     alt: {
         type: ControlType.Boolean,
@@ -70,17 +71,21 @@ export function Button(props) {
         alt,
         disabled,
         onTap,
-        primary,
+        variation,
     } = props
 
     const globalStyle = {
         fontFamily: "Proxima Nova, Proxima Nova Regular, sans-serif",
         fontSize: 16,
         lineHeight: 1.5,
-        color: disabled ? colors.Grey : primary ? "#FFF" : colors.LinkNormal,
+        color: disabled
+            ? colors.Grey
+            : variation == "primary"
+            ? "#FFF"
+            : colors.LinkNormal,
         background: disabled
             ? colors.GreyLighter
-            : primary
+            : variation == "primary"
             ? alt
                 ? colors.Blue
                 : colors.Orange
@@ -88,10 +93,16 @@ export function Button(props) {
             ? colors.NaturalBlue
             : "#FFF",
         radius: 2,
-        boxShadow: primary
-            ? "0px -1px 0px 0px rgba(0,0,0,0.25) inset"
-            : "0px 1px 0px 0px rgba(0,0,0,0.25)",
-        border: primary ? "" : `1px solid ${colors.LinkNormal}`,
+        boxShadow:
+            variation == "primary"
+                ? "0px -1px 0px 0px rgba(0,0,0,0.25) inset"
+                : variation == "secondary"
+                ? "0px 1px 0px 0px rgba(0,0,0,0.25)"
+                : "",
+        border:
+            variation == "primary" || variation == "tertiary"
+                ? ""
+                : `1px solid ${colors.LinkNormal}`,
         cursor: disabled ? "not-allowed" : "pointer",
     }
 
@@ -110,13 +121,14 @@ export function Button(props) {
                 disabled
                     ? null
                     : {
-                          background: primary
-                              ? alt
-                                  ? colors.BlueDark
-                                  : colors.OrangeDarker
-                              : alt
-                              ? "#FFF"
-                              : colors.NaturalBlue,
+                          background:
+                              variation == "primary"
+                                  ? alt
+                                      ? colors.BlueDark
+                                      : colors.OrangeDarker
+                                  : alt
+                                  ? "#FFF"
+                                  : colors.NaturalBlue,
                       }
             }
             transition={transition}
@@ -125,7 +137,11 @@ export function Button(props) {
                 <Icon
                     name={nameIcon}
                     color={
-                        disabled ? colors.Grey : primary ? "#FFF" : colors.Blue
+                        disabled
+                            ? colors.Grey
+                            : variation == "primary"
+                            ? "#FFF"
+                            : colors.Blue
                     }
                 />
             ) : null}
