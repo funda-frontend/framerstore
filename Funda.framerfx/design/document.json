@@ -6976,15 +6976,15 @@
                 "__class" : "FrameNode",
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.50097656250000022,
+                "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.50000000000000022,
                 "children" : [
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
                     "bottom" : null,
-                    "centerAnchorX" : 0.86289308176100654,
-                    "centerAnchorY" : 0.97744360902255656,
+                    "centerAnchorX" : 0.26130653266331683,
+                    "centerAnchorY" : 0.49874686716791999,
                     "children" : [
                       {
                         "__class" : "CodeComponentNode",
@@ -7009,7 +7009,51 @@
                           "value" : false
                         },
                         "$control__onTap" : {
-                          "type" : "eventhandler"
+                          "type" : "eventhandler",
+                          "value" : [
+                            {
+                              "actionIdentifier" : "framer\/useNavigate",
+                              "controls" : {
+                                "animation" : {
+                                  "type" : "transition",
+                                  "value" : {
+                                    "damping" : 60,
+                                    "delay" : 0,
+                                    "ease" : [
+                                      0.44,
+                                      0,
+                                      0.56000000000000005,
+                                      1
+                                    ],
+                                    "mass" : 1,
+                                    "stiffness" : 500,
+                                    "type" : "spring"
+                                  }
+                                },
+                                "appearsFrom" : {
+                                  "type" : "segmentedenum",
+                                  "value" : "right"
+                                },
+                                "backdropColor" : {
+                                  "type" : "color",
+                                  "value" : "rgba(4,4,15,.4)"
+                                },
+                                "target" : {
+                                  "type" : "componentinstance",
+                                  "value" : "rZSGskQVJ"
+                                },
+                                "transition" : {
+                                  "type" : "enum",
+                                  "value" : "push"
+                                },
+                                "type" : {
+                                  "type" : "segmentedenum",
+                                  "value" : "next"
+                                }
+                              },
+                              "identifier" : "61c8d147-b877-403a-9585-e8c23f22366a"
+                            }
+                          ]
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -7530,7 +7574,7 @@
                     "isExternalMaster" : null,
                     "isMaster" : false,
                     "isTarget" : false,
-                    "left" : 0,
+                    "left" : 97,
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
@@ -7558,17 +7602,652 @@
                     "stackDistribution" : "center",
                     "stackEnabled" : true,
                     "stackGap" : 27,
-                    "top" : 0,
+                    "top" : null,
                     "visible" : true,
-                    "width" : 320,
+                    "width" : 200,
                     "widthType" : 0
                   },
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "bottom" : -191,
-                    "centerAnchorX" : 0.4025157232704405,
-                    "centerAnchorY" : 0.97744360902255656,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.4301929625425655,
+                    "centerAnchorY" : 0.49874686716791999,
+                    "children" : [
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Primary"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler",
+                          "value" : [
+                            {
+                              "actionIdentifier" : "framer\/useNavigate",
+                              "controls" : {
+                                "animation" : {
+                                  "type" : "transition",
+                                  "value" : {
+                                    "damping" : 60,
+                                    "delay" : 0,
+                                    "ease" : [
+                                      0.44,
+                                      0,
+                                      0.56000000000000005,
+                                      1
+                                    ],
+                                    "mass" : 1,
+                                    "stiffness" : 500,
+                                    "type" : "spring"
+                                  }
+                                },
+                                "appearsFrom" : {
+                                  "type" : "segmentedenum",
+                                  "value" : "right"
+                                },
+                                "backdropColor" : {
+                                  "type" : "color",
+                                  "value" : "rgba(4,4,15,.4)"
+                                },
+                                "target" : {
+                                  "type" : "componentinstance",
+                                  "value" : "rZSGskQVJ"
+                                },
+                                "transition" : {
+                                  "type" : "enum",
+                                  "value" : "push"
+                                },
+                                "type" : {
+                                  "type" : "segmentedenum",
+                                  "value" : "next"
+                                }
+                              },
+                              "identifier" : "61c8d147-b877-403a-9585-e8c23f22366a"
+                            }
+                          ]
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "primary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.055137844611529041,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "xldl7sWQt"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "d_bb_FIvO",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : 0,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Primary Alt"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "primary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.2330827067669175,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "UmNXrGZa2"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "TOgQYhsYB",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : 71,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Secondary"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "secondary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.41102756892230596,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "NLCx7MpX0"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "CkwxcCIxV",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : 142,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Secondary Alt"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "secondary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 142,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.58897243107769448,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "HuqcU0vRM",
+                          "HfRdC8Onu"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "fPZ2BVKS3",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Tertiary"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "tertiary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 71,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.76691729323308289,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "tyXwbJ4Wa",
+                          "s2LztEhus"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "VdZNLstca",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : "Tertiary Alt"
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "tertiary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 0,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.9448621553884714,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "tyXwbJ4Wa",
+                          "xRsiy0vvF",
+                          "x7pkuKBqh"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "Iw6ZwMtTF",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "FHnTlZSFT",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 1,
+                        "widthType" : 3
+                      }
+                    ],
+                    "clip" : false,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "PWNWLubZE",
+                      "NrXlVI01p"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "framePreset" : null,
+                    "guidesX" : [
+
+                    ],
+                    "guidesY" : [
+
+                    ],
+                    "height" : 1,
+                    "heightType" : 3,
+                    "id" : "FHnTlZSFT",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : false,
+                    "left" : 278,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "padding" : 0,
+                    "paddingBottom" : 0,
+                    "paddingLeft" : 0,
+                    "paddingPerSide" : false,
+                    "paddingRight" : 0,
+                    "paddingTop" : 0,
+                    "parentid" : "YNODtEjO6",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "replicaInfo" : null,
+                    "right" : null,
+                    "rotation" : 0,
+                    "stackAlignment" : "center",
+                    "stackDirection" : "vertical",
+                    "stackDistribution" : "center",
+                    "stackEnabled" : true,
+                    "stackGap" : 27,
+                    "top" : null,
+                    "visible" : true,
+                    "width" : 200,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.55150753768844241,
+                    "centerAnchorY" : 0.49874686716791999,
                     "children" : [
                       {
                         "__class" : "CodeComponentNode",
@@ -8106,7 +8785,7 @@
                     "isExternalMaster" : null,
                     "isMaster" : false,
                     "isTarget" : false,
-                    "left" : 160,
+                    "left" : null,
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
@@ -8127,7 +8806,7 @@
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
                     "replicaInfo" : null,
-                    "right" : null,
+                    "right" : 244,
                     "rotation" : 0,
                     "stackAlignment" : "center",
                     "stackDirection" : "vertical",
@@ -8136,15 +8815,15 @@
                     "stackGap" : 27,
                     "top" : null,
                     "visible" : true,
-                    "width" : 320,
+                    "width" : 200,
                     "widthType" : 0
                   },
                   {
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
-                    "bottom" : -191,
-                    "centerAnchorX" : 1.1735849056603775,
-                    "centerAnchorY" : 0.97744360902255656,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.93643586833144177,
+                    "centerAnchorY" : 0.49874686716791999,
                     "children" : [
                       {
                         "__class" : "CodeComponentNode",
@@ -8180,9 +8859,9 @@
                           "value" : "primary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 104,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.61467889908256901,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.055137844611529041,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8209,7 +8888,7 @@
                         "id" : "Ej5Kcr7hQ",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8223,9 +8902,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 0,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -8264,9 +8943,9 @@
                           "value" : "primary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 42,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.80428134556574948,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.2330827067669175,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8294,7 +8973,7 @@
                         "id" : "pEbwL2hx9",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8308,9 +8987,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 71,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -8349,9 +9028,9 @@
                           "value" : "secondary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : -20,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.99388379204892985,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.41102756892230596,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8380,7 +9059,7 @@
                         "id" : "ien6yiZvK",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8394,9 +9073,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 142,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -8435,9 +9114,9 @@
                           "value" : "secondary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : -101,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 1.2415902140672785,
+                        "bottom" : 142,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.58897243107769448,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8467,7 +9146,7 @@
                         "id" : "ukcsUE_3a",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8481,7 +9160,7 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
                         "top" : null,
                         "visible" : true,
@@ -8522,9 +9201,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 72,
+                        "bottom" : 71,
                         "centerAnchorX" : 0.50000000000000022,
-                        "centerAnchorY" : 0.80126849894291774,
+                        "centerAnchorY" : 0.76691729323308289,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8554,7 +9233,7 @@
                         "id" : "wv82PHkFY",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8568,7 +9247,7 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : null,
+                        "right" : 0,
                         "rotation" : 0,
                         "top" : null,
                         "visible" : true,
@@ -8609,9 +9288,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : null,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 1.4801223241590216,
+                        "bottom" : 0,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.9448621553884714,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -8656,9 +9335,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : null,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : 0,
+                        "top" : null,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -8718,7 +9397,7 @@
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
                     "replicaInfo" : null,
-                    "right" : -160,
+                    "right" : 34,
                     "rotation" : 0,
                     "stackAlignment" : "center",
                     "stackDirection" : "vertical",
@@ -8726,6 +9405,604 @@
                     "stackEnabled" : true,
                     "stackGap" : 27,
                     "top" : null,
+                    "visible" : true,
+                    "width" : 44,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "FrameNode",
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 1.1735849056603775,
+                    "centerAnchorY" : 0.97744360902255656,
+                    "children" : [
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "primary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 104,
+                        "centerAnchorX" : 1.4593750000000003,
+                        "centerAnchorY" : 0.61467889908256901,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "xldl7sWQt",
+                          "Ej5Kcr7hQ"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "q6J2EzJ9X",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : -307,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "primary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 42,
+                        "centerAnchorX" : 1.4593750000000003,
+                        "centerAnchorY" : 0.80428134556574948,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "UmNXrGZa2",
+                          "pEbwL2hx9"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "AY1I5_PD5",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : -307,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "secondary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : -20,
+                        "centerAnchorX" : 1.4593750000000003,
+                        "centerAnchorY" : 0.99388379204892985,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "NLCx7MpX0",
+                          "ien6yiZvK"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "EC047Ufm0",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : -307,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "secondary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : -101,
+                        "centerAnchorX" : 1.4593750000000003,
+                        "centerAnchorY" : 1.2415902140672785,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "HuqcU0vRM",
+                          "HfRdC8Onu",
+                          "ukcsUE_3a"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "fv_Ps6m5e",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : -307,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : false
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "tertiary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : 72,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.80126849894291774,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "tyXwbJ4Wa",
+                          "s2LztEhus",
+                          "wv82PHkFY"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "TW9SbZYx_",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : null,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : null,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      },
+                      {
+                        "__class" : "CodeComponentNode",
+                        "$control__alt" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__disabled" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__label" : {
+                          "type" : "string",
+                          "value" : ""
+                        },
+                        "$control__nameIcon" : {
+                          "type" : "string",
+                          "value" : "heart"
+                        },
+                        "$control__onlyIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__onTap" : {
+                          "type" : "eventhandler"
+                        },
+                        "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__variation" : {
+                          "type" : "enum",
+                          "value" : "tertiary"
+                        },
+                        "aspectRatio" : null,
+                        "bottom" : null,
+                        "centerAnchorX" : 1.4593750000000003,
+                        "centerAnchorY" : 1.4801223241590216,
+                        "clip" : true,
+                        "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                        "codeComponentPackageVersion" : null,
+                        "codeOverrideEnabled" : false,
+                        "constraintsLocked" : false,
+                        "duplicatedFrom" : [
+                          "e9taavWNV",
+                          "MhvBiiI25",
+                          "Dv5QwvBlv",
+                          "zp2bB8JcZ",
+                          "tyXwbJ4Wa",
+                          "xRsiy0vvF",
+                          "x7pkuKBqh",
+                          "L9YnHGIjB"
+                        ],
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(255,255,255,1)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImageOriginalName" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 44,
+                        "heightType" : 0,
+                        "id" : "qsZjJ41mx",
+                        "intrinsicHeight" : 44,
+                        "intrinsicWidth" : 320,
+                        "left" : 0,
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "o46BmcHUg",
+                        "previewSettings" : null,
+                        "radius" : 0,
+                        "radiusBottomLeft" : 0,
+                        "radiusBottomRight" : 0,
+                        "radiusIsRelative" : false,
+                        "radiusPerCorner" : false,
+                        "radiusTopLeft" : 0,
+                        "radiusTopRight" : 0,
+                        "right" : null,
+                        "rotation" : 0,
+                        "top" : 0,
+                        "visible" : true,
+                        "width" : 44,
+                        "widthType" : 0
+                      }
+                    ],
+                    "clip" : false,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "PWNWLubZE",
+                      "NrXlVI01p",
+                      "VwzQr_rSU"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "framePreset" : null,
+                    "guidesX" : [
+
+                    ],
+                    "guidesY" : [
+
+                    ],
+                    "height" : 1,
+                    "heightType" : 3,
+                    "id" : "o46BmcHUg",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "isExternalMaster" : null,
+                    "isMaster" : false,
+                    "isTarget" : false,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "padding" : 0,
+                    "paddingBottom" : 0,
+                    "paddingLeft" : 0,
+                    "paddingPerSide" : false,
+                    "paddingRight" : 0,
+                    "paddingTop" : 0,
+                    "parentid" : "YNODtEjO6",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "replicaInfo" : null,
+                    "right" : null,
+                    "rotation" : 0,
+                    "stackAlignment" : "center",
+                    "stackDirection" : "vertical",
+                    "stackDistribution" : "center",
+                    "stackEnabled" : true,
+                    "stackGap" : 27,
+                    "top" : 0,
                     "visible" : true,
                     "width" : 44,
                     "widthType" : 0
@@ -8761,7 +10038,7 @@
                 "isExternalMaster" : null,
                 "isMaster" : false,
                 "isTarget" : false,
-                "left" : 115,
+                "left" : 56,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -8782,7 +10059,7 @@
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
                 "replicaInfo" : null,
-                "right" : 113,
+                "right" : 56,
                 "rotation" : 0,
                 "stackAlignment" : "center",
                 "stackDirection" : "horizontal",
@@ -8791,7 +10068,7 @@
                 "stackGap" : 56,
                 "top" : null,
                 "visible" : true,
-                "width" : 796,
+                "width" : 912,
                 "widthType" : 0
               }
             ],
@@ -8827,6 +10104,68 @@
             "isScreen" : true,
             "isTarget" : false,
             "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Etfbkph7j",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1024,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsl(235, 100%, 53%)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "iPad_768_1024",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 768,
+            "heightType" : 0,
+            "id" : "rZSGskQVJ",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isScreen" : true,
+            "isTarget" : false,
+            "left" : 1124,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
