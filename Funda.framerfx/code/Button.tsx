@@ -93,17 +93,28 @@ export function Button(props) {
             ? colors.NaturalBlue
             : "#FFF",
         radius: 2,
-        boxShadow:
-            variation == "primary"
+        boxShadow: !disabled
+            ? variation == "primary"
                 ? "0px -1px 0px 0px rgba(0,0,0,0.25) inset"
                 : variation == "secondary"
                 ? "0px 1px 0px 0px rgba(0,0,0,0.25)"
-                : "",
+                : ""
+            : "",
         border:
             variation == "primary" || variation == "tertiary"
                 ? ""
-                : `1px solid ${colors.LinkNormal}`,
+                : !disabled
+                ? `1px solid ${colors.LinkNormal}`
+                : "",
         cursor: disabled ? "not-allowed" : "pointer",
+    }
+
+    function handleTap() {
+        if (!disabled) {
+            onTap()
+        } else {
+            return
+        }
     }
 
     return (
@@ -113,7 +124,7 @@ export function Button(props) {
             distribution="center"
             alignment="center"
             gap={8}
-            onTap={disabled ? onTap : null}
+            onTap={handleTap}
             width={width}
             height={height}
             style={globalStyle}
