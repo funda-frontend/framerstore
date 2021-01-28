@@ -1,0 +1,1 @@
+This a package with the most basic components of our design system. You can use these to kickstart your Framer project.
