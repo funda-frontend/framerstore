@@ -9,7 +9,8 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "Funda"
+		"displayName": "Funda",
+		"id": "0d7d8b72-82ae-408c-8e2f-d68e532cb64f"
 	},
 	"author": "Elliot Nolten",
 	"dependencies": {

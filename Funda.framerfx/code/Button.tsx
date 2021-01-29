@@ -6,10 +6,19 @@ import { colors } from "./canvas"
 Button.defaultProps = {
     width: 320,
     height: 44,
+    radius: 2,
+    stretch: true,
+    padding: 16,
     label: "Save",
     showIcon: true,
     nameIcon: "heart",
     onlyIcon: false,
+    animate: false,
+    initialState: false,
+    transition: "",
+    iconOn: "heartFilled",
+    iconOnColor: colors.Red,
+    labelOn: "Saved",
     variation: "primary",
     alt: false,
     disabled: false,
@@ -31,9 +40,17 @@ addPropertyControls(Button, {
     onlyIcon: { type: ControlType.Boolean },
     label: {
         type: ControlType.String,
-        title: "Text",
+        title: "Label",
         hidden(props) {
             return props.onlyIcon === true
+        },
+    },
+    radius: { type: ControlType.Number },
+    stretch: { type: ControlType.Boolean, title: "Stretch width" },
+    padding: {
+        type: ControlType.Number,
+        hidden(props) {
+            return props.stretch == true
         },
     },
     variation: {
@@ -53,6 +70,41 @@ addPropertyControls(Button, {
         title: "Disabled",
         defaultValue: false,
     },
+    animate: {
+        type: ControlType.Boolean,
+    },
+    initialState: {
+        type: ControlType.Boolean,
+        enabledTitle: "ON",
+        disabledTitle: "OFF",
+        hidden(props) {
+            return props.animate == false
+        },
+    },
+    transition: {
+        type: ControlType.Transition,
+        hidden(props) {
+            return props.animate == false
+        },
+    },
+    iconOn: {
+        type: ControlType.String,
+        hidden(props) {
+            return props.animate == false
+        },
+    },
+    iconOnColor: {
+        type: ControlType.Color,
+        hidden(props) {
+            return props.animate == false
+        },
+    },
+    labelOn: {
+        type: ControlType.String,
+        hidden(props) {
+            return props.animate == false
+        },
+    },
 })
 
 const transition = {
@@ -64,6 +116,9 @@ export function Button(props) {
     const {
         width,
         height,
+        radius,
+        stretch,
+        padding,
         label,
         showIcon,
         nameIcon,
@@ -72,9 +127,24 @@ export function Button(props) {
         disabled,
         onTap,
         variation,
+        animate,
+        initialState,
+        transition,
+        iconOn,
+        iconOnColor,
+        labelOn,
     } = props
 
+    const [isOn, setIsOn] = React.useState(initialState)
+
+    React.useEffect(() => {
+        setIsOn(initialState)
+    }, [initialState])
+
     const globalStyle = {
+        width: stretch ? "100%" : "auto",
+        height: stretch ? "100%" : 44,
+        padding: onlyIcon ? "0 10px" : `0 ${padding}px`,
         fontFamily: "Proxima Nova, Proxima Nova Regular, sans-serif",
         fontSize: 16,
         lineHeight: 1.5,
@@ -92,7 +162,7 @@ export function Button(props) {
             : alt
             ? colors.NaturalBlue
             : "#FFF",
-        radius: 2,
+        radius,
         boxShadow: !disabled
             ? variation == "primary"
                 ? "0px -1px 0px 0px rgba(0,0,0,0.25) inset"
@@ -112,6 +182,9 @@ export function Button(props) {
     function handleTap() {
         if (!disabled) {
             onTap()
+            if (animate) {
+                setIsOn(!isOn)
+            }
         } else {
             return
         }
@@ -119,7 +192,6 @@ export function Button(props) {
 
     return (
         <Stack
-            size="100%"
             direction="horizontal"
             distribution="center"
             alignment="center"
@@ -144,20 +216,52 @@ export function Button(props) {
             }
             transition={transition}
         >
-            {showIcon ? (
-                <Icon
-                    name={nameIcon}
-                    color={
-                        disabled
-                            ? colors.Grey
-                            : variation == "primary"
-                            ? "#FFF"
-                            : colors.Blue
-                    }
-                />
-            ) : null}
+            {showIcon && (
+                <Frame backgroundColor="transparent" size={24}>
+                    <Icon
+                        name={nameIcon}
+                        color={
+                            disabled
+                                ? colors.Grey
+                                : variation == "primary"
+                                ? "#FFF"
+                                : colors.Blue
+                        }
+                        opacity={animate && isOn ? 0 : 1}
+                        animate={
+                            animate && isOn
+                                ? { scale: 0.5, opacity: 0 }
+                                : { scale: 1, opacity: 1 }
+                        }
+                        transition={transition}
+                    />
+                    {animate && (
+                        <Icon
+                            name={iconOn}
+                            color={iconOnColor}
+                            opacity={isOn ? 1 : 0}
+                            animate={
+                                animate && isOn
+                                    ? { scale: 1, opacity: 1 }
+                                    : { scale: 0.5, opacity: 0 }
+                            }
+                            transition={transition}
+                        />
+                    )}
+                </Frame>
+            )}
 
-            {onlyIcon ? null : <span>{label}</span>}
+            {!onlyIcon && (
+                <Frame
+                    backgroundColor="transparent"
+                    style={{
+                        width: "auto",
+                        height: "auto",
+                    }}
+                >
+                    {animate && isOn ? labelOn : label}
+                </Frame>
+            )}
         </Stack>
     )
 }
