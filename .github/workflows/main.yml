@@ -1,4 +1,4 @@
----
+ ---
 on: push
 name: Build and publish
 jobs:
@@ -8,9 +8,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Build
-        uses: framer/bridge@master
-        with:
-          args: build Funda.framerfx
+        run: env FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} npx framer-cli build Funda.framerfx
 
       - name: Publish
         uses: framer/bridge@master
