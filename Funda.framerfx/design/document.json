@@ -464,9 +464,17 @@
                       "type" : "boolean",
                       "value" : false
                     },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "iconLabel"
+                    },
                     "$control__disabled" : {
                       "type" : "boolean",
                       "value" : false
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
                     },
                     "$control__iconOff" : {
                       "type" : "string",
@@ -7053,9 +7061,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7142,7 +7158,7 @@
                         },
                         "$control__padding" : {
                           "type" : "number",
-                          "value" : 69
+                          "value" : 19
                         },
                         "$control__radius" : {
                           "type" : "number",
@@ -7237,9 +7253,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7376,11 +7400,19 @@
                         },
                         "$control__animate" : {
                           "type" : "boolean",
-                          "value" : false
+                          "value" : true
+                        },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
                         },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "house"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7388,11 +7420,11 @@
                         },
                         "$control__iconOn" : {
                           "type" : "string",
-                          "value" : "heartFilled"
+                          "value" : "newHouse"
                         },
                         "$control__iconOnColor" : {
                           "type" : "color",
-                          "value" : "var(--token-92d4e102-478f-4507-b1e6-b724b7c40a2d, rgb(240, 60, 48))"
+                          "value" : "var(--token-5cddad5b-e90b-4c5a-825b-15652edb77e9, rgb(0, 113, 179)) \/* {\"name\":\"LinkNormal\",\"packageIdentifier\":\"@framer\/funda.funda\"} *\/"
                         },
                         "$control__initialState" : {
                           "type" : "boolean",
@@ -7404,11 +7436,11 @@
                         },
                         "$control__label" : {
                           "type" : "string",
-                          "value" : "Secondary"
+                          "value" : "Claim dit huis"
                         },
                         "$control__labelOn" : {
                           "type" : "string",
-                          "value" : ""
+                          "value" : "Huis geclaimd"
                         },
                         "$control__nameIcon" : {
                           "type" : "string",
@@ -7520,9 +7552,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7663,9 +7703,17 @@
                           "type" : "boolean",
                           "value" : true
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7806,9 +7854,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -7855,7 +7911,7 @@
                         },
                         "$control__radius" : {
                           "type" : "number",
-                          "value" : 2
+                          "value" : 100
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -8023,9 +8079,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8208,9 +8272,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8350,9 +8422,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8493,9 +8573,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8637,9 +8725,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8781,9 +8877,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "iconLabel"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -8830,7 +8934,7 @@
                         },
                         "$control__radius" : {
                           "type" : "number",
-                          "value" : 2
+                          "value" : 100
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -9000,9 +9104,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9045,7 +9157,7 @@
                         },
                         "$control__padding" : {
                           "type" : "number",
-                          "value" : 16
+                          "value" : 33
                         },
                         "$control__radius" : {
                           "type" : "number",
@@ -9139,9 +9251,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9279,9 +9399,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9420,9 +9548,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9562,9 +9698,17 @@
                           "type" : "boolean",
                           "value" : true
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9704,9 +9848,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "label"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9753,7 +9905,7 @@
                         },
                         "$control__radius" : {
                           "type" : "number",
-                          "value" : 2
+                          "value" : 100
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -9918,9 +10070,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -9963,7 +10123,7 @@
                         },
                         "$control__padding" : {
                           "type" : "number",
-                          "value" : 16
+                          "value" : 42
                         },
                         "$control__radius" : {
                           "type" : "number",
@@ -10059,9 +10219,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10201,9 +10369,17 @@
                           "type" : "boolean",
                           "value" : true
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "house"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10344,9 +10520,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10488,9 +10672,17 @@
                           "type" : "boolean",
                           "value" : true
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10632,9 +10824,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10681,7 +10881,7 @@
                         },
                         "$control__radius" : {
                           "type" : "number",
-                          "value" : 2
+                          "value" : 100
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -10851,9 +11051,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -10877,7 +11085,7 @@
                         },
                         "$control__label" : {
                           "type" : "string",
-                          "value" : ""
+                          "value" : "Save"
                         },
                         "$control__labelOn" : {
                           "type" : "string",
@@ -10993,9 +11201,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -11136,9 +11352,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "house"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -11280,9 +11504,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -11425,9 +11657,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -11570,9 +11810,17 @@
                           "type" : "boolean",
                           "value" : false
                         },
+                        "$control__content" : {
+                          "type" : "enum",
+                          "value" : "icon"
+                        },
                         "$control__disabled" : {
                           "type" : "boolean",
                           "value" : true
+                        },
+                        "$control__icon" : {
+                          "type" : "string",
+                          "value" : "heart"
                         },
                         "$control__iconOff" : {
                           "type" : "string",
@@ -11619,7 +11867,7 @@
                         },
                         "$control__radius" : {
                           "type" : "number",
-                          "value" : 2
+                          "value" : 100
                         },
                         "$control__showIcon" : {
                           "type" : "boolean",
@@ -12549,9 +12797,17 @@
                       "type" : "boolean",
                       "value" : false
                     },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "iconLabel"
+                    },
                     "$control__disabled" : {
                       "type" : "boolean",
                       "value" : false
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
                     },
                     "$control__iconOff" : {
                       "type" : "string",
