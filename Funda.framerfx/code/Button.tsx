@@ -10,9 +10,8 @@ Button.defaultProps = {
     stretch: true,
     padding: 16,
     label: "Save",
-    showIcon: true,
-    nameIcon: "heart",
-    onlyIcon: false,
+    content: "Icon + Label",
+    icon: "heart",
     animate: false,
     initialState: false,
     transition: "",
@@ -29,20 +28,21 @@ addPropertyControls(Button, {
     onTap: {
         type: ControlType.EventHandler,
     },
-    showIcon: { type: ControlType.Boolean },
-    nameIcon: {
+    content: {
+        type: ControlType.Enum,
+        options: ["iconLabel", "icon", "label"],
+        optionTitles: ["Icon + Label", "Icon", "Label"],
+    },
+    icon: {
         type: ControlType.String,
-        title: "Icon Name",
         hidden(props) {
-            return props.showIcon === false
+            return props.content === "label"
         },
     },
-    onlyIcon: { type: ControlType.Boolean },
     label: {
         type: ControlType.String,
-        title: "Label",
         hidden(props) {
-            return props.onlyIcon === true
+            return props.content === "icon"
         },
     },
     radius: { type: ControlType.Number },
@@ -53,30 +53,39 @@ addPropertyControls(Button, {
             return props.stretch == true
         },
     },
+    disabled: {
+        type: ControlType.Boolean,
+        title: "Disabled",
+        defaultValue: false,
+    },
     variation: {
         type: ControlType.Enum,
         title: "Variation",
         defaultValue: "Primary",
         options: ["primary", "secondary", "tertiary"],
         optionTitles: ["Primary", "Secondary", "Tertiary"],
+        hidden(props) {
+            return props.disabled == true
+        },
     },
     alt: {
         type: ControlType.Boolean,
         defaultValue: false,
         title: "Alternative",
-    },
-    disabled: {
-        type: ControlType.Boolean,
-        title: "Disabled",
-        defaultValue: false,
+        hidden(props) {
+            return props.disabled == true
+        },
     },
     animate: {
         type: ControlType.Boolean,
+        hidden(props) {
+            return props.disabled == true
+        },
     },
     initialState: {
         type: ControlType.Boolean,
-        enabledTitle: "ON",
-        disabledTitle: "OFF",
+        enabledTitle: "On",
+        disabledTitle: "Off",
         hidden(props) {
             return props.animate == false
         },
@@ -119,10 +128,9 @@ export function Button(props) {
         radius,
         stretch,
         padding,
+        content,
         label,
-        showIcon,
-        nameIcon,
-        onlyIcon,
+        icon,
         alt,
         disabled,
         onTap,
@@ -144,7 +152,7 @@ export function Button(props) {
     const globalStyle = {
         width: stretch ? "100%" : "auto",
         height: stretch ? "100%" : 44,
-        padding: onlyIcon ? "0 10px" : `0 ${padding}px`,
+        padding: content == "icon" ? "0 10px" : `0 ${padding}px`,
         fontFamily: "Proxima Nova, Proxima Nova Regular, sans-serif",
         fontSize: 16,
         lineHeight: 1.5,
@@ -216,10 +224,10 @@ export function Button(props) {
             }
             transition={transition}
         >
-            {showIcon && (
+            {content !== "label" && (
                 <Frame backgroundColor="transparent" size={24}>
                     <Icon
-                        name={nameIcon}
+                        name={icon}
                         color={
                             disabled
                                 ? colors.Grey
@@ -251,7 +259,7 @@ export function Button(props) {
                 </Frame>
             )}
 
-            {!onlyIcon && (
+            {content !== "icon" && (
                 <Frame
                     backgroundColor="transparent"
                     style={{
