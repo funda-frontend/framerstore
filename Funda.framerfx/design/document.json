@@ -479,11 +479,23 @@
                     "$control__onTap" : {
                       "type" : "eventhandler"
                     },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
                     "$control__primary" : {
                       "type" : "boolean",
                       "value" : false
                     },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 2
+                    },
                     "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__stretch" : {
                       "type" : "boolean",
                       "value" : true
                     },
@@ -7055,9 +7067,21 @@
                             }
                           ]
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 69
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7138,9 +7162,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7222,9 +7258,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7307,9 +7355,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7393,9 +7453,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7479,9 +7551,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7683,9 +7767,21 @@
                             }
                           ]
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7767,9 +7863,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7852,9 +7960,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -7938,9 +8058,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -8025,9 +8157,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -8112,9 +8256,21 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
                           "type" : "boolean",
                           "value" : false
+                        },
+                        "$control__stretch" : {
+                          "type" : "boolean",
+                          "value" : true
                         },
                         "$control__variation" : {
                           "type" : "enum",
@@ -8274,7 +8430,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8356,7 +8524,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8439,7 +8619,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8523,7 +8715,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8608,7 +8812,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8693,7 +8909,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8850,7 +9078,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -8860,7 +9100,7 @@
                         },
                         "aspectRatio" : null,
                         "bottom" : null,
-                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorX" : 0.54545454545454564,
                         "centerAnchorY" : 0.055137844611529041,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
@@ -8888,7 +9128,7 @@
                         "id" : "Ej5Kcr7hQ",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : 0,
+                        "left" : 2,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -8902,7 +9142,7 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : 0,
+                        "right" : -2,
                         "rotation" : 0,
                         "top" : 0,
                         "visible" : true,
@@ -8934,7 +9174,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9019,7 +9271,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9029,7 +9293,7 @@
                         },
                         "aspectRatio" : null,
                         "bottom" : null,
-                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorX" : 0.52272727272727293,
                         "centerAnchorY" : 0.41102756892230596,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
@@ -9073,11 +9337,11 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : 0,
+                        "right" : -2,
                         "rotation" : 0,
                         "top" : 142,
                         "visible" : true,
-                        "width" : 44,
+                        "width" : 46,
                         "widthType" : 0
                       },
                       {
@@ -9105,7 +9369,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9115,7 +9391,7 @@
                         },
                         "aspectRatio" : null,
                         "bottom" : 142,
-                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorX" : 0.52272727272727293,
                         "centerAnchorY" : 0.58897243107769448,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
@@ -9160,11 +9436,11 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : 0,
+                        "right" : -2,
                         "rotation" : 0,
                         "top" : null,
                         "visible" : true,
-                        "width" : 44,
+                        "width" : 46,
                         "widthType" : 0
                       },
                       {
@@ -9192,7 +9468,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9279,7 +9567,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9441,7 +9741,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9450,9 +9762,9 @@
                           "value" : "primary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 104,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.61467889908256901,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.055137844611529041,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9480,7 +9792,7 @@
                         "id" : "q6J2EzJ9X",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9494,9 +9806,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 0,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -9526,7 +9838,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9535,9 +9859,9 @@
                           "value" : "primary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 42,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.80428134556574948,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.2330827067669175,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9566,7 +9890,7 @@
                         "id" : "AY1I5_PD5",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9580,9 +9904,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 71,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -9612,7 +9936,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9621,9 +9957,9 @@
                           "value" : "secondary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : -20,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 0.99388379204892985,
+                        "bottom" : null,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.41102756892230596,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9653,7 +9989,7 @@
                         "id" : "EC047Ufm0",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9667,9 +10003,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : null,
+                        "top" : 142,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -9699,7 +10035,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9708,9 +10056,9 @@
                           "value" : "secondary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : -101,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 1.2415902140672785,
+                        "bottom" : 142,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.58897243107769448,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9741,7 +10089,7 @@
                         "id" : "fv_Ps6m5e",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9755,7 +10103,7 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : -307,
+                        "right" : 0,
                         "rotation" : 0,
                         "top" : null,
                         "visible" : true,
@@ -9787,7 +10135,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9796,9 +10156,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 72,
+                        "bottom" : 71,
                         "centerAnchorX" : 0.50000000000000022,
-                        "centerAnchorY" : 0.80126849894291774,
+                        "centerAnchorY" : 0.76691729323308289,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9829,7 +10189,7 @@
                         "id" : "TW9SbZYx_",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9843,7 +10203,7 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : null,
+                        "right" : 0,
                         "rotation" : 0,
                         "top" : null,
                         "visible" : true,
@@ -9875,7 +10235,19 @@
                         "$control__onTap" : {
                           "type" : "eventhandler"
                         },
+                        "$control__padding" : {
+                          "type" : "number",
+                          "value" : 16
+                        },
+                        "$control__radius" : {
+                          "type" : "number",
+                          "value" : 2
+                        },
                         "$control__showIcon" : {
+                          "type" : "boolean",
+                          "value" : true
+                        },
+                        "$control__stretch" : {
                           "type" : "boolean",
                           "value" : true
                         },
@@ -9884,9 +10256,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : null,
-                        "centerAnchorX" : 1.4593750000000003,
-                        "centerAnchorY" : 1.4801223241590216,
+                        "bottom" : 0,
+                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorY" : 0.9448621553884714,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -9932,9 +10304,9 @@
                         "radiusPerCorner" : false,
                         "radiusTopLeft" : 0,
                         "radiusTopRight" : 0,
-                        "right" : null,
+                        "right" : 0,
                         "rotation" : 0,
-                        "top" : 0,
+                        "top" : null,
                         "visible" : true,
                         "width" : 44,
                         "widthType" : 0
@@ -10104,68 +10476,6 @@
             "isScreen" : true,
             "isTarget" : false,
             "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "Etfbkph7j",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : null,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 0,
-            "visible" : true,
-            "width" : 1024,
-            "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0,
-            "centerAnchorY" : 0,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "duplicatedFrom" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "hsl(235, 100%, 53%)",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "framePreset" : "iPad_768_1024",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 768,
-            "heightType" : 0,
-            "id" : "rZSGskQVJ",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isScreen" : true,
-            "isTarget" : false,
-            "left" : 1124,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -10859,13 +11169,25 @@
                     "$control__onTap" : {
                       "type" : "eventhandler"
                     },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
                     "$control__primary" : {
                       "type" : "boolean",
                       "value" : true
                     },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 2
+                    },
                     "$control__showIcon" : {
                       "type" : "boolean",
                       "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
                     },
                     "$control__variation" : {
                       "type" : "enum",

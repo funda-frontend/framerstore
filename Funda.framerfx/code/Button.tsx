@@ -6,6 +6,9 @@ import { colors } from "./canvas"
 Button.defaultProps = {
     width: 320,
     height: 44,
+    radius: 2,
+    stretch: true,
+    padding: 16,
     label: "Save",
     showIcon: true,
     nameIcon: "heart",
@@ -31,9 +34,17 @@ addPropertyControls(Button, {
     onlyIcon: { type: ControlType.Boolean },
     label: {
         type: ControlType.String,
-        title: "Text",
+        title: "Label",
         hidden(props) {
             return props.onlyIcon === true
+        },
+    },
+    radius: { type: ControlType.Number },
+    stretch: { type: ControlType.Boolean, title: "Stretch width" },
+    padding: {
+        type: ControlType.Number,
+        hidden(props) {
+            return props.stretch == true
         },
     },
     variation: {
@@ -64,6 +75,9 @@ export function Button(props) {
     const {
         width,
         height,
+        radius,
+        stretch,
+        padding,
         label,
         showIcon,
         nameIcon,
@@ -75,6 +89,9 @@ export function Button(props) {
     } = props
 
     const globalStyle = {
+        width: stretch ? "100%" : "auto",
+        height: stretch ? "100%" : 44,
+        padding: onlyIcon ? "0 10px" : `0 ${padding}px`,
         fontFamily: "Proxima Nova, Proxima Nova Regular, sans-serif",
         fontSize: 16,
         lineHeight: 1.5,
@@ -92,7 +109,7 @@ export function Button(props) {
             : alt
             ? colors.NaturalBlue
             : "#FFF",
-        radius: 2,
+        radius,
         boxShadow: !disabled
             ? variation == "primary"
                 ? "0px -1px 0px 0px rgba(0,0,0,0.25) inset"
@@ -119,7 +136,6 @@ export function Button(props) {
 
     return (
         <Stack
-            size="100%"
             direction="horizontal"
             distribution="center"
             alignment="center"
