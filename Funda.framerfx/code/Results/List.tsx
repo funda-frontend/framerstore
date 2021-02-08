@@ -50,7 +50,7 @@ export function List(props) {
         return instructions
     } else {
         return (
-            <Frame width={width} height={height} backgroundColor="transparent">
+            <Frame width="100%" height="100%" backgroundColor="transparent">
                 <div
                     style={{
                         display: "grid",
@@ -69,7 +69,7 @@ export function List(props) {
                             },
                             ...normalizeFields(result, index, max),
                             style: {
-                                width: "100%",
+                                width: "auto",
                                 position: "relative",
                                 background: "transparent",
                             },
