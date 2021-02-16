@@ -4,6 +4,8 @@ import { Frame, Stack, addPropertyControls, ControlType } from "framer"
 import { Icon } from "../Icon"
 // @ts-ignore
 import { Logo } from "../Logo"
+// @ts-ignore
+import { MiniLogo } from "../MiniLogo"
 
 export function Mobile(props) {
     const {
@@ -29,11 +31,14 @@ export function Mobile(props) {
             }}
         >
             <Frame style={ContentStyle}>
-                <Logo
+                <MiniLogo
+                    width={48}
+                    height={48}
                     center="y"
                     left={16}
                     style={{ position: "relative" }}
                     onTap={onTapLogo}
+                    alt={true}
                 />
                 <Stack
                     direction="horizontal"

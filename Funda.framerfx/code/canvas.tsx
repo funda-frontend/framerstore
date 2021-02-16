@@ -10,6 +10,8 @@ export const colors = Object.freeze({
     "Blue": "var(--token-6c2eb1af-26ac-4890-9314-206801c8a377, rgb(0, 113, 179))",
     /** #F7A100 */
     "Orange": "var(--token-efde484b-df4e-4ea8-a10c-a0c90803419d, rgb(247, 161, 0))",
+    /** #53241B */
+    "Brown": "var(--token-21670143-0984-467b-b0ab-0ce9a60c4c82, rgb(83, 36, 27))",
     /** #ACC700 */
     "BrightGreen": "var(--token-bde3a70d-cfce-4b9b-90e9-b471ab919410, rgb(172, 199, 0))",
     /** #60C5F8 */

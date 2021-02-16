@@ -44,6 +44,7 @@ export function Desktop(props) {
                     left={16}
                     style={{ position: "relative" }}
                     onTap={onTapLogo}
+                    alt={true}
                 />
                 <Stack
                     style={{
