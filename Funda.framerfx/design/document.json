@@ -9232,7 +9232,7 @@
                         },
                         "$control__stretch" : {
                           "type" : "boolean",
-                          "value" : true
+                          "value" : false
                         },
                         "$control__transition" : {
                           "type" : "transition",
@@ -9257,7 +9257,7 @@
                         },
                         "aspectRatio" : null,
                         "bottom" : null,
-                        "centerAnchorX" : 0.50000000000000022,
+                        "centerAnchorX" : 0.29500000000000021,
                         "centerAnchorY" : 0.055137844611529041,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
@@ -9283,7 +9283,7 @@
                         "id" : "MhvBiiI25",
                         "intrinsicHeight" : 44,
                         "intrinsicWidth" : 320,
-                        "left" : null,
+                        "left" : 0,
                         "locked" : false,
                         "name" : null,
                         "opacity" : 1,
@@ -9301,8 +9301,8 @@
                         "rotation" : 0,
                         "top" : 0,
                         "visible" : true,
-                        "width" : 1,
-                        "widthType" : 3
+                        "width" : 119,
+                        "widthType" : 0
                       },
                       {
                         "__class" : "CodeComponentNode",
@@ -14333,128 +14333,6 @@
                 "visible" : true,
                 "width" : 44,
                 "widthType" : 0
-              },
-              {
-                "__class" : "FrameNode",
-                "aspectRatio" : 1,
-                "bottom" : null,
-                "centerAnchorX" : 0.50000000000000022,
-                "centerAnchorY" : 0.50000000000000022,
-                "children" : [
-                  {
-                    "__class" : "CodeComponentNode",
-                    "$control__search" : {
-                      "type" : "string",
-                      "value" : "haarlem"
-                    },
-                    "$control__size" : {
-                      "type" : "enum",
-                      "value" : "S"
-                    },
-                    "aspectRatio" : null,
-                    "bottom" : 0,
-                    "centerAnchorX" : 0.50000000000000022,
-                    "centerAnchorY" : 0.50000000000000022,
-                    "clip" : true,
-                    "codeComponentIdentifier" : "@framer\/unsplash.unsplash\/.\/Unsplash.tsx_Unsplash",
-                    "codeComponentPackageVersion" : null,
-                    "codeOverrideEnabled" : true,
-                    "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
-                    "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_LocationPhoto",
-                    "codeOverrideName" : "LocationPhoto",
-                    "constraintsLocked" : true,
-                    "duplicatedFrom" : [
-                      "k6BPgh33f"
-                    ],
-                    "exportOptions" : [
-
-                    ],
-                    "fillColor" : "rgba(255,255,255,1)",
-                    "fillEnabled" : false,
-                    "fillImage" : null,
-                    "fillImageOriginalName" : null,
-                    "fillImagePixelHeight" : null,
-                    "fillImagePixelWidth" : null,
-                    "fillImageResize" : "fill",
-                    "fillType" : "color",
-                    "height" : 200,
-                    "heightType" : 0,
-                    "id" : "eb68lmdqh",
-                    "intrinsicHeight" : null,
-                    "intrinsicWidth" : null,
-                    "left" : 0,
-                    "locked" : false,
-                    "name" : "Image",
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "WPKgaOW1e",
-                    "previewSettings" : null,
-                    "radius" : 0,
-                    "radiusBottomLeft" : 0,
-                    "radiusBottomRight" : 0,
-                    "radiusIsRelative" : false,
-                    "radiusPerCorner" : false,
-                    "radiusTopLeft" : 0,
-                    "radiusTopRight" : 0,
-                    "right" : 0,
-                    "rotation" : 0,
-                    "top" : 0,
-                    "visible" : true,
-                    "width" : 200,
-                    "widthType" : 0
-                  }
-                ],
-                "clip" : true,
-                "codeOverrideEnabled" : false,
-                "constraintsLocked" : true,
-                "duplicatedFrom" : null,
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "framePreset" : null,
-                "guidesX" : [
-
-                ],
-                "guidesY" : [
-
-                ],
-                "height" : 200,
-                "heightType" : 0,
-                "id" : "WPKgaOW1e",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "isExternalMaster" : null,
-                "isMaster" : false,
-                "isTarget" : false,
-                "left" : 60,
-                "locked" : false,
-                "name" : null,
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "SASxxF1u0",
-                "previewSettings" : null,
-                "radius" : 16,
-                "radiusBottomLeft" : 16,
-                "radiusBottomRight" : 16,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 16,
-                "radiusTopRight" : 16,
-                "replicaInfo" : null,
-                "right" : 60,
-                "rotation" : 0,
-                "top" : 140,
-                "visible" : true,
-                "width" : 200,
-                "widthType" : 0
               }
             ],
             "clip" : true,
@@ -16317,6 +16195,25 @@
         "homeNodeId" : null,
         "id" : "MRWBvu6y4",
         "name" : "Filters",
+        "originalid" : null,
+        "parentid" : "EPNH5sZs9",
+        "visible" : false
+      },
+      {
+        "__class" : "PageNode",
+        "children" : [
+
+        ],
+        "duplicatedFrom" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "homeNodeId" : null,
+        "id" : "T99_HdDt_",
+        "name" : "Map",
         "originalid" : null,
         "parentid" : "EPNH5sZs9",
         "visible" : false
