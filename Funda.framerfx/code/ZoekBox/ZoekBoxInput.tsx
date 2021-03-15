@@ -211,7 +211,7 @@ export function ZoekBoxInput(props) {
     }, [reset])
 
     React.useEffect(() => {
-        if (hasFocus) {
+        if (focused) {
             input.current.focus()
         } else {
             input.current.blur()
@@ -226,13 +226,11 @@ export function ZoekBoxInput(props) {
 
     function handleFocus(event, hasFocus) {
         if (hasFocus) {
-            onFocus(true)
-            onBlur(false)
+            onFocus()
             input.current.focus()
             setFocused(true)
         } else {
-            onBlur(true)
-            onFocus(false)
+            onBlur()
             input.current.blur()
             setFocused(false)
         }
