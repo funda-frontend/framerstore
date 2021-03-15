@@ -204,7 +204,10 @@
                     "clip" : true,
                     "codeComponentIdentifier" : ".\/ZoekBox\/ZoekBoxInput.tsx_ZoekBoxInput",
                     "codeComponentPackageVersion" : null,
-                    "codeOverrideEnabled" : false,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                    "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Input",
+                    "codeOverrideName" : "Input",
                     "constraintsLocked" : false,
                     "duplicatedFrom" : [
                       "g5MzVvP1c"
@@ -563,7 +566,10 @@
                     "clip" : true,
                     "codeComponentIdentifier" : ".\/Button.tsx_Button",
                     "codeComponentPackageVersion" : null,
-                    "codeOverrideEnabled" : false,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
+                    "codeOverrideIdentifier" : ".\/ZoekBox\/OverrideExample.tsx_Button",
+                    "codeOverrideName" : "Button",
                     "constraintsLocked" : false,
                     "duplicatedFrom" : [
                       "UbPEkXnkV"

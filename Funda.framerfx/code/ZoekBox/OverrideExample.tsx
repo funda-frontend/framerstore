@@ -7,6 +7,7 @@ const appState = Data({
     query: "",
     city: "",
     polygon: {},
+    searchInputHasFocus: false,
 })
 
 export const Input: Override = (props) => {
@@ -20,11 +21,12 @@ export const Input: Override = (props) => {
             appState.results = results
             appState.query = query
         },
+        hasFocus: true,
         onFocus() {
-            // console.log("focus")
+            console.log("focus")
         },
         onBlur() {
-            // console.log("blur")
+            console.log("blur")
         },
     }
 }
