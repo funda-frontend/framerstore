@@ -838,90 +838,6 @@
             "visible" : true,
             "width" : 50,
             "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "bottom" : null,
-            "centerAnchorX" : 0,
-            "centerAnchorY" : 0,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "duplicatedFrom" : [
-              "p17IKHuPr"
-            ],
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "hsl(0, 100%, 50%)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "framePreset" : null,
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 97,
-            "heightType" : 0,
-            "id" : "twF0lPnUR",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 171,
-            "locked" : false,
-            "name" : "Listing",
-            "opacity" : 1,
-            "originalid" : "p17IKHuPr",
-            "parentid" : "sk6AalStx",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : {
-              "master" : "p17IKHuPr",
-              "overrides" : {
-                "p17IKHuPr" : {
-                  "bottom" : null,
-                  "centerAnchorX" : 0,
-                  "centerAnchorY" : 0,
-                  "height" : 97,
-                  "left" : 171,
-                  "right" : null,
-                  "top" : 369,
-                  "width" : 427
-                },
-                "YokRGp2CX" : {
-                  "bottom" : 0,
-                  "centerAnchorY" : 0.50000000000000022,
-                  "height" : 196,
-                  "stackDirection" : "horizontal",
-                  "width" : 200
-                }
-              }
-            },
-            "right" : null,
-            "rotation" : 0,
-            "top" : 369,
-            "visible" : true,
-            "width" : 427,
-            "widthType" : 0
           }
         ],
         "duplicatedFrom" : null,
@@ -7111,8 +7027,8 @@
                     "__class" : "FrameNode",
                     "aspectRatio" : null,
                     "bottom" : null,
-                    "centerAnchorX" : 0.26130653266331683,
-                    "centerAnchorY" : 0.49874686716791999,
+                    "centerAnchorX" : 0.10964912280701776,
+                    "centerAnchorY" : 0.49893842887473483,
                     "children" : [
                       {
                         "__class" : "CodeComponentNode",
@@ -8092,7 +8008,7 @@
                     "isExternalMaster" : null,
                     "isMaster" : false,
                     "isTarget" : false,
-                    "left" : 97,
+                    "left" : null,
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
@@ -12108,7 +12024,7 @@
                 "guidesY" : [
 
                 ],
-                "height" : 399,
+                "height" : 471,
                 "heightType" : 0,
                 "id" : "YNODtEjO6",
                 "intrinsicHeight" : null,
@@ -12147,6 +12063,219 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 912,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : 0,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.89973958333333359,
+                "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__alt" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__animate" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "iconLabel"
+                    },
+                    "$control__disabled" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__iconOff" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__iconOn" : {
+                      "type" : "string",
+                      "value" : "heartFilled"
+                    },
+                    "$control__iconOnColor" : {
+                      "type" : "color",
+                      "value" : "var(--token-92d4e102-478f-4507-b1e6-b724b7c40a2d, rgb(240, 60, 48))"
+                    },
+                    "$control__initialState" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isOn" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__label" : {
+                      "type" : "string",
+                      "value" : "Transparent"
+                    },
+                    "$control__labelOn" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__nameIcon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__onlyIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__onTap" : {
+                      "type" : "eventhandler"
+                    },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 100
+                    },
+                    "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__transition" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "duration" : 0.29999999999999999,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "$control__variation" : {
+                      "type" : "enum",
+                      "value" : "transparent"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.15234375000000022,
+                    "centerAnchorY" : 0.43790849673202636,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "e9taavWNV",
+                      "MhvBiiI25",
+                      "Dv5QwvBlv",
+                      "zp2bB8JcZ",
+                      "tyXwbJ4Wa",
+                      "xRsiy0vvF",
+                      "x7pkuKBqh"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 44,
+                    "heightType" : 0,
+                    "id" : "X6sVYhKuK",
+                    "intrinsicHeight" : 44,
+                    "intrinsicWidth" : 320,
+                    "left" : 56,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "aR4YS3Lyw",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 45,
+                    "visible" : true,
+                    "width" : 200,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "var(--token-efde484b-df4e-4ea8-a10c-a0c90803419d, rgb(247, 161, 0)) \/* {\"name\":\"Orange\",\"packageIdentifier\":\"@framer\/funda.funda\"} *\/",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 153,
+                "heightType" : 0,
+                "id" : "aR4YS3Lyw",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "XWoOaufRO",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 1024,
                 "widthType" : 0
               }
             ],
@@ -14089,7 +14218,7 @@
                 "autoSize" : true,
                 "bottom" : null,
                 "centerAnchorX" : 0.50000000000000022,
-                "centerAnchorY" : 0.18958333333333355,
+                "centerAnchorY" : 0.1291666666666669,
                 "clip" : true,
                 "codeOverrideEnabled" : true,
                 "codeOverrideFile" : ".\/ZoekBox\/OverrideExample.tsx",
@@ -14167,7 +14296,7 @@
                   }
                 },
                 "textVerticalAlignment" : "top",
-                "top" : 79,
+                "top" : 50,
                 "visible" : true,
                 "width" : 110,
                 "widthType" : 0
@@ -14332,6 +14461,109 @@
                 "top" : 0,
                 "visible" : true,
                 "width" : 44,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__accessToken" : {
+                  "type" : "string",
+                  "value" : "pk.eyJ1IjoiZWxsaW90bm9sdGVuIiwiYSI6ImNpcHNhcjhuajAwMWpoem0yY2UzNHV3bmgifQ.y6ZBrTj9uTni_QFC6G-0sw"
+                },
+                "$control__bearing" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__fitBounds" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__geojson" : {
+                  "type" : "file",
+                  "value" : ""
+                },
+                "$control__latitude" : {
+                  "type" : "number",
+                  "value" : 52.328625500000001
+                },
+                "$control__longitude" : {
+                  "type" : "number",
+                  "value" : 5.1477814000000004
+                },
+                "$control__mapStyle" : {
+                  "type" : "enum",
+                  "value" : "light-v9"
+                },
+                "$control__maxZoom" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__minZoom" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__padding" : {
+                  "type" : "number",
+                  "value" : 32
+                },
+                "$control__pitch" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__retina" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__zoom" : {
+                  "type" : "number",
+                  "value" : 9
+                },
+                "aspectRatio" : null,
+                "bottom" : 0,
+                "centerAnchorX" : 0.50000000000000022,
+                "centerAnchorY" : 0.60416666666666685,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/steveruizok.mapbox-static-map\/.\/MapboxStatic.tsx_StaticMap",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "Cky_6Ygvj"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 379,
+                "heightType" : 0,
+                "id" : "arRNOvCjV",
+                "intrinsicHeight" : 200,
+                "intrinsicWidth" : 200,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "SASxxF1u0",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 320,
                 "widthType" : 0
               }
             ],
@@ -16164,6 +16396,91 @@
             "visible" : true,
             "width" : 768,
             "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 1.1614583333333335,
+            "centerAnchorY" : 0.50322580645161308,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "p17IKHuPr",
+              "twF0lPnUR"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsl(0, 100%, 50%)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 97,
+            "heightType" : 0,
+            "id" : "sQgOkbgYj",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1588,
+            "locked" : false,
+            "name" : "Listing",
+            "opacity" : 1,
+            "originalid" : "p17IKHuPr",
+            "parentid" : "hKipMGzvF",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : {
+              "master" : "p17IKHuPr",
+              "overrides" : {
+                "p17IKHuPr" : {
+                  "bottom" : null,
+                  "centerAnchorX" : 1.1614583333333335,
+                  "centerAnchorY" : 0.50322580645161308,
+                  "height" : 97,
+                  "left" : 1588,
+                  "right" : null,
+                  "top" : -738,
+                  "width" : 427
+                },
+                "YokRGp2CX" : {
+                  "bottom" : 0,
+                  "centerAnchorY" : 0.50000000000000022,
+                  "height" : 196,
+                  "stackDirection" : "horizontal",
+                  "width" : 200
+                }
+              }
+            },
+            "right" : null,
+            "rotation" : 0,
+            "top" : -738,
+            "visible" : true,
+            "width" : 427,
+            "widthType" : 0
           }
         ],
         "duplicatedFrom" : null,
@@ -16193,8 +16510,8 @@
 
         ],
         "homeNodeId" : null,
-        "id" : "MRWBvu6y4",
-        "name" : "Filters",
+        "id" : "T99_HdDt_",
+        "name" : "Map",
         "originalid" : null,
         "parentid" : "EPNH5sZs9",
         "visible" : false
@@ -16212,8 +16529,8 @@
 
         ],
         "homeNodeId" : null,
-        "id" : "T99_HdDt_",
-        "name" : "Map",
+        "id" : "MRWBvu6y4",
+        "name" : "Filters",
         "originalid" : null,
         "parentid" : "EPNH5sZs9",
         "visible" : false
@@ -16441,5 +16758,5 @@
     ],
     "visible" : false
   },
-  "version" : 75
+  "version" : 77
 }

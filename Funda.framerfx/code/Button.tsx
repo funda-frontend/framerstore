@@ -4,8 +4,6 @@ import { Icon } from "./Icon"
 import { colors } from "./canvas"
 
 Button.defaultProps = {
-    width: 320,
-    height: 44,
     radius: 2,
     stretch: true,
     padding: 16,
@@ -62,8 +60,8 @@ addPropertyControls(Button, {
         type: ControlType.Enum,
         title: "Variation",
         defaultValue: "Primary",
-        options: ["primary", "secondary", "tertiary"],
-        optionTitles: ["Primary", "Secondary", "Tertiary"],
+        options: ["primary", "secondary", "tertiary", "transparent"],
+        optionTitles: ["Primary", "Secondary", "Tertiary", "Transparent"],
         hidden(props) {
             return props.disabled == true
         },
