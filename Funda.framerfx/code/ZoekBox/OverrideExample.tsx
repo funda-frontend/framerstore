@@ -1,3 +1,4 @@
+import * as React from "react"
 import { Data, Override } from "framer"
 
 const appState = Data({
@@ -5,6 +6,7 @@ const appState = Data({
     results: [],
     query: "",
     city: "",
+    polygon: {},
 })
 
 export const Input: Override = (props) => {
@@ -48,13 +50,21 @@ export const Output: Override = () => {
 }
 
 export function LocationTitle(): Override {
+    const gemeentenaam = appState.selection.toLowerCase()
+    const url = `https://services.arcgis.com/nSZVuSZjHpEZZbRo/arcgis/rest/services/Gemeentegrenzen_2019_kustlijn/FeatureServer/0/query?where=Gemeentenaam%20%3D%20%27${gemeentenaam}%27&outFields=*&outSR=4326&f=geojson`
+    console.log(url)
+    React.useEffect(() => {
+        fetch(url)
+            .then((response) => response.json())
+            .then((data) => (appState.polygon = data))
+    }, [appState.selection])
     return {
         text: appState.selection === "" ? "Heel Nederland" : appState.selection,
     }
 }
 
-export function LocationPhoto(): Override {
+export function GetGeoJSON(): Override {
     return {
-        search: appState.selection === "" ? "Heel Nederland" : appState.city,
+        geojson: "https://docs.mapbox.com/help/data/stations.geojson",
     }
 }

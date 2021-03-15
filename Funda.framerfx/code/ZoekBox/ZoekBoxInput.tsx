@@ -286,7 +286,6 @@ export function ZoekBoxInput(props) {
 }
 
 const Input = styled.input`
-    box-sizing: border-box;
     width: calc(100% - ${(props) => props.paddingLeft}px - ${(props) =>
     props.paddingRight}px);
     height: ${(props) => props.height}px;
@@ -294,7 +293,6 @@ const Input = styled.input`
     background: ${(props) => props.background};
     border: none;
     outline: none;
-    border-radius: ${(props) => props.radius};
     padding: ${(props) => props.padding};
     font-size: 16px;
     line-height: 24px;
@@ -306,26 +304,4 @@ const Input = styled.input`
     outline: none;    
     -webkit-appearance: none;
     -moz-appearance: none;
-    &:focus {
-      border-color: #CCC;
-      outline: none;
-    }
-    &::placeholder {
-        color: #666;
-    }
-`
-
-const ClearQuery = styled.div`
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    right: 0;
-    top: 0;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    svg {
-        position: absolute;
-        top: 13px; left: 13px;
-    }
 `

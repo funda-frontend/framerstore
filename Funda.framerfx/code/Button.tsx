@@ -4,8 +4,6 @@ import { Icon } from "./Icon"
 import { colors } from "./canvas"
 
 Button.defaultProps = {
-    width: 320,
-    height: 44,
     radius: 2,
     stretch: true,
     padding: 16,
@@ -62,8 +60,8 @@ addPropertyControls(Button, {
         type: ControlType.Enum,
         title: "Variation",
         defaultValue: "Primary",
-        options: ["primary", "secondary", "tertiary"],
-        optionTitles: ["Primary", "Secondary", "Tertiary"],
+        options: ["primary", "secondary", "tertiary", "transparent"],
+        optionTitles: ["Primary", "Secondary", "Tertiary", "Transparent"],
         hidden(props) {
             return props.disabled == true
         },
@@ -158,11 +156,13 @@ export function Button(props) {
         lineHeight: 1.5,
         color: disabled
             ? colors.Grey
-            : variation == "primary"
+            : variation == "primary" || variation == "transparent"
             ? "#FFF"
             : colors.LinkNormal,
         background: disabled
             ? colors.GreyLighter
+            : variation == "transparent"
+            ? "transparent"
             : variation == "primary"
             ? alt
                 ? colors.Blue
@@ -179,7 +179,9 @@ export function Button(props) {
                 : ""
             : "",
         border:
-            variation == "primary" || variation == "tertiary"
+            variation == "primary" ||
+            variation == "tertiary" ||
+            variation == "transparent"
                 ? ""
                 : !disabled
                 ? `1px solid ${colors.LinkNormal}`
@@ -213,7 +215,8 @@ export function Button(props) {
                     ? null
                     : {
                           background:
-                              variation == "primary"
+                              variation == "primary" ||
+                              variation == "transparent"
                                   ? alt
                                       ? colors.BlueDark
                                       : colors.OrangeDarker
@@ -231,7 +234,8 @@ export function Button(props) {
                         color={
                             disabled
                                 ? colors.Grey
-                                : variation == "primary"
+                                : variation == "primary" ||
+                                  variation == "transparent"
                                 ? "#FFF"
                                 : colors.Blue
                         }
