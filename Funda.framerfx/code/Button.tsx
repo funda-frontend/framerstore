@@ -156,11 +156,13 @@ export function Button(props) {
         lineHeight: 1.5,
         color: disabled
             ? colors.Grey
-            : variation == "primary"
+            : variation == "primary" || variation == "transparent"
             ? "#FFF"
             : colors.LinkNormal,
         background: disabled
             ? colors.GreyLighter
+            : variation == "transparent"
+            ? "transparent"
             : variation == "primary"
             ? alt
                 ? colors.Blue
@@ -177,7 +179,9 @@ export function Button(props) {
                 : ""
             : "",
         border:
-            variation == "primary" || variation == "tertiary"
+            variation == "primary" ||
+            variation == "tertiary" ||
+            variation == "transparent"
                 ? ""
                 : !disabled
                 ? `1px solid ${colors.LinkNormal}`
@@ -211,7 +215,8 @@ export function Button(props) {
                     ? null
                     : {
                           background:
-                              variation == "primary"
+                              variation == "primary" ||
+                              variation == "transparent"
                                   ? alt
                                       ? colors.BlueDark
                                       : colors.OrangeDarker
@@ -229,7 +234,8 @@ export function Button(props) {
                         color={
                             disabled
                                 ? colors.Grey
-                                : variation == "primary"
+                                : variation == "primary" ||
+                                  variation == "transparent"
                                 ? "#FFF"
                                 : colors.Blue
                         }

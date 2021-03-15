@@ -8945,9 +8945,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 0,
+                        "bottom" : 36,
                         "centerAnchorX" : 0.50000000000000022,
-                        "centerAnchorY" : 0.9448621553884714,
+                        "centerAnchorY" : 0.87685774946921469,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -10892,9 +10892,9 @@
                           "value" : "tertiary"
                         },
                         "aspectRatio" : null,
-                        "bottom" : 0,
+                        "bottom" : 36,
                         "centerAnchorX" : 0.50000000000000022,
-                        "centerAnchorY" : 0.9448621553884714,
+                        "centerAnchorY" : 0.87685774946921469,
                         "clip" : true,
                         "codeComponentIdentifier" : ".\/Button.tsx_Button",
                         "codeComponentPackageVersion" : null,
@@ -12076,11 +12076,11 @@
                     "__class" : "CodeComponentNode",
                     "$control__alt" : {
                       "type" : "boolean",
-                      "value" : true
+                      "value" : false
                     },
                     "$control__animate" : {
                       "type" : "boolean",
-                      "value" : false
+                      "value" : true
                     },
                     "$control__content" : {
                       "type" : "enum",
@@ -12116,11 +12116,11 @@
                     },
                     "$control__label" : {
                       "type" : "string",
-                      "value" : "Transparent"
+                      "value" : " "
                     },
                     "$control__labelOn" : {
                       "type" : "string",
-                      "value" : ""
+                      "value" : "Bewaard"
                     },
                     "$control__nameIcon" : {
                       "type" : "string",
@@ -12223,6 +12223,628 @@
                     "top" : 45,
                     "visible" : true,
                     "width" : 200,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__alt" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__animate" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "iconLabel"
+                    },
+                    "$control__disabled" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__iconOff" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__iconOn" : {
+                      "type" : "string",
+                      "value" : "heartFilled"
+                    },
+                    "$control__iconOnColor" : {
+                      "type" : "color",
+                      "value" : "var(--token-92d4e102-478f-4507-b1e6-b724b7c40a2d, rgb(240, 60, 48))"
+                    },
+                    "$control__initialState" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isOn" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__label" : {
+                      "type" : "string",
+                      "value" : "Transparent"
+                    },
+                    "$control__labelOn" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__nameIcon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__onlyIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__onTap" : {
+                      "type" : "eventhandler"
+                    },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 100
+                    },
+                    "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__transition" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "duration" : 0.29999999999999999,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "$control__variation" : {
+                      "type" : "enum",
+                      "value" : "transparent"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.40234375000000022,
+                    "centerAnchorY" : 0.43790849673202636,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "e9taavWNV",
+                      "MhvBiiI25",
+                      "Dv5QwvBlv",
+                      "zp2bB8JcZ",
+                      "tyXwbJ4Wa",
+                      "xRsiy0vvF",
+                      "x7pkuKBqh",
+                      "X6sVYhKuK"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 44,
+                    "heightType" : 0,
+                    "id" : "LcrGd_si1",
+                    "intrinsicHeight" : 44,
+                    "intrinsicWidth" : 320,
+                    "left" : 312,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "aR4YS3Lyw",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 45,
+                    "visible" : true,
+                    "width" : 200,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__alt" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__animate" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "label"
+                    },
+                    "$control__disabled" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__iconOff" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__iconOn" : {
+                      "type" : "string",
+                      "value" : "heartFilled"
+                    },
+                    "$control__iconOnColor" : {
+                      "type" : "color",
+                      "value" : "var(--token-92d4e102-478f-4507-b1e6-b724b7c40a2d, rgb(240, 60, 48))"
+                    },
+                    "$control__initialState" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isOn" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__label" : {
+                      "type" : "string",
+                      "value" : "Transparent"
+                    },
+                    "$control__labelOn" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__nameIcon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__onlyIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__onTap" : {
+                      "type" : "eventhandler"
+                    },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 100
+                    },
+                    "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__transition" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "duration" : 0.29999999999999999,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "$control__variation" : {
+                      "type" : "enum",
+                      "value" : "transparent"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.65234375000000022,
+                    "centerAnchorY" : 0.43790849673202636,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "e9taavWNV",
+                      "MhvBiiI25",
+                      "Dv5QwvBlv",
+                      "zp2bB8JcZ",
+                      "tyXwbJ4Wa",
+                      "xRsiy0vvF",
+                      "x7pkuKBqh",
+                      "X6sVYhKuK",
+                      "LcrGd_si1"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 44,
+                    "heightType" : 0,
+                    "id" : "IJ0kINnto",
+                    "intrinsicHeight" : 44,
+                    "intrinsicWidth" : 320,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "aR4YS3Lyw",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 256,
+                    "rotation" : 0,
+                    "top" : 45,
+                    "visible" : true,
+                    "width" : 200,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__alt" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__animate" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "icon"
+                    },
+                    "$control__disabled" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__iconOff" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__iconOn" : {
+                      "type" : "string",
+                      "value" : "heartFilled"
+                    },
+                    "$control__iconOnColor" : {
+                      "type" : "color",
+                      "value" : "hsl(0, 0%, 100%)"
+                    },
+                    "$control__initialState" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isOn" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__label" : {
+                      "type" : "string",
+                      "value" : "Transparent"
+                    },
+                    "$control__labelOn" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__nameIcon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__onlyIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__onTap" : {
+                      "type" : "eventhandler"
+                    },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 100
+                    },
+                    "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__transition" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "duration" : 0.29999999999999999,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "$control__variation" : {
+                      "type" : "enum",
+                      "value" : "transparent"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.82617187500000022,
+                    "centerAnchorY" : 0.43790849673202636,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : true,
+                    "duplicatedFrom" : [
+                      "e9taavWNV",
+                      "MhvBiiI25",
+                      "Dv5QwvBlv",
+                      "zp2bB8JcZ",
+                      "tyXwbJ4Wa",
+                      "xRsiy0vvF",
+                      "x7pkuKBqh",
+                      "X6sVYhKuK",
+                      "LcrGd_si1",
+                      "IJ0kINnto"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 44,
+                    "heightType" : 0,
+                    "id" : "SJRnMdHY1",
+                    "intrinsicHeight" : 44,
+                    "intrinsicWidth" : 320,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "aR4YS3Lyw",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 45,
+                    "visible" : true,
+                    "width" : 44,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__alt" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__animate" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__content" : {
+                      "type" : "enum",
+                      "value" : "icon"
+                    },
+                    "$control__disabled" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__icon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__iconOff" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__iconOn" : {
+                      "type" : "string",
+                      "value" : "heartFilled"
+                    },
+                    "$control__iconOnColor" : {
+                      "type" : "color",
+                      "value" : "hsl(0, 0%, 100%)"
+                    },
+                    "$control__initialState" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isOn" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__label" : {
+                      "type" : "string",
+                      "value" : "Transparent"
+                    },
+                    "$control__labelOn" : {
+                      "type" : "string",
+                      "value" : ""
+                    },
+                    "$control__nameIcon" : {
+                      "type" : "string",
+                      "value" : "heart"
+                    },
+                    "$control__onlyIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__onTap" : {
+                      "type" : "eventhandler"
+                    },
+                    "$control__padding" : {
+                      "type" : "number",
+                      "value" : 16
+                    },
+                    "$control__radius" : {
+                      "type" : "number",
+                      "value" : 100
+                    },
+                    "$control__showIcon" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__stretch" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__transition" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "duration" : 0.29999999999999999,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "$control__variation" : {
+                      "type" : "enum",
+                      "value" : "transparent"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.92382812500000022,
+                    "centerAnchorY" : 0.43790849673202636,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                    "codeComponentPackageVersion" : null,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : true,
+                    "duplicatedFrom" : [
+                      "e9taavWNV",
+                      "MhvBiiI25",
+                      "Dv5QwvBlv",
+                      "zp2bB8JcZ",
+                      "tyXwbJ4Wa",
+                      "xRsiy0vvF",
+                      "x7pkuKBqh",
+                      "X6sVYhKuK",
+                      "LcrGd_si1",
+                      "IJ0kINnto",
+                      "SJRnMdHY1"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 44,
+                    "heightType" : 0,
+                    "id" : "LLGK3CxHV",
+                    "intrinsicHeight" : 44,
+                    "intrinsicWidth" : 320,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "aR4YS3Lyw",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : null,
+                    "rotation" : 0,
+                    "top" : 45,
+                    "visible" : true,
+                    "width" : 44,
                     "widthType" : 0
                   }
                 ],
