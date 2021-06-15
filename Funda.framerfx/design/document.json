@@ -2139,7 +2139,6 @@
             "children" : [
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.11255924170616136,
                 "centerAnchorY" : 0.038815789473684435,
@@ -2663,7 +2662,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.16907894736842127,
@@ -3065,7 +3063,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.29934210526315813,
@@ -3468,7 +3465,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.42960526315789493,
@@ -3994,7 +3990,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : 650,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.55986842105263179,
@@ -4277,7 +4272,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : 452,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.69013157894736865,
@@ -4744,7 +4738,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.11196682464454977,
                 "centerAnchorY" : 0.16907894736842105,
@@ -5962,7 +5955,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : 16,
                         "centerAnchorX" : 0.50000000000000022,
                         "centerAnchorY" : 0.68181818181818199,
@@ -6184,7 +6176,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : null,
                         "centerAnchorX" : 0.48888888888888909,
                         "centerAnchorY" : 0.80769230769230793,
@@ -6481,7 +6472,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : 16,
                         "centerAnchorX" : 0.50000000000000022,
                         "centerAnchorY" : 0.68181818181818199,
@@ -6708,7 +6698,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : null,
                         "centerAnchorX" : 0.48888888888888909,
                         "centerAnchorY" : 0.80769230769230793,
@@ -14843,7 +14832,6 @@
             "children" : [
               {
                 "__class" : "TextNode",
-                "autoSize" : true,
                 "bottom" : null,
                 "centerAnchorX" : 0.50000000000000022,
                 "centerAnchorY" : 0.1291666666666669,
@@ -14858,7 +14846,7 @@
 
                 ],
                 "height" : 25,
-                "heightType" : 0,
+                "heightType" : 2,
                 "id" : "W3g9SUH3q",
                 "isTarget" : false,
                 "left" : null,
@@ -14927,7 +14915,7 @@
                 "top" : 50,
                 "visible" : true,
                 "width" : 110,
-                "widthType" : 0
+                "widthType" : 2
               },
               {
                 "__class" : "FrameNode",
@@ -15265,7 +15253,6 @@
             "children" : [
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.87333333333333329,
                 "centerAnchorY" : 0.5,
@@ -15355,7 +15342,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.49333333333333335,
                 "centerAnchorY" : 0.7142857142857143,
@@ -15439,7 +15425,6 @@
               },
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.49333333333333335,
                 "centerAnchorY" : 0.32142857142857145,
@@ -15759,7 +15744,6 @@
             "children" : [
               {
                 "__class" : "TextNode",
-                "autoSize" : false,
                 "bottom" : null,
                 "centerAnchorX" : 0.54800000000000004,
                 "centerAnchorY" : 0.5089285714285714,
@@ -16152,7 +16136,6 @@
                     "children" : [
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : null,
                         "centerAnchorX" : 0.50000000000000022,
                         "centerAnchorY" : 0.20000000000000023,
@@ -16240,7 +16223,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : null,
                         "centerAnchorX" : 0.50000000000000022,
                         "centerAnchorY" : 0.3500000000000002,
@@ -16327,7 +16309,6 @@
                       },
                       {
                         "__class" : "TextNode",
-                        "autoSize" : false,
                         "bottom" : 9,
                         "centerAnchorX" : 0.50000000000000022,
                         "centerAnchorY" : 0.68181818181818199,
@@ -16633,7 +16614,51 @@
                       "value" : 4
                     },
                     "$control__onTapNavigate" : {
-                      "type" : "eventhandler"
+                      "type" : "eventhandler",
+                      "value" : [
+                        {
+                          "actionIdentifier" : "framer\/useNavigate",
+                          "controls" : {
+                            "animation" : {
+                              "type" : "transition",
+                              "value" : {
+                                "damping" : 60,
+                                "delay" : 0,
+                                "ease" : [
+                                  0.44,
+                                  0,
+                                  0.56000000000000005,
+                                  1
+                                ],
+                                "mass" : 1,
+                                "stiffness" : 500,
+                                "type" : "spring"
+                              }
+                            },
+                            "appearsFrom" : {
+                              "type" : "segmentedenum",
+                              "value" : "right"
+                            },
+                            "backdropColor" : {
+                              "type" : "color",
+                              "value" : "rgba(4,4,15,.4)"
+                            },
+                            "target" : {
+                              "type" : "componentinstance",
+                              "value" : "rlTbO6j7i"
+                            },
+                            "transition" : {
+                              "type" : "enum",
+                              "value" : "instant"
+                            },
+                            "type" : {
+                              "type" : "segmentedenum",
+                              "value" : "next"
+                            }
+                          },
+                          "identifier" : "310dba1e-37fe-4caf-a1fd-aa231425dc0c"
+                        }
+                      ]
                     },
                     "aspectRatio" : null,
                     "bottom" : null,
@@ -17109,6 +17134,254 @@
             "visible" : true,
             "width" : 427,
             "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "bottom" : null,
+                "centerAnchorX" : 0,
+                "centerAnchorY" : 0,
+                "clip" : true,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "height" : 19,
+                "heightType" : 2,
+                "id" : "aXIanfHSJ",
+                "isTarget" : false,
+                "left" : 96,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "rlTbO6j7i",
+                "right" : null,
+                "rotation" : 0,
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "direction" : "ltr",
+                        "emptyStyle" : [
+                          "FONT:Inter",
+                          "COLOR:rgb(0, 0, 0)",
+                          "SIZE:16",
+                          "LETTERSPACING:0",
+                          "LINEHEIGHT:1.2"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 6,
+                          "offset" : 0,
+                          "style" : "FONT:Inter"
+                        },
+                        {
+                          "length" : 6,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
+                          "length" : 6,
+                          "offset" : 0,
+                          "style" : "SIZE:16"
+                        },
+                        {
+                          "length" : 6,
+                          "offset" : 0,
+                          "style" : "LETTERSPACING:0"
+                        },
+                        {
+                          "length" : 6,
+                          "offset" : 0,
+                          "style" : "LINEHEIGHT:1.2"
+                        }
+                      ],
+                      "key" : "VUMQc",
+                      "text" : "Object",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "entityMap" : {
+
+                  }
+                },
+                "textVerticalAlignment" : "top",
+                "top" : 126,
+                "visible" : true,
+                "width" : 51,
+                "widthType" : 2
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0,
+                "centerAnchorY" : 0,
+                "children" : [
+
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#9ef",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 56,
+                "heightType" : 0,
+                "id" : "MaAMqJM2m",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 40,
+                "locked" : false,
+                "name" : null,
+                "onTap" : [
+                  {
+                    "actionIdentifier" : "framer\/useNavigate",
+                    "controls" : {
+                      "animation" : {
+                        "type" : "transition",
+                        "value" : {
+                          "damping" : 60,
+                          "delay" : 0,
+                          "ease" : [
+                            0.44,
+                            0,
+                            0.56000000000000005,
+                            1
+                          ],
+                          "mass" : 1,
+                          "stiffness" : 500,
+                          "type" : "spring"
+                        }
+                      },
+                      "appearsFrom" : {
+                        "type" : "segmentedenum",
+                        "value" : "right"
+                      },
+                      "backdropColor" : {
+                        "type" : "color",
+                        "value" : "rgba(4,4,15,.4)"
+                      },
+                      "target" : {
+                        "type" : "componentinstance"
+                      },
+                      "transition" : {
+                        "type" : "enum",
+                        "value" : "instant"
+                      },
+                      "type" : {
+                        "type" : "segmentedenum",
+                        "value" : "previous"
+                      }
+                    },
+                    "identifier" : "d8a681fd-e752-484c-ae5a-1e4e8f24ec72"
+                  }
+                ],
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "rlTbO6j7i",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 40,
+                "visible" : true,
+                "width" : 70,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 404,
+            "heightType" : 0,
+            "id" : "rlTbO6j7i",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1650,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "hKipMGzvF",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -496,
+            "visible" : true,
+            "width" : 300,
+            "widthType" : 0
           }
         ],
         "duplicatedFrom" : null,
@@ -17170,6 +17443,7 @@
     "name" : null,
     "originalid" : null,
     "parentid" : null,
+    "thumbnailNodeId" : "ZcXDIJOdj",
     "tokens" : {
       "0ce50464-e181-4db8-8f05-219c45c0dcfd" : {
         "__class" : "ColorTokenNode",
@@ -17386,5 +17660,5 @@
     ],
     "visible" : false
   },
-  "version" : 77
+  "version" : 78
 }
