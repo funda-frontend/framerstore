@@ -68,7 +68,7 @@ export function Select(props) {
       }}
     >
       <div style={inlineLabel ? inlineLabelStyle : labelStyle}>{label}</div>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative", height: 44 }}>
         <select
           style={{
             ...selectStyle,
@@ -91,7 +91,7 @@ export function Select(props) {
           name="arrowDown"
           style={{
             position: "absolute",
-            top: inlineLabel ? 10 : 38,
+            top: 10,
             right: 8,
           }}
         />
