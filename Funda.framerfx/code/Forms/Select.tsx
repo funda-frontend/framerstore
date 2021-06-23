@@ -42,16 +42,8 @@ addPropertyControls(Select, {
 });
 
 export function Select(props) {
-  const {
-    width,
-    height,
-    inlineLabel,
-    label,
-    options,
-    value,
-    onValueChange,
-    fontFamily,
-  } = props;
+  const { inlineLabel, label, options, value, onValueChange, fontFamily } =
+    props;
   const [initialValue, setInitialValue] = React.useState(value);
 
   React.useEffect(() => {
@@ -82,8 +74,8 @@ export function Select(props) {
             ...selectStyle,
             paddingLeft: inlineLabel ? "56px" : "16px",
             fontFamily,
-            width: "auto",
-            height: "auto",
+            width: "100%",
+            height: "100%",
           }}
           onChange={(event) => {
             setInitialValue(event.target.value);
