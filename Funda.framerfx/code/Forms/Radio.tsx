@@ -32,7 +32,7 @@ export function Radio(props) {
     const [state, setState] = React.useState(checked)
 
     const handleToggle = () => {
-        setState(!state)
+        setState(true)
         onChange(state)
     }
 
