@@ -69,11 +69,21 @@ export function Select(props) {
     >
       <div style={inlineLabel ? inlineLabelStyle : labelStyle}>{label}</div>
       <div style={{ position: "relative", height: 44 }}>
+        <Icon
+          name="arrowDown"
+          style={{
+            position: "absolute",
+            top: 10,
+            right: 8,
+          }}
+        />
         <select
           style={{
             ...selectStyle,
             paddingLeft: inlineLabel ? "56px" : "16px",
             fontFamily,
+            width: "auto",
+            height: "auto",
           }}
           onChange={(event) => {
             setInitialValue(event.target.value);
@@ -87,14 +97,6 @@ export function Select(props) {
             </option>
           ))}
         </select>
-        <Icon
-          name="arrowDown"
-          style={{
-            position: "absolute",
-            top: 10,
-            right: 8,
-          }}
-        />
       </div>
     </div>
   );
